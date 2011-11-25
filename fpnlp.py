@@ -127,4 +127,67 @@ def compute_score(queryphrase="", keywords=[], answers=[], urls=[], scorevalue=0
 
 # What king was overthrown during the French Revolution? entered into Google, used "overthrown" in our results ...had to adjust filter to consider short words...Louis XIV gets 1, Marie Antoinette gets 1, Louis XVI gets 5 (correctly!) / keywords "overthrown" and "King" give Louis XVI: 2
 
-compute_score(queryphrase="", keywords=["overthrown", "King"], answers=["Louis XIV", "Louis XVI", "Robespierre", "Marie Antoinette"], urls=["http://www.bbc.co.uk/history/historic_figures/louis_xvi.shtml", "http://faculty.ucc.edu/egh-damerow/french_revolution.htm", "http://chnm.gmu.edu/revolution/browse/glossary/"], scorevalue=1, rangevalue=20, left=True, right=True)
+# compute_score(queryphrase="", keywords=["overthrown", "King"], answers=["Louis XIV", "Louis XVI", "Robespierre", "Marie Antoinette"], urls=["http://www.bbc.co.uk/history/historic_figures/louis_xvi.shtml", "http://faculty.ucc.edu/egh-damerow/french_revolution.htm", "http://chnm.gmu.edu/revolution/browse/glossary/"], scorevalue=1, rangevalue=20, left=True, right=True)
+
+# What year did Zhou Enlai die? 1976 wins easily here
+
+# compute_score(queryphrase="Zhou Enlai", keywords=[], answers=["1973", "1974", "1975", "1976"], urls=["http://www.britannica.com/EBchecked/topic/656977/Zhou-Enlai", "http://www.sjsu.edu/faculty/watkins/cultrev.htm", "http://www.answers.com/topic/zhou-enlai"], scorevalue=1, rangevalue=80, left=True, right=True)
+
+# keyword generator, given a natural language question
+
+# filter further to include more verbs, synonyms?
+
+browntext = brown.words()
+browndist = nltk.FreqDist(browntext)
+
+reuterstext = reuters.words()
+reutersdist = nltk.FreqDist(reuterstext)
+
+text = nltk.word_tokenize("What king was overthrown during the French Revolution?")
+tagged = nltk.pos_tag(text)
+print(tagged)
+print(tagged[0][0])
+filtered = []
+for pair in tagged:
+    if pair[1] in ['JJ', 'N', 'NNP', 'VB', 'VBD', 'VBG', 'VBN']:
+        filtered.append(pair[0])
+# print(filtered)
+filtereddist = {}
+for word in filtered:
+    filtereddist[word] = browndist[word] + reutersdist[word]
+print(filtereddist)
+sortedlist = sorted(filtereddist.items(), key=itemgetter(1))
+keywords = [sortedlist[0][0], sortedlist[1][0]]
+print(keywords)
+
+text = nltk.word_tokenize("When was the Treaty of Versailles signed?")
+tagged = nltk.pos_tag(text)
+print(tagged)
+filtered = []
+for pair in tagged:
+    if pair[1] in ['JJ', 'N', 'NNP', 'VB', 'VBD', 'VBG', 'VBN']:
+        filtered.append(pair[0])
+# print(filtered)
+filtereddist = {}
+for word in filtered:
+    filtereddist[word] = browndist[word] + reutersdist[word]
+print(filtereddist)
+sortedlist = sorted(filtereddist.items(), key=itemgetter(1))
+keywords = [sortedlist[0][0], sortedlist[1][0]]
+print(keywords)
+
+text = nltk.word_tokenize("When did Zhou Enlai die?")
+tagged = nltk.pos_tag(text)
+print(tagged)
+filtered = []
+for pair in tagged:
+    if pair[1] in ['JJ', 'N', 'NNP', 'VB', 'VBD', 'VBG', 'VBN']:
+        filtered.append(pair[0])
+# print(filtered)
+filtereddist = {}
+for word in filtered:
+    filtereddist[word] = browndist[word] + reutersdist[word]
+print(filtereddist)
+sortedlist = sorted(filtereddist.items(), key=itemgetter(1))
+keywords = [sortedlist[0][0], sortedlist[1][0]]
+print(keywords)
