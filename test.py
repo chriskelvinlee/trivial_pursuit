@@ -1,14 +1,15 @@
 from questions import *
 from trivialpursuitfunctions import *
+from scoring import *
 
 #What other options should test take in?
-def test(questions = historyQuestions):
+def test(questions = historyQuestions, scoringFunction = getSimpleAnswerPhraseScores):
     numberCorrect = 0;
     for question in questions:
         text = question[0]
         choices = question[1]
         correct = question[2]
-        result = compute_score(queryphrase=text, answers=choices)
+        result = compute_score(queryphrase=text, answers=choices, scoringFunction=scoringFunction)
 
         bld = text + ": "
         if getHighestResult(result, choices) == correct:
