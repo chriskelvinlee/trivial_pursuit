@@ -1,4 +1,7 @@
 import nltk
+from nltk.corpus import stopwords
+
+ignored_words = stopwords.words('english')
 
 # score by simply counting instances of answer phrases, without question keywords
 def getSimpleAnswerPhraseScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords):

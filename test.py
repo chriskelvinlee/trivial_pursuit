@@ -18,7 +18,7 @@ def test(questions = historyQuestions, scoringFunction = getSimpleAnswerPhraseSc
         else:
             bld += "Incorrect"
         print bld
-    print str(correct) + "/" + str(len(questions))
+    print str(numberCorrect) + "/" + str(len(questions))
 
 def getHighestResult(result, choices):
     highestConfidence = 0

@@ -12,7 +12,6 @@ from nltk.corpus import wordnet as wn
 from googleResults import *
 from scoring import *
 
-global ignored_words 
 ignored_words = stopwords.words('english')
 
 def getSimpleQuestionKeywords(query):
