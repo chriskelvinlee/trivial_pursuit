@@ -1,0 +1,27 @@
+How long does it take an albatross egg to hatch
+['1 week', '1 month', '80 days']
+2
+Correct
+Answer:		2
+Confidence:	99
+
+#####
+Total Time:		75.680849
+NLTK Time:		75.045929
+AI Time:		0.634920
+URL Time:		0.546502
+Keyword (Q) Time:	33.437821
+Keyword (A) Time:	32.507359
+Tokens (Q) Time:	0.000378
+Tokens (URL) Time:	9.100371
+Map Instance Time:	0.001298
+Score1 Time:		0.011546
+Score2 Time:		0.006572
+Score3 Time:		0.026090
+Score4 Time:		0.042862
+#####
+
+score_result1:	{}
+score_result2:	{'1 week': 1.0, '80 days': 52.5}
+score_result3:	{'1 week': 1.0, '80 days': 249.33333333333334}
+score_result4:	{'1 week': 0, '80 days': 0}

@@ -1,0 +1,27 @@
+What was illegal for kids to do on a Sunday in a colonial New England village
+['walk to church', 'kiss their parents', 'eat lunch']
+1
+Incorrect
+Answer:		0
+Confidence:	7
+
+#####
+Total Time:		71.570922
+NLTK Time:		70.135512
+AI Time:		1.435410
+URL Time:		0.673577
+Keyword (Q) Time:	32.628462
+Keyword (A) Time:	32.603919
+Tokens (Q) Time:	0.000433
+Tokens (URL) Time:	4.902698
+Map Instance Time:	0.013076
+Score1 Time:		0.082186
+Score2 Time:		0.051563
+Score3 Time:		0.204578
+Score4 Time:		0.410359
+#####
+
+score_result1:	{}
+score_result2:	{'kiss their parents': 1.0, 'eat lunch': 1.05, 'walk to church': 3.45}
+score_result3:	{'kiss their parents': 2.8088737201365186, 'eat lunch': 1.0, 'walk to church': 4.193401592718999}
+score_result4:	{'kiss their parents': 6.9708689100954295, 'eat lunch': 2.3324962330487193, 'walk to church': 1.0}

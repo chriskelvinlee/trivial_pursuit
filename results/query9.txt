@@ -1,0 +1,27 @@
+What stroke do swimmers usually use in a freestyle race
+['front crawl', 'butterfly', 'breaststroke']
+0
+Correct
+Answer:		0
+Confidence:	7
+
+#####
+Total Time:		69.029000
+NLTK Time:		68.432949
+AI Time:		0.596051
+URL Time:		0.406606
+Keyword (Q) Time:	33.726892
+Keyword (A) Time:	30.626688
+Tokens (Q) Time:	0.000249
+Tokens (URL) Time:	4.079120
+Map Instance Time:	0.003707
+Score1 Time:		0.018977
+Score2 Time:		0.009768
+Score3 Time:		0.046269
+Score4 Time:		0.110668
+#####
+
+score_result1:	{'butterfly': 1.0, 'front crawl': 1.0952380952380953, 'breaststroke': 1.0476190476190477}
+score_result2:	{'butterfly': 1.0, 'front crawl': 3.3333333333333335, 'breaststroke': 1.0476190476190477}
+score_result3:	{'butterfly': 41.14336492890995, 'front crawl': 1.0, 'breaststroke': 32.29783767772512}
+score_result4:	{'butterfly': 1.6230133308928953, 'front crawl': 1.0570025319544858, 'breaststroke': 1.0}

@@ -1,0 +1,27 @@
+What sport do you lunge, thrust, and parry in
+['croquet', 'bowling', 'fencing']
+2
+Correct
+Answer:		2
+Confidence:	99
+
+#####
+Total Time:		69.600895
+NLTK Time:		69.168551
+AI Time:		0.432344
+URL Time:		0.392580
+Keyword (Q) Time:	33.894639
+Keyword (A) Time:	29.948086
+Tokens (Q) Time:	0.000374
+Tokens (URL) Time:	5.325452
+Map Instance Time:	0.001512
+Score1 Time:		0.008439
+Score2 Time:		0.003276
+Score3 Time:		0.012059
+Score4 Time:		0.014444
+#####
+
+score_result1:	{'fencing': 1.0}
+score_result2:	{'fencing': 1.0}
+score_result3:	{'fencing': 1.0}
+score_result4:	{'fencing': 1.0}

@@ -1,0 +1,27 @@
+How do you make bagels shiny
+['boil them before baking', 'buff them', 'add vegetable oil to the dough']
+0
+Correct
+Answer:		0
+Confidence:	99
+
+#####
+Total Time:		74.164465
+NLTK Time:		72.899271
+AI Time:		1.265194
+URL Time:		0.975049
+Keyword (Q) Time:	31.767537
+Keyword (A) Time:	32.187648
+Tokens (Q) Time:	0.000327
+Tokens (URL) Time:	8.943759
+Map Instance Time:	0.003276
+Score1 Time:		0.017776
+Score2 Time:		0.013896
+Score3 Time:		0.084151
+Score4 Time:		0.170996
+#####
+
+score_result1:	{}
+score_result2:	{'add vegetable oil to the dough': 1.9803921568627452, 'boil them before baking': 1.0}
+score_result3:	{'add vegetable oil to the dough': 1.0, 'boil them before baking': 1.2460233297985153}
+score_result4:	{'add vegetable oil to the dough': 1.0, 'boil them before baking': 2.4446632532493107}

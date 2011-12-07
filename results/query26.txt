@@ -1,0 +1,27 @@
+What kind of dive is a full gainer
+['a forward dive with a twist', 'a forward dive with a somesault', 'a backward dive with a twist']
+0
+Correct
+Answer:		0
+Confidence:	2
+
+#####
+Total Time:		124.669513
+NLTK Time:		119.921044
+AI Time:		4.748469
+URL Time:		0.435485
+Keyword (Q) Time:	29.271772
+Keyword (A) Time:	32.730621
+Tokens (Q) Time:	0.000351
+Tokens (URL) Time:	57.918300
+Map Instance Time:	0.057248
+Score1 Time:		0.506063
+Score2 Time:		0.455478
+Score3 Time:		1.637702
+Score4 Time:		1.656432
+#####
+
+score_result1:	{}
+score_result2:	{'a forward dive with a somesault': 10.0, 'a backward dive with a twist': 1.0, 'a forward dive with a twist': 11.0}
+score_result3:	{'a forward dive with a somesault': 12.0, 'a backward dive with a twist': 1.0, 'a forward dive with a twist': 13.0}
+score_result4:	{'a forward dive with a somesault': 0, 'a backward dive with a twist': 0, 'a forward dive with a twist': 0}

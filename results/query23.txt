@@ -1,0 +1,27 @@
+Where's your funny bone located
+['near your elbow', 'on your wrist', 'just below your shoulder']
+0
+Correct
+Answer:		0
+Confidence:	99
+
+#####
+Total Time:		77.647612
+NLTK Time:		77.084841
+AI Time:		0.562771
+URL Time:		0.481839
+Keyword (Q) Time:	32.532754
+Keyword (A) Time:	28.286755
+Tokens (Q) Time:	0.000338
+Tokens (URL) Time:	16.264994
+Map Instance Time:	0.002119
+Score1 Time:		0.012508
+Score2 Time:		0.005391
+Score3 Time:		0.021930
+Score4 Time:		0.038934
+#####
+
+score_result1:	{}
+score_result2:	{'near your elbow': 1.0}
+score_result3:	{'near your elbow': 1.0}
+score_result4:	{'near your elbow': 1.0}

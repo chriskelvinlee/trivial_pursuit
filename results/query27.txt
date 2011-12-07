@@ -1,0 +1,27 @@
+What does xylphone music sound the most like
+['bells', 'drums', 'rattles']
+0
+Incorrect
+Answer:		1
+Confidence:	99
+
+#####
+Total Time:		64.958571
+NLTK Time:		64.274310
+AI Time:		0.684261
+URL Time:		0.629872
+Keyword (Q) Time:	32.660736
+Keyword (A) Time:	24.176735
+Tokens (Q) Time:	0.000293
+Tokens (URL) Time:	7.436546
+Map Instance Time:	0.001794
+Score1 Time:		0.011910
+Score2 Time:		0.004309
+Score3 Time:		0.015027
+Score4 Time:		0.021302
+#####
+
+score_result1:	{'drums': 3.3333333333333335, 'bells': 1.0}
+score_result2:	{'drums': 3.3333333333333335, 'bells': 1.0}
+score_result3:	{'drums': 5.571428571428571, 'bells': 1.0}
+score_result4:	{'drums': 0, 'bells': 0}

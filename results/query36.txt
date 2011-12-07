@@ -1,0 +1,27 @@
+What does the Sphinx wear on its head
+['a crown', 'a headdress', 'a helmet']
+1
+Correct
+Answer:		1
+Confidence:	99
+
+#####
+Total Time:		74.824960
+NLTK Time:		73.961755
+AI Time:		0.863204
+URL Time:		0.773719
+Keyword (Q) Time:	32.102397
+Keyword (A) Time:	33.598097
+Tokens (Q) Time:	0.000343
+Tokens (URL) Time:	8.260918
+Map Instance Time:	0.003240
+Score1 Time:		0.021907
+Score2 Time:		0.007850
+Score3 Time:		0.024148
+Score4 Time:		0.032298
+#####
+
+score_result1:	{}
+score_result2:	{'a crown': 1.0, 'a headdress': 8.0}
+score_result3:	{'a crown': 1.0, 'a headdress': 27.0}
+score_result4:	{'a crown': 1.0, 'a headdress': 375.5}

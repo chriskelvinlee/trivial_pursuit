@@ -1,0 +1,27 @@
+Which of these is supposed to bring good luck
+['seeing three butterflies', 'spilling salt', "eating black-eyed peas on New Year's Day"]
+2
+Correct
+Answer:		2
+Confidence:	30
+
+#####
+Total Time:		86.434780
+NLTK Time:		85.443161
+AI Time:		0.991619
+URL Time:		0.374073
+Keyword (Q) Time:	30.673226
+Keyword (A) Time:	31.079255
+Tokens (Q) Time:	0.000224
+Tokens (URL) Time:	23.690456
+Map Instance Time:	0.003846
+Score1 Time:		0.033353
+Score2 Time:		0.037444
+Score3 Time:		0.175789
+Score4 Time:		0.367056
+#####
+
+score_result1:	{}
+score_result2:	{'seeing three butterflies': 1.0, 'spilling salt': 2.0, "eating black-eyed peas on New Year's Day": 47.57142857142857}
+score_result3:	{'seeing three butterflies': 1.3540609137055837, 'spilling salt': 1.4555837563451777, "eating black-eyed peas on New Year's Day": 1.0}
+score_result4:	{'seeing three butterflies': 1.0, 'spilling salt': 2.1333333333333333, "eating black-eyed peas on New Year's Day": 12.575}

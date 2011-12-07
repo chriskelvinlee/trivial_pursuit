@@ -1,27 +1,27 @@
-What is a tornado at sea called
-['a dust devil', 'a waterspout', 'a whirlwind']
-1
+Which of these numbers is a thousand thousands
+['a million', 'a billion', 'a trillion']
+0
 Correct
-Answer:		1
+Answer:		0
 Confidence:	99
 
 #####
-Total Time:		52.660940
-NLTK Time:		51.996351
-AI Time:		0.664589
-URL Time:		0.631675
-Keyword (Q) Time:	25.729933
-Keyword (A) Time:	20.994362
-Tokens (Q) Time:	0.000231
-Tokens (URL) Time:	5.271825
-Map Instance Time:	0.000803
-Score1 Time:		0.006285
-Score2 Time:		0.002935
-Score3 Time:		0.010410
-Score4 Time:		0.012446
+Total Time:		74.612482
+NLTK Time:		73.942308
+AI Time:		0.670174
+URL Time:		0.616476
+Keyword (Q) Time:	40.585380
+Keyword (A) Time:	29.649032
+Tokens (Q) Time:	0.000224
+Tokens (URL) Time:	3.707672
+Map Instance Time:	0.002236
+Score1 Time:		0.012620
+Score2 Time:		0.005521
+Score3 Time:		0.016202
+Score4 Time:		0.017076
 #####
 
 score_result1:	{}
-score_result2:	{'a dust devil': 1.0, 'a waterspout': 3.6666666666666665}
-score_result3:	{'a dust devil': 1.0, 'a waterspout': 1.0460526315789473}
-score_result4:	{'a dust devil': 1.0, 'a waterspout': 170.53599746273392}
+score_result2:	{'a million': 1.0}
+score_result3:	{'a million': 1.0}
+score_result4:	{'a million': 0}

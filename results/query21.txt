@@ -1,0 +1,27 @@
+Whose favorite place to swim is in his money bin
+['Scrooge McDuck', 'Richie Rich', 'Ebenezer Scrooge']
+0
+Correct
+Answer:		0
+Confidence:	99
+
+#####
+Total Time:		68.999547
+NLTK Time:		68.242260
+AI Time:		0.757287
+URL Time:		0.467528
+Keyword (Q) Time:	26.904101
+Keyword (A) Time:	31.270905
+Tokens (Q) Time:	0.000382
+Tokens (URL) Time:	10.066872
+Map Instance Time:	0.004415
+Score1 Time:		0.041918
+Score2 Time:		0.028060
+Score3 Time:		0.082845
+Score4 Time:		0.132476
+#####
+
+score_result1:	{'Scrooge McDuck': 1.0}
+score_result2:	{'Ebenezer Scrooge': 1.0, 'Scrooge McDuck': 1.17921146953405}
+score_result3:	{'Ebenezer Scrooge': 1.0, 'Scrooge McDuck': 2.754182754182754}
+score_result4:	{'Ebenezer Scrooge': 1.0, 'Scrooge McDuck': 1.0463636363636364}

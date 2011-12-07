@@ -1,23 +1,24 @@
 What kind of beans are used to make Boston baked beans
 ['black beans', 'navy beans', 'lima beans']
 1
+Correct
 Answer:		1
-Confidence:	1066
+Confidence:	99
 
 #####
-Total Time:		80.790919
-NLTK Time:		79.712003
-AI Time:		1.078916
-URL Time:		0.734837
-Keyword (Q) Time:	40.214687
-Keyword (A) Time:	31.264898
-Tokens (Q) Time:	0.000387
-Tokens (URL) Time:	8.232031
-Map Instance Time:	0.004575
-Score1 Time:		0.029169
-Score2 Time:		0.022095
-Score3 Time:		0.097174
-Score4 Time:		0.190993
+Total Time:		80.128243
+NLTK Time:		79.136476
+AI Time:		0.991768
+URL Time:		0.635080
+Keyword (Q) Time:	36.839398
+Keyword (A) Time:	34.214310
+Tokens (Q) Time:	0.000396
+Tokens (URL) Time:	8.082372
+Map Instance Time:	0.003301
+Score1 Time:		0.033665
+Score2 Time:		0.021294
+Score3 Time:		0.085419
+Score4 Time:		0.212933
 #####
 
 score_result1:	{'lima beans': 2.0, 'black beans': 1.0, 'navy beans': 2.0}

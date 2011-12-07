@@ -1,0 +1,27 @@
+Which of these sea creatures is not a mammal
+['a sea cow', 'a sea lion', 'a sea horse']
+2
+Incorrect
+Answer:		1
+Confidence:	99
+
+#####
+Total Time:		79.475378
+NLTK Time:		78.885949
+AI Time:		0.589429
+URL Time:		0.423205
+Keyword (Q) Time:	40.203328
+Keyword (A) Time:	30.156948
+Tokens (Q) Time:	0.000353
+Tokens (URL) Time:	8.525320
+Map Instance Time:	0.003713
+Score1 Time:		0.028057
+Score2 Time:		0.018440
+Score3 Time:		0.051037
+Score4 Time:		0.064921
+#####
+
+score_result1:	{}
+score_result2:	{'a sea lion': 1.1578947368421053, 'a sea cow': 1.0, 'a sea horse': 1.0}
+score_result3:	{'a sea lion': 24.0, 'a sea cow': 1.0, 'a sea horse': 1.0}
+score_result4:	{'a sea lion': 4608, 'a sea cow': 0, 'a sea horse': 0}

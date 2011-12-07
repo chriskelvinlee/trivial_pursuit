@@ -1,23 +1,24 @@
 What does a pugilist wear on his hands
 ['ski gloves', 'boxing gloves', 'oven mitts']
 1
+Correct
 Answer:		1
-Confidence:	59
+Confidence:	99
 
 #####
-Total Time:		65.420823
-NLTK Time:		64.710336
-AI Time:		0.710487
-URL Time:		0.437430
-Keyword (Q) Time:	34.251566
-Keyword (A) Time:	23.180210
-Tokens (Q) Time:	0.000244
-Tokens (URL) Time:	7.278316
-Map Instance Time:	0.004192
-Score1 Time:		0.041508
-Score2 Time:		0.026881
-Score3 Time:		0.088248
-Score4 Time:		0.112179
+Total Time:		56.025078
+NLTK Time:		55.012246
+AI Time:		1.012832
+URL Time:		0.781683
+Keyword (Q) Time:	26.084569
+Keyword (A) Time:	20.587887
+Tokens (Q) Time:	0.000234
+Tokens (URL) Time:	8.339556
+Map Instance Time:	0.004087
+Score1 Time:		0.030256
+Score2 Time:		0.020436
+Score3 Time:		0.079284
+Score4 Time:		0.097028
 #####
 
 score_result1:	{'boxing gloves': 1.0}

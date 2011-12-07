@@ -1,0 +1,27 @@
+Which country did Lizzie McGuire travel to in the first Lizzie McGuire movie
+['Italy', 'France', 'England']
+0
+Correct
+Answer:		0
+Confidence:	99
+
+#####
+Total Time:		70.497248
+NLTK Time:		69.984859
+AI Time:		0.512389
+URL Time:		0.275532
+Keyword (Q) Time:	26.622585
+Keyword (A) Time:	34.456134
+Tokens (Q) Time:	0.000440
+Tokens (URL) Time:	8.905700
+Map Instance Time:	0.009273
+Score1 Time:		0.052250
+Score2 Time:		0.012252
+Score3 Time:		0.062155
+Score4 Time:		0.100858
+#####
+
+score_result1:	{'Italy': 4.5, 'France': 1.0}
+score_result2:	{'Italy': 4.5, 'France': 1.0}
+score_result3:	{'Italy': 4229.0, 'France': 1.0}
+score_result4:	{'Italy': 29570, 'France': 0}

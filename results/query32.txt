@@ -1,0 +1,27 @@
+What goes clink, clink, clink in a song about the wheels of a bus going round and round
+['the brakes', 'the windshield wipers', 'the money']
+2
+Incorrect
+Answer:		1
+Confidence:	99
+
+#####
+Total Time:		67.322644
+NLTK Time:		66.680559
+AI Time:		0.642085
+URL Time:		0.593461
+Keyword (Q) Time:	33.372002
+Keyword (A) Time:	26.443135
+Tokens (Q) Time:	0.000291
+Tokens (URL) Time:	6.865131
+Map Instance Time:	0.001453
+Score1 Time:		0.006665
+Score2 Time:		0.003017
+Score3 Time:		0.011899
+Score4 Time:		0.025551
+#####
+
+score_result1:	{}
+score_result2:	{'the money': 1.0, 'the windshield wipers': 1.2727272727272727}
+score_result3:	{'the money': 111.25427323168879, 'the windshield wipers': 1.0}
+score_result4:	{'the money': 0, 'the windshield wipers': 2285476}

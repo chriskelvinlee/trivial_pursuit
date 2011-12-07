@@ -1,0 +1,27 @@
+What material makes up the most kind of trash in US landfills
+['paper', 'plastic', 'metal']
+0
+Correct
+Answer:		0
+Confidence:	6
+
+#####
+Total Time:		81.368840
+NLTK Time:		80.462588
+AI Time:		0.906252
+URL Time:		0.670033
+Keyword (Q) Time:	40.390925
+Keyword (A) Time:	27.830504
+Tokens (Q) Time:	0.000245
+Tokens (URL) Time:	12.240914
+Map Instance Time:	0.008320
+Score1 Time:		0.037190
+Score2 Time:		0.016749
+Score3 Time:		0.058908
+Score4 Time:		0.114982
+#####
+
+score_result1:	{'paper': 32.5, 'metal': 1.0, 'plastic': 23.5}
+score_result2:	{'paper': 32.5, 'metal': 1.0, 'plastic': 23.5}
+score_result3:	{'paper': 263.5, 'metal': 1.0, 'plastic': 634.5}
+score_result4:	{'paper': 319500, 'metal': 0, 'plastic': 349500}

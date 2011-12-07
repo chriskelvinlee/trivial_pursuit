@@ -1,0 +1,27 @@
+What did the words yankee doodle mean at the time of the Revolution
+['a fashionable dude', 'a dishonest fool', 'a proper gentleman']
+1
+Incorrect
+Answer:		0
+Confidence:	99
+
+#####
+Total Time:		67.556805
+NLTK Time:		67.045228
+AI Time:		0.511577
+URL Time:		0.313248
+Keyword (Q) Time:	29.574110
+Keyword (A) Time:	32.075805
+Tokens (Q) Time:	0.000250
+Tokens (URL) Time:	5.395063
+Map Instance Time:	0.005139
+Score1 Time:		0.025779
+Score2 Time:		0.025310
+Score3 Time:		0.066584
+Score4 Time:		0.075459
+#####
+
+score_result1:	{}
+score_result2:	{'a proper gentleman': 1.0, 'a fashionable dude': 1.5}
+score_result3:	{'a proper gentleman': 1.0, 'a fashionable dude': 2.0}
+score_result4:	{'a proper gentleman': 0, 'a fashionable dude': 168}

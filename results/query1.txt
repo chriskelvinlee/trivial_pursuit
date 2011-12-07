@@ -1,26 +1,27 @@
 What is each member of a winning Super Bowl team given
 ['a bronzed jersey', 'a green jacket', 'a ring']
 2
+Correct
 Answer:		2
-Confidence:	0
+Confidence:	99
 
 #####
-Total Time:		68.656319
-NLTK Time:		68.054939
-AI Time:		0.601380
-URL Time:		0.475935
-Keyword (Q) Time:	30.846257
-Keyword (A) Time:	32.286058
-Tokens (Q) Time:	0.000233
-Tokens (URL) Time:	4.922391
-Map Instance Time:	0.001806
-Score1 Time:		0.012907
-Score2 Time:		0.006292
-Score3 Time:		0.030731
-Score4 Time:		0.073661
+Total Time:		75.854482
+NLTK Time:		75.339571
+AI Time:		0.514911
+URL Time:		0.403777
+Keyword (Q) Time:	39.115621
+Keyword (A) Time:	30.257831
+Tokens (Q) Time:	0.000235
+Tokens (URL) Time:	5.965884
+Map Instance Time:	0.002767
+Score1 Time:		0.015464
+Score2 Time:		0.006134
+Score3 Time:		0.025838
+Score4 Time:		0.060882
 #####
 
 score_result1:	{}
 score_result2:	{'a green jacket': 1.0, 'a ring': 11.666666666666666}
-score_result3:	{'a green jacket': 1.0, 'a ring': 399.37962214605665}
-score_result4:	{'a green jacket': 1.0, 'a ring': 129.19706078824316}
+score_result3:	{'a green jacket': 1.0, 'a ring': 427.38600498477484}
+score_result4:	{'a green jacket': 1.0, 'a ring': 129.52304609218436}

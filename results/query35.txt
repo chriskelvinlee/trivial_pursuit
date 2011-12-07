@@ -1,0 +1,27 @@
+Which face on Mount Rushmore was actually blown up and sculpted again in a better location
+['Washington', 'Jefferson', 'Lincoln']
+1
+Incorrect
+Answer:		0
+Confidence:	10
+
+#####
+Total Time:		79.861581
+NLTK Time:		78.474410
+AI Time:		1.387171
+URL Time:		0.731430
+Keyword (Q) Time:	31.476399
+Keyword (A) Time:	33.286770
+Tokens (Q) Time:	0.000267
+Tokens (URL) Time:	13.710974
+Map Instance Time:	0.021248
+Score1 Time:		0.093166
+Score2 Time:		0.036166
+Score3 Time:		0.145390
+Score4 Time:		0.359717
+#####
+
+score_result1:	{'Lincoln': 2.0384615384615383, 'Jefferson': 1.0, 'Washington': 5.576923076923077}
+score_result2:	{'Lincoln': 2.0384615384615383, 'Jefferson': 1.0, 'Washington': 5.576923076923077}
+score_result3:	{'Lincoln': 4.181775259678942, 'Jefferson': 1.0, 'Washington': 15.857412653446648}
+score_result4:	{'Lincoln': 5.25821398483572, 'Jefferson': 1.0, 'Washington': 5.374894692502106}

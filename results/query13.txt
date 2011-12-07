@@ -1,0 +1,27 @@
+What is the weather forecast if there is a red sky at night
+['fair', 'cloudy', 'storm coming']
+0
+Correct
+Answer:		0
+Confidence:	14
+
+#####
+Total Time:		84.314009
+NLTK Time:		83.847761
+AI Time:		0.466248
+URL Time:		0.369638
+Keyword (Q) Time:	38.876353
+Keyword (A) Time:	33.656514
+Tokens (Q) Time:	0.000243
+Tokens (URL) Time:	11.314651
+Map Instance Time:	0.001831
+Score1 Time:		0.013690
+Score2 Time:		0.006360
+Score3 Time:		0.021283
+Score4 Time:		0.053376
+#####
+
+score_result1:	{'storm coming': 1.0, 'cloudy': 1.5, 'fair': 5.0}
+score_result2:	{'storm coming': 9.333333333333334, 'cloudy': 1.0, 'fair': 3.3333333333333335}
+score_result3:	{'storm coming': 1.793161231884058, 'cloudy': 1.0, 'fair': 1.1422101449275361}
+score_result4:	{'storm coming': 1.1770491803278689, 'cloudy': 1.0, 'fair': 7.918032786885246}
