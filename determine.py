@@ -22,7 +22,10 @@ def determineAnswer(results, choices, correct):
             highestChoice = ""
             a1 = min(r.values())
             z1 = max(r.values())
-            
+            if (a1 == 0):
+                if val != a1 and val != z1:
+                    ai = val
+                    
             # Iterate through dict
             for key, val in r.iteritems():
                 if val == z1:                    # If value is max

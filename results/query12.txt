@@ -1,0 +1,26 @@
+Where did Aesop write most of his animal fables
+['on safari', 'in prison', 'at zoo']
+1
+Answer:		0
+Confidence:	0
+
+#####
+Total Time:		47.830652
+NLTK Time:		46.925071
+AI Time:		0.905581
+URL Time:		0.865425
+Keyword (Q) Time:	20.867711
+Keyword (A) Time:	20.522419
+Tokens (Q) Time:	0.000239
+Tokens (URL) Time:	5.534702
+Map Instance Time:	0.001739
+Score1 Time:		0.010014
+Score2 Time:		0.003544
+Score3 Time:		0.011623
+Score4 Time:		0.013232
+#####
+
+score_result1:	{}
+score_result2:	{}
+score_result3:	{}
+score_result4:	{}

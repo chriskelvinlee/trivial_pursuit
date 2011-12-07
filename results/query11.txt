@@ -1,0 +1,26 @@
+What does an Elvis impersonator usually wear
+['a rhinestone jumpsuit', 'a big cowbow hat', 'a black satin cape']
+0
+Answer:		0
+Confidence:	503
+
+#####
+Total Time:		100.123395
+NLTK Time:		99.301759
+AI Time:		0.821636
+URL Time:		0.510031
+Keyword (Q) Time:	32.730193
+Keyword (A) Time:	25.411576
+Tokens (Q) Time:	0.000216
+Tokens (URL) Time:	41.159774
+Map Instance Time:	0.005652
+Score1 Time:		0.032890
+Score2 Time:		0.032836
+Score3 Time:		0.114869
+Score4 Time:		0.125300
+#####
+
+score_result1:	{}
+score_result2:	{'a black satin cape': 2.6666666666666665, 'a big cowbow hat': 1.3333333333333333, 'a rhinestone jumpsuit': 1.0}
+score_result3:	{'a black satin cape': 21.518229166666668, 'a big cowbow hat': 1.0, 'a rhinestone jumpsuit': 22.005208333333332}
+score_result4:	{'a black satin cape': 1.6812420785804816, 'a big cowbow hat': 1.0, 'a rhinestone jumpsuit': 841.3181242078581}

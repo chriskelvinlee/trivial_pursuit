@@ -1,0 +1,26 @@
+What was discovered in the Klondike back in the 1890s
+['the abominable snowman', 'a flying saucer', 'gold']
+2
+Answer:		2
+Confidence:	0
+
+#####
+Total Time:		56.630597
+NLTK Time:		55.792905
+AI Time:		0.837692
+URL Time:		0.465885
+Keyword (Q) Time:	26.605076
+Keyword (A) Time:	23.079926
+Tokens (Q) Time:	0.000249
+Tokens (URL) Time:	6.107654
+Map Instance Time:	0.004209
+Score1 Time:		0.027607
+Score2 Time:		0.019059
+Score3 Time:		0.091993
+Score4 Time:		0.228897
+#####
+
+score_result1:	{'gold': 1.0}
+score_result2:	{'gold': 1.0}
+score_result3:	{'gold': 1.0}
+score_result4:	{'gold': 1.0}

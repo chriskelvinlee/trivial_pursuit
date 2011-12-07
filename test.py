@@ -5,7 +5,7 @@ from output import *
 from determine import *
 
 #What other options should test take in?
-def runQuery( questions = tp_Questions, scoringFunction = useAllScores, outputSet = 1 ):
+def runQuery( questions, scoringFunction):
     numberCorrect = 0
     currentCount = 0
     for question in questions:
@@ -17,6 +17,7 @@ def runQuery( questions = tp_Questions, scoringFunction = useAllScores, outputSe
         text = question[0]
         choices = question[1]
         correct = question[2]
+        outputCount = question[3]
         
         print "Processing NLTK..."
         # Parse urls, questions, answers and generate keywords
@@ -39,7 +40,7 @@ def runQuery( questions = tp_Questions, scoringFunction = useAllScores, outputSe
 
         # Save the results sys.out txt
         output(text, choices, correct, nltk_data, results, answer, conf,
-            nltk_time, ai_time, de_time, currentCount, outputSet)
+            nltk_time, ai_time, de_time, outputCount)
         print "*****"
         
         # Print results live
@@ -52,3 +53,5 @@ def runQuery( questions = tp_Questions, scoringFunction = useAllScores, outputSe
         print bld
         
     print str(numberCorrect) + "/" + str(len(questions))
+
+runQuery( tp_Questions3, useAllScores)

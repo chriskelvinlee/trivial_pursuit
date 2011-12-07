@@ -1,0 +1,26 @@
+What is a tornado at sea called
+['a dust devil', 'a waterspout', 'a whirlwind']
+1
+Answer:		1
+Confidence:	0
+
+#####
+Total Time:		71.667193
+NLTK Time:		71.134474
+AI Time:		0.532719
+URL Time:		0.480654
+Keyword (Q) Time:	35.338226
+Keyword (A) Time:	31.591330
+Tokens (Q) Time:	0.000349
+Tokens (URL) Time:	4.204569
+Map Instance Time:	0.000872
+Score1 Time:		0.010179
+Score2 Time:		0.004806
+Score3 Time:		0.014282
+Score4 Time:		0.021876
+#####
+
+score_result1:	{}
+score_result2:	{'a dust devil': 1.0, 'a waterspout': 3.6666666666666665}
+score_result3:	{'a dust devil': 1.0, 'a waterspout': 1.116554054054054}
+score_result4:	{'a dust devil': 1.0, 'a waterspout': 164.6577137242057}

@@ -1,0 +1,26 @@
+Who were named lobsterbacks during the Amrican Revolution
+['maine fisherman', 'the redcoats', 'the minuteman']
+1
+Answer:		1
+Confidence:	0
+
+#####
+Total Time:		56.106406
+NLTK Time:		55.445758
+AI Time:		0.660648
+URL Time:		0.595868
+Keyword (Q) Time:	27.781050
+Keyword (A) Time:	20.880017
+Tokens (Q) Time:	0.000240
+Tokens (URL) Time:	6.784451
+Map Instance Time:	0.002210
+Score1 Time:		0.014015
+Score2 Time:		0.005834
+Score3 Time:		0.020673
+Score4 Time:		0.022012
+#####
+
+score_result1:	{}
+score_result2:	{'the redcoats': 1.0}
+score_result3:	{'the redcoats': 1.0}
+score_result4:	{'the redcoats': 1.0}
