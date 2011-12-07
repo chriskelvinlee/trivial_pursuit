@@ -1,0 +1,23 @@
+Which of these describes the tail of a healthy platypus
+['platypus', 'tail', 'describes', 'healthy']
+{'healthy': (66, 'JJ'), 'tail': (24, 'NN'), 'describes': (26, 'NNS'), 'platypus': (0, 'NN')}
+{'short': (619, 'JJ'), 'long': (1285, 'RB'), 'fat': (80, 'JJ'), 'strong': (569, 'JJ'), 'squishy': (0, 'JJ'), 'pinkish': (0, 'NN')}
+{}
+{'fat and strong': 31, 'short and pinkish': 21, 'long and squishy': 61}
+{'fat and strong': 87436, 'short and pinkish': 43, 'long and squishy': 41256}
+{'fat and strong': 35894, 'short and pinkish': 0, 'long and squishy': 0}
+#####
+Total Time:		94.278013
+NLTK Time:		92.599376
+AI Time:		1.678637
+URL Time:		0.658323
+Keyword (Q) Time:	26.682972
+Keyword (A) Time:	21.475645
+Tokens (Q) Time:	0.000251
+Tokens (URL) Time:	44.440508
+Map Instance Time:	0.023398
+Score1 Time:		0.128347
+Score2 Time:		0.101162
+Score3 Time:		0.341729
+Score4 Time:		0.425678
+#####

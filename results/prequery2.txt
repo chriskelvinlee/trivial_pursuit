@@ -1,0 +1,24 @@
+Which sport do players use a stick to cradle the ball
+['sport', 'players', 'stick', 'ball']
+{'players': (33, 'NNS'), 'sport': (20, 'NN'), 'stick': (59, 'NN'), 'ball': (109, 'NN')}
+{'lacrosse': (0, 'NN'), 'field': (432, 'NN'), 'hockey': (1, 'NN'), 'ice': (56, 'NN')}
+{'lacrosse': 156, 'field hockey': 19}
+{'lacrosse': 156, 'ice hockey': 24, 'field hockey': 114}
+{'lacrosse': 276910, 'ice hockey': 5484, 'field hockey': 71631}
+{'lacrosse': 105350, 'ice hockey': 184708, 'field hockey': 210210}
+
+#####
+Total Time:		71.615634
+NLTK Time:		70.140234
+AI Time:		1.475400
+URL Time:		0.645202
+Keyword (Q) Time:	29.591298
+Keyword (A) Time:	26.574528
+Tokens (Q) Time:	0.000405
+Tokens (URL) Time:	13.974003
+Map Instance Time:	0.007040
+Score1 Time:		0.032136
+Score2 Time:		0.019258
+Score3 Time:		0.151532
+Score4 Time:		0.620232
+#####

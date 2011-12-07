@@ -478,7 +478,7 @@ Score4 Time:		0.722222
 
 """
 
-compute_score(queryphrase="Whose favorite place to swim is in his money bin", answers=["Scrooge McDuck", "Richie Rich", "Ebenezer Scrooge"], output="results/query3.txt")
+#compute_score(queryphrase="Whose favorite place to swim is in his money bin", answers=["Scrooge McDuck", "Richie Rich", "Ebenezer Scrooge"], output="results/query3.txt")
 
 """Results, with answer choices broken into fragments, with scores of 1 for fragment, 10 for whole answer, times 2 if near keywords:
 ['Whose', 'bin', 'favorite'] [WANT TO INCLUDE PLACE, SWIM]

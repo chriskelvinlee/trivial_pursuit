@@ -18,7 +18,6 @@ def calculateAnswerKeywordWeight(answertoken, weightedanswerkeywords):
 def calculateDistanceWeight(distance):
     return (50 / (distance + 1)) # optimize
     
-    
 def calculateInstanceScore(answertoken, keywords, distances, weightedquestionkeywords, weightedanswerkeywords, full):
     newscore = 0
     for keyword in keywords:
@@ -29,3 +28,6 @@ def calculateInstanceScore(answertoken, keywords, distances, weightedquestionkey
                 else:
                     newscore += calculateQuestionKeywordWeight(keyword, weightedquestionkeywords) * calculateAnswerKeywordWeight(answertoken, weightedanswerkeywords) * calculateDistanceWeight(distance) # optimize
     return newscore
+
+def getRangeValue():
+    return 50

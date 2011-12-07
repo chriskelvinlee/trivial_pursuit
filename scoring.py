@@ -7,19 +7,18 @@ ignored_words = stopwords.words('english')
 
 
 
-keywords, weightedquestionkeywords, weightedanswerkeywords, querytokens, combinedtokens, instances
-
-def score(answers, nd, scoringFunction):
+def score(choices, nd, scoringFunction):
+    answers                     = choices
     keywords                    = nd[0]
     combinedtokens              = nd[4]
     instances                   = nd[5]
-    weightedquestionkeywords    = nd[2]
-    weightedanswerkeywords      = nd[1]
-    scoringFunction(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
+    weightedquestionkeywords    = nd[1]
+    weightedanswerkeywords      = nd[2]
+    return scoringFunction(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
 
 
 # Use all scores
-def useAllWeights(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords):
+def useAllScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords):
     time1_start_time = time.time()
     weights1 = getSimpleAnswerPhraseScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
     time1_stop_time = time.time()
@@ -29,7 +28,7 @@ def useAllWeights(answers, keywords, combinedtokens, instances, weightedquestion
     time2_stop_time = time.time()   
     
     time3_start_time = time.time()
-    weights3 = getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
+    weights3 =  getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
     time3_stop_time = time.time()  
     
     time4_start_time = time.time()       
@@ -108,7 +107,7 @@ def getSimpleAnswerKeywordScores(answers, keywords, combinedtokens, instances, w
 #########
 
 def getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords):
-    rangevalue = 50
+    rangevalue = getRangeValue()
     scores = {}
     tokenrange = findrange(len(combinedtokens))
     for answer in answers:
@@ -147,7 +146,7 @@ def getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instance
     return scores
 
 #########
-## Score 3 ##   
+## Score 4 ##   
 # use function below to score, using question keywords and answer keywords
 #
 #########

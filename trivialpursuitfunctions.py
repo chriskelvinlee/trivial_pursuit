@@ -108,7 +108,7 @@ def NLTK_parse(queryphrase="", answers=[], urls=[], scoringFunction = getSimpleA
     # Get urls
     url_start_time = time.time()
     if urls == []:
-        urls = getGoogleLinks(queryphrase, 3) # may want to change this number
+        urls = getGoogleLinks(queryphrase, 1) # may want to change this number
     url_stop_time = time.time()        
 
     # Get question keywords
@@ -147,10 +147,10 @@ def NLTK_parse(queryphrase="", answers=[], urls=[], scoringFunction = getSimpleA
     keyword_a = (keyword_a_stop_time - keyword_a_start_time)
     token_q =   (tokens_q_stop_time - tokens_q_start_time)
     token_url = (tokens_url_stop_time - tokens_url_start_time)
-    instances = (instances_stop_time - instances_start_time)
+    instances_t = (instances_stop_time - instances_start_time)
 
     NLTK = [keywords, weightedquestionkeywords, weightedanswerkeywords, querytokens, combinedtokens, instances]
-    TIME = [url, keyword_q, keyword_a, token_q, token_url, instances]
+    TIME = [url, keyword_q, keyword_a, token_q, token_url, instances_t]
     
     return [NLTK, TIME]
     
