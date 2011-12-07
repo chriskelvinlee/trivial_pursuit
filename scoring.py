@@ -1,9 +1,62 @@
+import time
 import nltk
 from nltk.corpus import stopwords
+from weights import *
 
 ignored_words = stopwords.words('english')
 
+
+
+keywords, weightedquestionkeywords, weightedanswerkeywords, querytokens, combinedtokens, instances
+
+def score(answers, nd, scoringFunction):
+    keywords                    = nd[0]
+    combinedtokens              = nd[4]
+    instances                   = nd[5]
+    weightedquestionkeywords    = nd[2]
+    weightedanswerkeywords      = nd[1]
+    scoringFunction(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
+
+
+# Use all scores
+def useAllWeights(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords):
+    time1_start_time = time.time()
+    weights1 = getSimpleAnswerPhraseScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
+    time1_stop_time = time.time()
+    
+    time2_start_time = time.time()
+    weights2 = getSimpleAnswerKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
+    time2_stop_time = time.time()   
+    
+    time3_start_time = time.time()
+    weights3 = getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
+    time3_stop_time = time.time()  
+    
+    time4_start_time = time.time()       
+    weights4 = getFunctionQuestionKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
+    time4_stop_time = time.time()  
+    
+    # Calcualte time
+    time1 =    (time1_stop_time - time1_start_time)
+    time2 =    (time2_stop_time - time2_start_time)
+    time3 =    (time3_stop_time - time3_start_time)
+    time4 =    (time4_stop_time - time4_start_time)
+    
+    WEIGHTS = [weights1, weights2, weights3, weights4]
+    TIMES = [time1, time2, time3, time4]
+    
+    return [WEIGHTS, TIMES]
+
+def findrange(number=0):
+    return range(number)
+
+
+#########
+## Score 1 ##   
 # score by simply counting instances of answer phrases, without question keywords
+#
+#########
+
 def getSimpleAnswerPhraseScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords):
     scores = {}
     tokenrange = findrange(len(combinedtokens))
@@ -20,10 +73,13 @@ def getSimpleAnswerPhraseScores(answers, keywords, combinedtokens, instances, we
                     scores[answer] += newscore
     return scores
 
-def findrange(number=0):
-    return range(number)
 
+#########
+## Score 2 ##   
 # score by simply counting instances of answer keywords, without question keywords
+#
+#########
+
 def getSimpleAnswerKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords):
     scores = {}
     tokenrange = findrange(len(combinedtokens))
@@ -45,7 +101,12 @@ def getSimpleAnswerKeywordScores(answers, keywords, combinedtokens, instances, w
                         scores[answer] += newscore
     return scores
 
+#########
+## Score 3 ##   
 # score using question keywords and fixed weights
+#
+#########
+
 def getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords):
     rangevalue = 50
     scores = {}
@@ -85,7 +146,12 @@ def getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instance
                         scores[answer] += newscore
     return scores
 
+#########
+## Score 3 ##   
 # use function below to score, using question keywords and answer keywords
+#
+#########
+
 def getFunctionQuestionKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords):
     scores = {}
     tokenrange = findrange(len(combinedtokens))
@@ -126,24 +192,3 @@ def getFunctionQuestionKeywordScores(answers, keywords, combinedtokens, instance
                         scores[answer] += newscore
     return scores
     
-def calculateInstanceScore(answertoken, keywords, distances, weightedquestionkeywords, weightedanswerkeywords, full):
-    newscore = 0
-    for keyword in keywords:
-        if keyword in distances.keys():
-            for distance in distances[keyword]:
-                if full == True:
-                    newscore += calculateQuestionKeywordWeight(keyword, weightedquestionkeywords) * 10 * calculateDistanceWeight(distance) # optimize
-                else:
-                    newscore += calculateQuestionKeywordWeight(keyword, weightedquestionkeywords) * calculateAnswerKeywordWeight(answertoken, weightedanswerkeywords) * calculateDistanceWeight(distance) # optimize
-    return newscore
-
-# base scores on frequency within documents Google returns, not just the two corpora?
-def calculateQuestionKeywordWeight(keyword, weightedquestionkeywords):
-    return (200 / (weightedquestionkeywords[keyword][0] + 1)) # optimize, can include part of speech, can include inverse frequency in our results
-
-# base scores on frequency within documents Google returns, not just the two corpora?
-def calculateAnswerKeywordWeight(answertoken, weightedanswerkeywords):
-    return (200 / (weightedanswerkeywords[answertoken][0] + 1)) # optimize, can include part of speech, can include inverse frequency in our results
-
-def calculateDistanceWeight(distance):
-    return (50 / (distance + 1)) # optimize

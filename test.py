@@ -15,13 +15,13 @@ def test( questions = tp_Questions, scoringFunction = useAllWeights ):
         
         # Parse urls, questions, answers and generate keywords
         raw = NLTK_parse( queryphrase=text, answers=choices )
-        nltk_data = raw[0]
-        nltk_time = raw[1]
+        nltk_data = raw[0]          # array of size 6
+        nltk_time = raw[1]          # array of size 6
         
         # Get answer weight with scoring function(s)
-        weights = score(nltk_data, scoringFunction)
-        candidate = weights[0]
-        ai_time = weights[1]
+        weights = score(answers, nltk_data, scoringFunction)
+        candidate = weights[0]      # array of size 4
+        ai_time = weights[1]        # array of size 4
         
         # Determine correct results
         bld = text + ": "
