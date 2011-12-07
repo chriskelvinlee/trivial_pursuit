@@ -1,9 +1,11 @@
 from questions import *
 from trivialpursuitfunctions import *
 from scoring import *
+from output import *
+from decide import *
 
 #What other options should test take in?
-def test(questions = tp_Questions, scoringFunction = getSimpleAnswerPhraseScores):
+def test( questions = tp_Questions, scoringFunction = useAllWeights ):
     numberCorrect = 0;
     for question in questions:
         # Read in question, choices, and correct answer
@@ -12,9 +14,15 @@ def test(questions = tp_Questions, scoringFunction = getSimpleAnswerPhraseScores
         correct = question[2]
         
         # Parse urls, questions, answers and generate keywords
-        result = NLTK_parse(queryphrase=text, answers=choices)
-        # Rank possible answers with scoring function(s)
-        scores = score( ,scoringFunction = useAllWeights)
+        raw = NLTK_parse( queryphrase=text, answers=choices )
+        nltk_data = raw[0]
+        nltk_time = raw[1]
+        
+        # Get answer weight with scoring function(s)
+        weights = score(nltk_data, scoringFunction)
+        candidate = weights[0]
+        ai_time = weights[1]
+        
         # Determine correct results
         bld = text + ": "
         if getHighestResult(result, choices) == correct:
@@ -28,7 +36,6 @@ def test(questions = tp_Questions, scoringFunction = getSimpleAnswerPhraseScores
     
     print str(numberCorrect) + "/" + str(len(questions))
     
-
 
 def getHighestResult(result, choices):
     highestConfidence = 0
