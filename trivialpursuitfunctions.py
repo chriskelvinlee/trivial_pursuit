@@ -1,3 +1,4 @@
+import time
 import nltk
 import urllib2
 import re
@@ -102,34 +103,57 @@ def getInstances(keywords, combinedtokens):
                 instances[combinedtokens[i]].append(i)
     return instances
 
-def compute_score(queryphrase="", keywords=[], answers=[], urls=[], scoringFunction = getSimpleAnswerPhraseScores):
+def NLTK_parse(queryphrase="", answers=[], urls=[], scoringFunction = getSimpleAnswerPhraseScores):
 
-    # get urls
+    # Get urls
+    url_start_time = time.time()
     if urls == []:
         urls = getGoogleLinks(queryphrase, 3) # may want to change this number
+    url_stop_time = time.time()        
 
-    # get question keywords
-    if keywords == []:
-        keywords = getSimpleQuestionKeywords(queryphrase)
-        weightedquestionkeywords = getWeightedQuestionKeywords(queryphrase)
-
-    # get answer keywords
-    weightedanswerkeywords = getAnswerKeywords(answers)
-
-    # get tokens from query
-    querytokens = nltk.word_tokenize(queryphrase)
-
-    # get tokens for combined urls
-    combinedtokens = getTokens(urls)
-
-    # find instances of keywords
-    instances = getInstances(keywords, combinedtokens)
-
-    # using the specified function, compute the scores
-    scores = scoringFunction(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
+    # Get question keywords
+    keyword_q_start_time = time.time()
+    keywords = getSimpleQuestionKeywords(queryphrase)
+    keyword_q_stop_time = time.time()
     
-    print scores
-    return scores
+    # Get weighted question keywords
+    keyword_q_weighted_start_time = time.time()        
+    weightedquestionkeywords = getWeightedQuestionKeywords(queryphrase)
+    keyword_q_weighted_stop_time = time.time()
+
+    # Get answer keywords
+    keyword_a_start_time = time.time()   
+    weightedanswerkeywords = getAnswerKeywords(answers)
+    keyword_a_stop_time = time.time()
+
+    # Get tokens from query
+    tokens_q_start_time = time.time()
+    querytokens = nltk.word_tokenize(queryphrase)
+    tokens_q_stop_time = time.time()
+
+    # Get tokens for combined urls
+    tokens_url_start_time = time.time()
+    combinedtokens = getTokens(urls)
+    tokens_url_stop_time = time.time()
+
+    # Find instances of keywords
+    instances_start_time = time.time()
+    instances = getInstances(keywords, combinedtokens)
+    instances_stop_time = time.time()
+    
+    # Calculate time
+    url =       (url_stop_time - url_start_time)
+    keyword_q = (keyword_q_stop_time - keyword_q_start_time)
+    keyword_a = (keyword_a_stop_time - keyword_a_start_time)
+    token_q =   (tokens_q_stop_time - tokens_q_start_time)
+    token_url = (tokens_url_stop_time - tokens_url_start_time)
+    instances = (instances_stop_time - instances_start_time)
+
+    NLTK = [keywords, weightedquestionkeywords, weightedanswerkeywords, querytokens, combinedtokens, instances]
+    TIME = [url, keyword_q, keyword_a, token_q, token_url, instances]
+    
+    return [NLTK, TIME]
+    
 
 # WORDNET TESTING
 

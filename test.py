@@ -3,14 +3,19 @@ from trivialpursuitfunctions import *
 from scoring import *
 
 #What other options should test take in?
-def test(questions = historyQuestions, scoringFunction = getSimpleAnswerPhraseScores):
+def test(questions = tp_Questions, scoringFunction = getSimpleAnswerPhraseScores):
     numberCorrect = 0;
     for question in questions:
+        # Read in question, choices, and correct answer
         text = question[0]
         choices = question[1]
         correct = question[2]
-        result = compute_score(queryphrase=text, answers=choices, scoringFunction=scoringFunction)
-
+        
+        # Parse urls, questions, answers and generate keywords
+        result = NLTK_parse(queryphrase=text, answers=choices)
+        # Rank possible answers with scoring function(s)
+        scores = score( ,scoringFunction = useAllWeights)
+        # Determine correct results
         bld = text + ": "
         if getHighestResult(result, choices) == correct:
             numberCorrect += 1
@@ -18,7 +23,12 @@ def test(questions = historyQuestions, scoringFunction = getSimpleAnswerPhraseSc
         else:
             bld += "Incorrect"
         print bld
+        
+        # Output results        
+    
     print str(numberCorrect) + "/" + str(len(questions))
+    
+
 
 def getHighestResult(result, choices):
     highestConfidence = 0
