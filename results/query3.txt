@@ -1,0 +1,24 @@
+Whose favorite place to swim is in his money bin
+['Whose', 'bin', 'favorite']
+{'bin': (13, 'NN'), 'Whose': (1, 'NNP'), 'favorite': (43, 'VBD')}
+{'McDuck': (0, 'NNP'), 'Rich': (8, 'NNP'), 'Ebenezer': (0, 'NNP'), 'Scrooge': (0, 'NNP'), 'Richie': (0, 'NNP')}
+{'Scrooge McDuck': 68}
+{'Richie Rich': 5, 'Ebenezer Scrooge': 349, 'Scrooge McDuck': 433}
+{'Richie Rich': 5, 'Ebenezer Scrooge': 1230, 'Scrooge McDuck': 3901}
+{'Richie Rich': 0, 'Ebenezer Scrooge': 1531600, 'Scrooge McDuck': 1605940}
+
+#####
+Total Time:		101.161979
+NLTK Time:		98.332041
+AI Time:		2.829938
+URL Time:		0.759911
+Keyword (Q) Time:	31.962618
+Keyword (A) Time:	23.327596
+Tokens (Q) Time:	0.000345
+Tokens (URL) Time:	43.041482
+Map Instance Time:	0.038915
+Score1 Time:		0.263621
+Score2 Time:		0.189477
+Score3 Time:		0.665096
+Score4 Time:		0.912918
+#####

@@ -271,11 +271,11 @@ def calculateAnswerKeywordWeight(answertoken, weightedanswerkeywords):
 def calculateDistanceWeight(distance):
     return (50 / (distance + 1)) # optimize
 
-def compute_score(queryphrase="", keywords=[], answers=[], urls=[], rangevalue=50):
+def compute_score(queryphrase="", keywords=[], answers=[], urls=[], output="", rangevalue=50):
+
 
     total_start_time = time.time()
     
-
     # get urls
     url_start_time = time.time()
     if urls == []:
@@ -317,26 +317,26 @@ def compute_score(queryphrase="", keywords=[], answers=[], urls=[], rangevalue=5
 
     # score the occurrences of answer phrases
     score1_start_time = time.time()
-    scores = getSimpleAnswerPhraseScores(answers, combinedtokens)
-    print scores
+    score_result1 = getSimpleAnswerPhraseScores(answers, combinedtokens)
+    print score_result1
     score1_stop_time = time.time()
 
     # score the occurrences of answer keywords
     score2_start_time = time.time()
-    scores = getSimpleAnswerKeywordScores(answers, combinedtokens)
-    print scores
+    score_result2 = getSimpleAnswerKeywordScores(answers, combinedtokens)
+    print score_result2
     score2_stop_time = time.time()
 
     # score the occurrences of answer keywords by weights related to occurrences of question keywords
     score3_start_time = time.time()
-    scores = getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instances, rangevalue)
-    print scores
+    score_result3 = getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instances, rangevalue)
+    print score_result3
     score3_stop_time = time.time()
 
     # score the occurences of answer keywords by linear function related to occurrences of question keyword
     score4_start_time = time.time()
-    scores = getFunctionQuestionKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
-    print scores
+    score_result4 = getFunctionQuestionKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
+    print score_result4
     score4_stop_time = time.time()
     
     total_stop_time = time.time()
@@ -372,7 +372,34 @@ def compute_score(queryphrase="", keywords=[], answers=[], urls=[], rangevalue=5
     print "Score4 Time:\t\t%f"   % score4
     print '#####'
     
-    return scores
+    # write to file
+    f = open(output, 'w')
+    print >>f, queryphrase
+    print >>f, keywords
+    print >>f, weightedquestionkeywords        
+    print >>f, weightedanswerkeywords
+    print >>f, score_result1
+    print >>f, score_result2
+    print >>f, score_result3
+    print >>f, score_result4
+    print >>f, '\n#####'
+    print >>f, "Total Time:\t\t%f"       % total
+    print >>f, "NLTK Time:\t\t%f"        % (keyword_q+keyword_a+token_q+token_url)
+    print >>f, "AI Time:\t\t%f"          % (url+instances+score1+score2+score3+score4)
+    print >>f, "URL Time:\t\t%f"         % url
+    print >>f, "Keyword (Q) Time:\t%f"   % keyword_q
+    print >>f, "Keyword (A) Time:\t%f"   % keyword_a
+    print >>f, "Tokens (Q) Time:\t%f"    % token_q
+    print >>f, "Tokens (URL) Time:\t%f"    % token_url
+    print >>f, "Map Instance Time:\t%f"    % instances
+    print >>f, "Score1 Time:\t\t%f"   % score1
+    print >>f, "Score2 Time:\t\t%f"   % score2
+    print >>f, "Score3 Time:\t\t%f"   % score3
+    print >>f, "Score4 Time:\t\t%f"   % score4
+    print >>f, '#####'
+    f.close()
+
+    return
     
 # WORDNET TESTING
 
@@ -402,26 +429,77 @@ getSynonyms("swim")
 
 # GENERAL TEST RESULTS
 
-#compute_score(queryphrase="Which of these describes the tail of a healthy platypus", answers=["fat and strong", "long and squishy", "short and pinkish"])
+#compute_score(queryphrase="Which of these describes the tail of a healthy platypus", answers=["fat and strong", "long and squishy", "short and pinkish"], output="results/query1.txt")
 
 """Results, with answer choices broken into fragments, with scores of 1 for fragment, 10 for whole answer, times 2 if near keywords:
 ['platypus', 'tail', 'describes', 'healthy']
 {'fat and strong': 32, 'short and pinkish': 21, 'long and squishy': 63} [INCORRECT]
-{'fat and strong': 87440, 'short and pinkish': 43, 'long and squishy': 41261} [CORRECT]"""
+{'fat and strong': 87440, 'short and pinkish': 43, 'long and squishy': 41261} [CORRECT]
+#####
+Total Time:		107.378600
+NLTK Time:		105.797034
+AI Time:		1.581566
+URL Time:		0.555177
+Keyword (Q) Time:	33.626754
+Keyword (A) Time:	29.233737
+Tokens (Q) Time:	0.000364
+Tokens (URL) Time:	42.936179
+Map Instance Time:	0.022572
+Score1 Time:		0.128857
+Score2 Time:		0.100487
+Score3 Time:		0.342068
+Score4 Time:		0.432405
+#####
 
-#compute_score(queryphrase="Which sport do players use a stick to cradle the ball", answers=["field hockey", "ice hockey", "lacrosse"])
+"""
+
+#compute_score(queryphrase="Which sport do players use a stick to cradle the ball", answers=["field hockey", "ice hockey", "lacrosse"], output="results/query2.txt")
 
 """Results, with answer choices broken into fragments, with scores of 1 for fragment, 10 for whole answer, times 2 if near keywords:
 ['sport', 'players', 'stick', 'ball'] [BAD: WHY NOT 'CRADLE'?]
 {'lacrosse': 1790, 'ice hockey': 28, 'field hockey': 294} [CORRECT]
-{'lacrosse': 281420, 'ice hockey': 5544, 'field hockey': 71962} [CORRECT]"""
+{'lacrosse': 281420, 'ice hockey': 5544, 'field hockey': 71962} [CORRECT]
 
-compute_score(queryphrase="Whose favorite place to swim is in his money bin", answers=["Scrooge McDuck", "Richie Rich", "Ebenezer Scrooge"])
+#####
+Total Time:		79.288178
+NLTK Time:		76.987947
+AI Time:		2.300231
+URL Time:		1.289509
+Keyword (Q) Time:	30.287592
+Keyword (A) Time:	33.918917
+Tokens (Q) Time:	0.000393
+Tokens (URL) Time:	12.781045
+Map Instance Time:	0.007205
+Score1 Time:		0.047765
+Score2 Time:		0.028967
+Score3 Time:		0.204563
+Score4 Time:		0.722222
+#####
+
+"""
+
+compute_score(queryphrase="Whose favorite place to swim is in his money bin", answers=["Scrooge McDuck", "Richie Rich", "Ebenezer Scrooge"], output="results/query3.txt")
 
 """Results, with answer choices broken into fragments, with scores of 1 for fragment, 10 for whole answer, times 2 if near keywords:
 ['Whose', 'bin', 'favorite'] [WANT TO INCLUDE PLACE, SWIM]
 {'Richie Rich': 13, 'Ebenezer Scrooge': 346, 'Scrooge McDuck': 1075} [CORRECT]
-{'Richie Rich': 18, 'Ebenezer Scrooge': 1259, 'Scrooge McDuck': 4261} [CORRECT]"""
+{'Richie Rich': 18, 'Ebenezer Scrooge': 1259, 'Scrooge McDuck': 4261} [CORRECT]
+#####
+Total Time:		103.359555
+NLTK Time:		100.482385
+AI Time:		2.877170
+URL Time:		0.809182
+Keyword (Q) Time:	40.094527
+Keyword (A) Time:	21.009600
+Tokens (Q) Time:	0.000250
+Tokens (URL) Time:	39.378008
+Map Instance Time:	0.039363
+Score1 Time:		0.266139
+Score2 Time:		0.183737
+Score3 Time:		0.671506
+Score4 Time:		0.907243
+#####
+"""
 
 # compute_score(queryphrase="What material makes up the most kind of trash in US landfills", answers=["paper", "plastic", "metal"])
 
