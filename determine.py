@@ -30,12 +30,12 @@ def determineAnswer(results, choices, correct):
             for key, val in r.iteritems():
                 if val == z1:                    # If value is max
                     for c in choices:            
-                        if key == c:            # Max key is choice
+                        if key == c:                            # Max key is choice
                             points[choices.index(c)] += 1      # Add point value  
                             highestChoice = key          
                 t = float(val)
                 if a1 != 0:
-                    r[key] = t/a1                    # Normalize             
+                    r[key] = t/a1                           # Normalize             
             
             # Find normalized min val
             a2 = min(r.values())
@@ -45,7 +45,9 @@ def determineAnswer(results, choices, correct):
             for val in r.itervalues():
                 if val != a2 and val != z2:
                     confidence += r[highestChoice]/val
-     
+            if confidence == 0 or confidence > 99:
+                confidence = 99
+                
     determine_stop_time = time.time()
     de_time = (determine_stop_time - determine_start_time)
           

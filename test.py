@@ -54,4 +54,4 @@ def runQuery( questions, scoringFunction):
         
     print str(numberCorrect) + "/" + str(len(questions))
 
-runQuery( tp_Questions3, useAllScores)
+runQuery( tp_Questions2, useAllScores)

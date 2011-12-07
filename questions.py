@@ -15,11 +15,6 @@ tp_Questions1 = [
     ["What was discovered in the Klondike back in the 1890s", ["the abominable snowman", "a flying saucer", "gold"], 2, 6] #yellow5
 ]   
 
-tp_Questions2 = [
-    ["What is a tornado at sea called", ["a dust devil", "a waterspout", "a whirlwind"],1,7], #pink33
-    ["What activity is associated with the rhyme Miss Merry Mack", ["jumping rope", "clapping hands", "dancing"],1,8], #orange33
-    ["What man in blue does Top Cat go head to head with", ["Officer Dibble", "Officer Dribble", "Officer Dabble"], 0, 9] #green33
-]
 
 tp_Questions3 = [
     ["What kind of beans are used to make Boston baked beans", ["black beans", "navy beans", "lima beans"],1,10], #brown33

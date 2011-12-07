@@ -32,6 +32,10 @@ def output(text, choices, correct, nltk_data, results, answer, conf,
     print >>f, text
     print >>f, choices
     print >>f, correct
+    if answer[0] == 1:
+        print >>f, "Correct"
+    else:
+        print >>f, "Incorrect"
     print >>f, "Answer:\t\t%d"          % answer[1]
     print >>f, "Confidence:\t%d"        % conf
     print >>f, '\n#####'
