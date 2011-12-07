@@ -1,3 +1,4 @@
+import time
 import nltk
 import urllib2
 import re
@@ -272,47 +273,107 @@ def calculateDistanceWeight(distance):
 
 def compute_score(queryphrase="", keywords=[], answers=[], urls=[], rangevalue=50):
 
+    total_start_time = time.time()
+    
+
     # get urls
+    url_start_time = time.time()
     if urls == []:
         urls = getGoogleLinks(queryphrase, 3) # may want to change this number
+    url_stop_time = time.time()        
 
     # get question keywords
-    if keywords == []:
-        keywords = getSimpleQuestionKeywords(queryphrase)
-        weightedquestionkeywords = getWeightedQuestionKeywords(queryphrase)
+    keyword_q_start_time = time.time()
+    keywords = getSimpleQuestionKeywords(queryphrase)
     print keywords
+    keyword_q_stop_time = time.time()
+    
+    # get weighted question keywords
+    keyword_q_weighted_start_time = time.time()        
+    weightedquestionkeywords = getWeightedQuestionKeywords(queryphrase)
     print weightedquestionkeywords
+    keyword_q_weighted_stop_time = time.time()
 
     # get answer keywords
+    keyword_a_start_time = time.time()   
     weightedanswerkeywords = getAnswerKeywords(answers)
     print weightedanswerkeywords
+    keyword_a_stop_time = time.time()
 
     # get tokens from query
+    tokens_q_start_time = time.time()
     querytokens = nltk.word_tokenize(queryphrase)
+    tokens_q_stop_time = time.time()
 
     # get tokens for combined urls
+    tokens_url_start_time = time.time()
     combinedtokens = getTokens(urls)
+    tokens_url_stop_time = time.time()
 
     # find instances of keywords
+    instances_start_time = time.time()
     instances = getInstances(keywords, combinedtokens)
+    instances_stop_time = time.time()
 
     # score the occurrences of answer phrases
+    score1_start_time = time.time()
     scores = getSimpleAnswerPhraseScores(answers, combinedtokens)
     print scores
+    score1_stop_time = time.time()
 
     # score the occurrences of answer keywords
+    score2_start_time = time.time()
     scores = getSimpleAnswerKeywordScores(answers, combinedtokens)
     print scores
+    score2_stop_time = time.time()
 
     # score the occurrences of answer keywords by weights related to occurrences of question keywords
+    score3_start_time = time.time()
     scores = getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instances, rangevalue)
     print scores
+    score3_stop_time = time.time()
 
     # score the occurences of answer keywords by linear function related to occurrences of question keyword
+    score4_start_time = time.time()
     scores = getFunctionQuestionKeywordScores(answers, keywords, combinedtokens, instances, weightedquestionkeywords, weightedanswerkeywords)
     print scores
-    return scores
+    score4_stop_time = time.time()
+    
+    total_stop_time = time.time()
+    
+    # Calculate time
 
+    url =       (url_stop_time - url_start_time)
+    keyword_q = (keyword_q_stop_time - keyword_q_start_time)
+    keyword_a = (keyword_a_stop_time - keyword_a_start_time)
+    token_q =   (tokens_q_stop_time - tokens_q_start_time)
+    token_url = (tokens_url_stop_time - tokens_url_start_time)
+    instances = (instances_stop_time - instances_start_time)
+    score1 =    (score1_stop_time - score1_start_time)
+    score2 =    (score2_stop_time - score2_start_time)
+    score3 =    (score3_stop_time - score3_start_time)
+    score4 =    (score4_stop_time - score4_start_time)
+    total = (keyword_q+keyword_a+token_q+token_url+url+instances+score1+score2+score3+score4)
+     
+    # Print results & save
+    print '#####'
+    print "Total Time:\t\t%f"       % total
+    print "NLTK Time:\t\t%f"        % (keyword_q+keyword_a+token_q+token_url)
+    print "AI Time:\t\t%f"          % (url+instances+score1+score2+score3+score4)
+    print "URL Time:\t\t%f"         % url
+    print "Keyword (Q) Time:\t%f"   % keyword_q
+    print "Keyword (A) Time:\t%f"   % keyword_a
+    print "Tokens (Q) Time:\t%f"    % token_q
+    print "Tokens (URL) Time:\t%f"    % token_url
+    print "Map Instance Time:\t%f"    % instances
+    print "Score1 Time:\t\t%f"   % score1
+    print "Score2 Time:\t\t%f"   % score2
+    print "Score3 Time:\t\t%f"   % score3
+    print "Score4 Time:\t\t%f"   % score4
+    print '#####'
+    
+    return scores
+    
 # WORDNET TESTING
 
 def getSynonyms(keyword):
@@ -341,21 +402,21 @@ getSynonyms("swim")
 
 # GENERAL TEST RESULTS
 
-# compute_score(queryphrase="Which of these describes the tail of a healthy platypus", answers=["fat and strong", "long and squishy", "short and pinkish"])
+#compute_score(queryphrase="Which of these describes the tail of a healthy platypus", answers=["fat and strong", "long and squishy", "short and pinkish"])
 
 """Results, with answer choices broken into fragments, with scores of 1 for fragment, 10 for whole answer, times 2 if near keywords:
 ['platypus', 'tail', 'describes', 'healthy']
 {'fat and strong': 32, 'short and pinkish': 21, 'long and squishy': 63} [INCORRECT]
 {'fat and strong': 87440, 'short and pinkish': 43, 'long and squishy': 41261} [CORRECT]"""
 
-# compute_score(queryphrase="Which sport do players use a stick to cradle the ball", answers=["field hockey", "ice hockey", "lacrosse"])
+#compute_score(queryphrase="Which sport do players use a stick to cradle the ball", answers=["field hockey", "ice hockey", "lacrosse"])
 
 """Results, with answer choices broken into fragments, with scores of 1 for fragment, 10 for whole answer, times 2 if near keywords:
 ['sport', 'players', 'stick', 'ball'] [BAD: WHY NOT 'CRADLE'?]
 {'lacrosse': 1790, 'ice hockey': 28, 'field hockey': 294} [CORRECT]
 {'lacrosse': 281420, 'ice hockey': 5544, 'field hockey': 71962} [CORRECT]"""
 
-# compute_score(queryphrase="Whose favorite place to swim is in his money bin", answers=["Scrooge McDuck", "Richie Rich", "Ebenezer Scrooge"])
+compute_score(queryphrase="Whose favorite place to swim is in his money bin", answers=["Scrooge McDuck", "Richie Rich", "Ebenezer Scrooge"])
 
 """Results, with answer choices broken into fragments, with scores of 1 for fragment, 10 for whole answer, times 2 if near keywords:
 ['Whose', 'bin', 'favorite'] [WANT TO INCLUDE PLACE, SWIM]

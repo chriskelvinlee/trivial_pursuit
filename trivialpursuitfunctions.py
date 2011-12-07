@@ -112,12 +112,9 @@ def compute_score(queryphrase="", keywords=[], answers=[], urls=[], scoringFunct
     if keywords == []:
         keywords = getSimpleQuestionKeywords(queryphrase)
         weightedquestionkeywords = getWeightedQuestionKeywords(queryphrase)
-    #print keywords
-    #print weightedquestionkeywords
 
     # get answer keywords
     weightedanswerkeywords = getAnswerKeywords(answers)
-    #print weightedanswerkeywords
 
     # get tokens from query
     querytokens = nltk.word_tokenize(queryphrase)
