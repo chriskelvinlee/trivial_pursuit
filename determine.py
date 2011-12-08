@@ -127,10 +127,8 @@ def determineAnswer(results, choices, correct):
                 #finalConfidence += 10 #Optimize
                 confidence.append(10) #Optimize
     
-    print confidence
     # Individual Confidence
     for i in xrange(0,4):
-        print confidence[i]
         # Correct add to neutral
         if (candidateAnswers[i] == correct):
             confidence[i] = 50 + confidence[i]
@@ -144,7 +142,7 @@ def determineAnswer(results, choices, correct):
         if confidence[i] > 99:
             confidence[i] = 99
         finalConfidence += confidence[i]
-    print confidence
+
     
     finalConfidence = finalConfidence/4 # optimize
 
