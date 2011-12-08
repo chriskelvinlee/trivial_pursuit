@@ -1,0 +1,33 @@
+Which of these is supposed to bring good luck
+['seeing three butterflies', 'spilling salt', "eating black-eyed peas on New Year's Day"]
+eating black-eyed peas on New Year's Day
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		2		9		2		1		2
+Confidence:	57		50		73		48		55
+
+#####
+Total Time:		0.379197
+NLTK Time:		0.000000
+AI Time:		0.379197
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.019019
+Score2 Time:		0.021864
+Score3 Time:		0.096797
+Score4 Time:		0.241365
+#####
+
+raw results:
+[{}, {'seeing three butterflies': 1.0, 'spilling salt': 2.0, "eating black-eyed peas on New Year's Day": 47.57142857142857}, {'seeing three butterflies': 1.3540609137055837, 'spilling salt': 1.4555837563451777, "eating black-eyed peas on New Year's Day": 1.0}, {'seeing three butterflies': 1.0, 'spilling salt': 2.1333333333333333, "eating black-eyed peas on New Year's Day": 12.575}]
+
+score_result1:	{}
+score_result2:	{'seeing three butterflies': 1.0, 'spilling salt': 2.0, "eating black-eyed peas on New Year's Day": 47.57142857142857}
+score_result3:	{'seeing three butterflies': 1.3540609137055837, 'spilling salt': 1.4555837563451777, "eating black-eyed peas on New Year's Day": 1.0}
+score_result4:	{'seeing three butterflies': 1.0, 'spilling salt': 2.1333333333333333, "eating black-eyed peas on New Year's Day": 12.575}

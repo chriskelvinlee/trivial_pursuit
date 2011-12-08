@@ -1,0 +1,33 @@
+What does an Elvis impersonator usually wear
+['a rhinestone jumpsuit', 'a big cowbow hat', 'a black satin cape']
+a rhinestone jumpsuit
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		2		0		0
+Confidence:	62		50		48		51		99
+
+#####
+Total Time:		0.288802
+NLTK Time:		0.000000
+AI Time:		0.288802
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.032218
+Score2 Time:		0.028910
+Score3 Time:		0.108545
+Score4 Time:		0.118980
+#####
+
+raw results:
+[{}, {'a black satin cape': 2.6666666666666665, 'a big cowbow hat': 1.3333333333333333, 'a rhinestone jumpsuit': 1.0}, {'a black satin cape': 21.518229166666668, 'a big cowbow hat': 1.0, 'a rhinestone jumpsuit': 22.005208333333332}, {'a black satin cape': 1.6812420785804816, 'a big cowbow hat': 1.0, 'a rhinestone jumpsuit': 841.3181242078581}]
+
+score_result1:	{}
+score_result2:	{'a black satin cape': 2.6666666666666665, 'a big cowbow hat': 1.3333333333333333, 'a rhinestone jumpsuit': 1.0}
+score_result3:	{'a black satin cape': 21.518229166666668, 'a big cowbow hat': 1.0, 'a rhinestone jumpsuit': 22.005208333333332}
+score_result4:	{'a black satin cape': 1.6812420785804816, 'a big cowbow hat': 1.0, 'a rhinestone jumpsuit': 841.3181242078581}

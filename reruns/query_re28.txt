@@ -1,0 +1,33 @@
+What do they say instead of hello in France
+['bonjour', 'bon appetit', 'tres bien']
+bonjour
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		0		0		0
+Confidence:	72		40		53		99		99
+
+#####
+Total Time:		0.075298
+NLTK Time:		0.000000
+AI Time:		0.075298
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.012945
+Score2 Time:		0.007581
+Score3 Time:		0.022461
+Score4 Time:		0.032122
+#####
+
+raw results:
+[{'bonjour': 7}, {'tres bien': 1.0, 'bonjour': 3.5}, {'tres bien': 1.0, 'bonjour': 82195.0}, {'tres bien': 0, 'bonjour': 33200}]
+
+score_result1:	{'bonjour': 7}
+score_result2:	{'tres bien': 1.0, 'bonjour': 3.5}
+score_result3:	{'tres bien': 1.0, 'bonjour': 82195.0}
+score_result4:	{'tres bien': 0, 'bonjour': 33200}

@@ -1,0 +1,33 @@
+Which face on Mount Rushmore was actually blown up and sculpted again in a better location
+['Washington', 'Jefferson', 'Lincoln']
+Jefferson
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		0		0		0		0		0
+Confidence:	47		47		47		46		48
+
+#####
+Total Time:		0.498913
+NLTK Time:		0.000000
+AI Time:		0.498913
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.078440
+Score2 Time:		0.034426
+Score3 Time:		0.121411
+Score4 Time:		0.264472
+#####
+
+raw results:
+[{'Lincoln': 2.0384615384615383, 'Jefferson': 1.0, 'Washington': 5.576923076923077}, {'Lincoln': 2.0384615384615383, 'Jefferson': 1.0, 'Washington': 5.576923076923077}, {'Lincoln': 4.181775259678942, 'Jefferson': 1.0, 'Washington': 15.857412653446648}, {'Lincoln': 5.25821398483572, 'Jefferson': 1.0, 'Washington': 5.374894692502106}]
+
+score_result1:	{'Lincoln': 2.0384615384615383, 'Jefferson': 1.0, 'Washington': 5.576923076923077}
+score_result2:	{'Lincoln': 2.0384615384615383, 'Jefferson': 1.0, 'Washington': 5.576923076923077}
+score_result3:	{'Lincoln': 4.181775259678942, 'Jefferson': 1.0, 'Washington': 15.857412653446648}
+score_result4:	{'Lincoln': 5.25821398483572, 'Jefferson': 1.0, 'Washington': 5.374894692502106}

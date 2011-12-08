@@ -1,0 +1,33 @@
+Which sport do players use a stick to cradle the ball
+['field hockey', 'ice hockey', 'lacrosse']
+lacrosse
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		2		9		2		2		2
+Confidence:	65		40		54		99		68
+
+#####
+Total Time:		0.034805
+NLTK Time:		0.000000
+AI Time:		0.034805
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.005483
+Score2 Time:		0.002795
+Score3 Time:		0.009912
+Score4 Time:		0.016475
+#####
+
+raw results:
+[{'lacrosse': 18}, {'lacrosse': 18.0, 'ice hockey': 1.0, 'field hockey': 4.0}, {'lacrosse': 1711.25, 'ice hockey': 1.0, 'field hockey': 9.1875}, {'lacrosse': 3.412280701754386, 'ice hockey': 1.0, 'field hockey': 1.0}]
+
+score_result1:	{'lacrosse': 18}
+score_result2:	{'lacrosse': 18.0, 'ice hockey': 1.0, 'field hockey': 4.0}
+score_result3:	{'lacrosse': 1711.25, 'ice hockey': 1.0, 'field hockey': 9.1875}
+score_result4:	{'lacrosse': 3.412280701754386, 'ice hockey': 1.0, 'field hockey': 1.0}

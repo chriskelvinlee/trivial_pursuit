@@ -1,0 +1,33 @@
+Which of these describes the tail of a healthy platypus
+['fat and strong', 'long and squishy', 'short and pinkish']
+fat and strong
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		1		0		0
+Confidence:	62		50		48		52		99
+
+#####
+Total Time:		0.240200
+NLTK Time:		0.000000
+AI Time:		0.240200
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.033248
+Score2 Time:		0.025463
+Score3 Time:		0.081643
+Score4 Time:		0.099700
+#####
+
+raw results:
+[{}, {'fat and strong': 1.875, 'short and pinkish': 1.0, 'long and squishy': 2.125}, {'fat and strong': 3227.037037037037, 'short and pinkish': 1.0, 'long and squishy': 1520.4074074074074}, {'fat and strong': 32966, 'short and pinkish': 0, 'long and squishy': 0}]
+
+score_result1:	{}
+score_result2:	{'fat and strong': 1.875, 'short and pinkish': 1.0, 'long and squishy': 2.125}
+score_result3:	{'fat and strong': 3227.037037037037, 'short and pinkish': 1.0, 'long and squishy': 1520.4074074074074}
+score_result4:	{'fat and strong': 32966, 'short and pinkish': 0, 'long and squishy': 0}

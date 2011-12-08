@@ -1,0 +1,33 @@
+What words does The Gold rule begin with
+['Thou shall not', 'Do unto others', 'All that glitters']
+Do unto others
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		9		0		1		1
+Confidence:	58		50		31		52		99
+
+#####
+Total Time:		0.398240
+NLTK Time:		0.000000
+AI Time:		0.398240
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.046135
+Score2 Time:		0.026279
+Score3 Time:		0.106463
+Score4 Time:		0.219221
+#####
+
+raw results:
+[{}, {'Do unto others': 1.0, 'Thou shall not': 18.823529411764707}, {'Do unto others': 2.828828828828829, 'Thou shall not': 1.0}, {'Do unto others': 264, 'Thou shall not': 0}]
+
+score_result1:	{}
+score_result2:	{'Do unto others': 1.0, 'Thou shall not': 18.823529411764707}
+score_result3:	{'Do unto others': 2.828828828828829, 'Thou shall not': 1.0}
+score_result4:	{'Do unto others': 264, 'Thou shall not': 0}

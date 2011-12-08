@@ -1,0 +1,33 @@
+What is each member of a winning Super Bowl team given
+['a bronzed jersey', 'a green jacket', 'a ring']
+a ring
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		2		9		2		2		2
+Confidence:	77		50		61		99		99
+
+#####
+Total Time:		0.105781
+NLTK Time:		0.000000
+AI Time:		0.105781
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.010944
+Score2 Time:		0.007016
+Score3 Time:		0.030630
+Score4 Time:		0.057053
+#####
+
+raw results:
+[{}, {'a green jacket': 1.0, 'a ring': 11.666666666666666}, {'a green jacket': 1.0, 'a ring': 427.38600498477484}, {'a green jacket': 1.0, 'a ring': 129.52304609218436}]
+
+score_result1:	{}
+score_result2:	{'a green jacket': 1.0, 'a ring': 11.666666666666666}
+score_result3:	{'a green jacket': 1.0, 'a ring': 427.38600498477484}
+score_result4:	{'a green jacket': 1.0, 'a ring': 129.52304609218436}

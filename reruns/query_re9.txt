@@ -1,0 +1,33 @@
+What stroke do swimmers usually use in a freestyle race
+['front crawl', 'butterfly', 'breaststroke']
+front crawl
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		0		0		1		1
+Confidence:	50		51		53		48		48
+
+#####
+Total Time:		0.177329
+NLTK Time:		0.000000
+AI Time:		0.177329
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.016795
+Score2 Time:		0.007420
+Score3 Time:		0.044458
+Score4 Time:		0.108498
+#####
+
+raw results:
+[{'butterfly': 1.0, 'front crawl': 1.0952380952380953, 'breaststroke': 1.0476190476190477}, {'butterfly': 1.0, 'front crawl': 3.3333333333333335, 'breaststroke': 1.0476190476190477}, {'butterfly': 41.14336492890995, 'front crawl': 1.0, 'breaststroke': 32.29783767772512}, {'butterfly': 1.6230133308928953, 'front crawl': 1.0570025319544858, 'breaststroke': 1.0}]
+
+score_result1:	{'butterfly': 1.0, 'front crawl': 1.0952380952380953, 'breaststroke': 1.0476190476190477}
+score_result2:	{'butterfly': 1.0, 'front crawl': 3.3333333333333335, 'breaststroke': 1.0476190476190477}
+score_result3:	{'butterfly': 41.14336492890995, 'front crawl': 1.0, 'breaststroke': 32.29783767772512}
+score_result4:	{'butterfly': 1.6230133308928953, 'front crawl': 1.0570025319544858, 'breaststroke': 1.0}

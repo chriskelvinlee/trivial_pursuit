@@ -44,6 +44,10 @@ def output(text, choices, correct, nltk_data, results, results_raw, answer,
     print >>f, text
     print >>f, choices
     print >>f, choices[correct]
+    if answer[0] == 1:
+        print >>f, "Success!\n"
+    else:
+        print >>f, "Failurez :(\n"
     print >>f, "Index Order: 0,1,2,3,4"
     print >>f, "Correct:\t%d\t\t%d\t\t%d\t\t%d\t\t%d"  % (correct,correct,correct,correct,correct)
     print >>f, "Answer:\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d" % (answer[1],cand[0],cand[1],cand[2],cand[3])

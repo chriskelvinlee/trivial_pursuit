@@ -1,0 +1,33 @@
+How is the mail order bridge Sarah described in a book title
+['plump and pretty', 'plain and tall', 'long and skinny']
+plain and tall
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		9		9		2		1		0
+Confidence:	48		50		45		51		49
+
+#####
+Total Time:		0.244527
+NLTK Time:		0.000000
+AI Time:		0.244527
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.041358
+Score2 Time:		0.028745
+Score3 Time:		0.082805
+Score4 Time:		0.091487
+#####
+
+raw results:
+[{}, {'long and skinny': 10.0, 'plump and pretty': 1.0, 'plain and tall': 2.0}, {'long and skinny': 6.0, 'plump and pretty': 1.0, 'plain and tall': 8.25}, {'long and skinny': 0, 'plump and pretty': 28, 'plain and tall': 21}]
+
+score_result1:	{}
+score_result2:	{'long and skinny': 10.0, 'plump and pretty': 1.0, 'plain and tall': 2.0}
+score_result3:	{'long and skinny': 6.0, 'plump and pretty': 1.0, 'plain and tall': 8.25}
+score_result4:	{'long and skinny': 0, 'plump and pretty': 28, 'plain and tall': 21}

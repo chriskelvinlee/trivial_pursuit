@@ -1,0 +1,33 @@
+What kind of beans are used to make Boston baked beans
+['black beans', 'navy beans', 'lima beans']
+navy beans
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		2		0		1		1
+Confidence:	62		48		48		99		51
+
+#####
+Total Time:		0.225581
+NLTK Time:		0.000000
+AI Time:		0.225581
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.017974
+Score2 Time:		0.012398
+Score3 Time:		0.058778
+Score4 Time:		0.136263
+#####
+
+raw results:
+[{'lima beans': 2.1666666666666665, 'black beans': 1.0, 'navy beans': 2.0}, {'lima beans': 1.0, 'black beans': 1.0169082125603865, 'navy beans': 1.0120772946859904}, {'lima beans': 2.7347729789590254, 'black beans': 1.0, 'navy beans': 2910.4797895902548}, {'lima beans': 4.306874717322478, 'black beans': 1.0, 'navy beans': 4.909317051108096}]
+
+score_result1:	{'lima beans': 2.1666666666666665, 'black beans': 1.0, 'navy beans': 2.0}
+score_result2:	{'lima beans': 1.0, 'black beans': 1.0169082125603865, 'navy beans': 1.0120772946859904}
+score_result3:	{'lima beans': 2.7347729789590254, 'black beans': 1.0, 'navy beans': 2910.4797895902548}
+score_result4:	{'lima beans': 4.306874717322478, 'black beans': 1.0, 'navy beans': 4.909317051108096}

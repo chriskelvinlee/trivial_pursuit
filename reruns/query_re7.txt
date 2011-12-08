@@ -1,0 +1,33 @@
+Which of these numbers is a thousand thousands
+['a million', 'a billion', 'a trillion']
+a million
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		9		9		9		9		9
+Confidence:	42		50		40		40		40
+
+#####
+Total Time:		0.037461
+NLTK Time:		0.000000
+AI Time:		0.037461
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.008734
+Score2 Time:		0.002974
+Score3 Time:		0.012297
+Score4 Time:		0.013374
+#####
+
+raw results:
+[{}, {'a million': 5}, {'a million': 132}, {'a million': 0}]
+
+score_result1:	{}
+score_result2:	{'a million': 5}
+score_result3:	{'a million': 132}
+score_result4:	{'a million': 0}

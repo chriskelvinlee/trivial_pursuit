@@ -63,4 +63,18 @@ def runQuery( questions, scoringFunction, cache=False):
         
     print str(numberCorrect) + "/" + str(len(questions))
 
-runQuery( tp_Questions0, useAllScores, cache=True)
+runQuery(tp_Questions0, useAllScores, cache=True)
+runQuery(tp_Questions1, useAllScores, cache=True)
+runQuery(tp_Questions2, useAllScores, cache=True)
+runQuery(tp_Questions3, useAllScores, cache=True)
+runQuery(tp_Questions4, useAllScores, cache=True)
+runQuery(tp_Questions5, useAllScores, cache=True)
+runQuery(tp_Questions6, useAllScores, cache=True)
+runQuery(tp_Questions7, useAllScores, cache=True)
+runQuery(tp_Questions8, useAllScores, cache=True)
+runQuery(tp_Questions9, useAllScores, cache=True)
+runQuery(tp_Questions10, useAllScores, cache=True)
+runQuery(tp_Questions11, useAllScores, cache=True)
+
+
+

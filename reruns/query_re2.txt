@@ -1,0 +1,33 @@
+How much time does it take for the space shuttle to get into space
+['about 10 minutes', '4 hours', '2 days']
+about 10 minutes
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		0		0		9
+Confidence:	50		50		51		51		50
+
+#####
+Total Time:		0.057598
+NLTK Time:		0.000000
+AI Time:		0.057598
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.010444
+Score2 Time:		0.004456
+Score3 Time:		0.015094
+Score4 Time:		0.027408
+#####
+
+raw results:
+[{}, {'about 10 minutes': 2.1, '4 hours': 1.0, '2 days': 1.1}, {'about 10 minutes': 79.22507122507122, '4 hours': 62.25925925925926, '2 days': 1.0}, {'about 10 minutes': 0, '4 hours': 0, '2 days': 0}]
+
+score_result1:	{}
+score_result2:	{'about 10 minutes': 2.1, '4 hours': 1.0, '2 days': 1.1}
+score_result3:	{'about 10 minutes': 79.22507122507122, '4 hours': 62.25925925925926, '2 days': 1.0}
+score_result4:	{'about 10 minutes': 0, '4 hours': 0, '2 days': 0}

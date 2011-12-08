@@ -1,0 +1,33 @@
+What did the word dude mean 100 years ago
+['a crook', 'a cowboy', 'a classy dresser']
+a classy dresser
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		9		9		9		9		9
+Confidence:	42		50		40		40		40
+
+#####
+Total Time:		0.177797
+NLTK Time:		0.000000
+AI Time:		0.177797
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.039184
+Score2 Time:		0.023225
+Score3 Time:		0.062899
+Score4 Time:		0.052402
+#####
+
+raw results:
+[{}, {'a cowboy': 2}, {'a cowboy': 2}, {'a cowboy': 0}]
+
+score_result1:	{}
+score_result2:	{'a cowboy': 2}
+score_result3:	{'a cowboy': 2}
+score_result4:	{'a cowboy': 0}

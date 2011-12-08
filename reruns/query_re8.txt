@@ -1,0 +1,33 @@
+Where did the bear go to see what he could see in a popular old song
+['under the sea', 'over the mountain', 'through the woods']
+over the mountain
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		0		9		0		0		1
+Confidence:	51		50		44		48		62
+
+#####
+Total Time:		0.440050
+NLTK Time:		0.000000
+AI Time:		0.440050
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.106037
+Score2 Time:		0.042247
+Score3 Time:		0.130606
+Score4 Time:		0.161004
+#####
+
+raw results:
+[{}, {'over the mountain': 3.4, 'under the sea': 19.2, 'through the woods': 1.0}, {'over the mountain': 1.0, 'under the sea': 1.6271186440677967, 'through the woods': 1.1694915254237288}, {'over the mountain': 1824, 'under the sea': 0, 'through the woods': 147}]
+
+score_result1:	{}
+score_result2:	{'over the mountain': 3.4, 'under the sea': 19.2, 'through the woods': 1.0}
+score_result3:	{'over the mountain': 1.0, 'under the sea': 1.6271186440677967, 'through the woods': 1.1694915254237288}
+score_result4:	{'over the mountain': 1824, 'under the sea': 0, 'through the woods': 147}
