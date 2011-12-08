@@ -3,9 +3,10 @@ from trivialpursuitfunctions import *
 from scoring import *
 from output import *
 from determine import *
+from importcache import *
 
 #What other options should test take in?
-def runQuery( questions, scoringFunction):
+def runQuery( questions, scoringFunction, cache=False):
     numberCorrect = 0
     currentCount = 0
     for question in questions:
@@ -19,28 +20,36 @@ def runQuery( questions, scoringFunction):
         correct = question[2]
         outputCount = question[3]
         
-        print "Processing NLTK..."
-        # Parse urls, questions, answers and generate keywords
-        raw = NLTK_parse(queryphrase=text, answers=choices)
-        nltk_data = raw[0]          # array of size 6
-        nltk_time = raw[1]          # array of size 6
+        if cache == False:
+            print "Processing NLTK..."
+            # Parse urls, questions, answers and generate keywords
+            raw = NLTK_parse(queryphrase=text, answers=choices)
+            nltk_data = raw[0]          # array of size 6
+            nltk_time = raw[1]          # array of size 6
+        else:
+            print "Reading in NLTK cache..."
+            nltk_data = readCache(outputCount)
+            nltk_time = [0]*6
+
 
         print "AI & Scoring..."
         # Get answer weight with scoring function(s)
         weights = score(choices, nltk_data, scoringFunction)
         results = weights[0]      # array of size 4
-        ai_time = weights[1]        # array of size 4
+        ai_time = weights[1]      # array of size 4
+        results_raw = results
 
         print "Determining Answer..."
         # Normalize to determine answer
         correctness = determineAnswer(results, choices, correct)
-        answer  = correctness[0]
-        conf    = correctness[1]
-        de_time = correctness[2]
+        answer      = correctness[0]
+        confidence  = correctness[1]
+        candidate   = correctness[2]
+        de_time     = correctness[3]
 
         # Save the results sys.out txt
-        output(text, choices, correct, nltk_data, results, answer, conf,
-            nltk_time, ai_time, de_time, outputCount)
+        output(text, choices, correct, nltk_data, results, results_raw, answer, confidence, candidate, nltk_time, ai_time, de_time, outputCount, cache)
+        
         print "*****"
         
         # Print results live
@@ -54,4 +63,4 @@ def runQuery( questions, scoringFunction):
         
     print str(numberCorrect) + "/" + str(len(questions))
 
-runQuery( tp_Questions1, useAllScores)
+runQuery( tp_Questions0, useAllScores, cache=True)
