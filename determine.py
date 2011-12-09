@@ -28,6 +28,13 @@ def determineAnswer(results, choices, correct):
     confidence = []
     candidateAnswers =[]
     
+#########
+## Permutations ##   
+#   Catch all permutations of scores. Determine top candidate answer for
+#   each scoring function, and return the relative normalized confidence.
+#
+#########
+    
     # Loop through all score dict results
     for r in results:
         # If dict has 0 candidate answers
@@ -35,51 +42,55 @@ def determineAnswer(results, choices, correct):
             # Neutral score
             confidence.append(0)
             candidateAnswers.append(9)
-        # Score set cannot be empty
+        # If dict has 1, 2, or 3 candidate answers
         else:
             # Max and min values  
             highestChoice = ""
             a1 = min(r.values())
             z1 = max(r.values())
+            # Returns sorted dict values 
             sortedpoo = sorted(r.values())
-            # If all values are the same
+            # If all values are equal
             if (a1 == z1):
-                # Neutral score
-                candidateAnswers.append(9)
-            # If 1st and 2nd values are the same
+                candidateAnswers.append(9) # Neutral score
+            # If 1st and 2nd largest values are equal
             elif len(r) == 3 and sortedpoo[1] == sortedpoo[2]:
                 same_key = []
                 for key, val in r.iteritems():
                     if val == sortedpoo[1]:
                         same_key.append(key)
-                # Randomly choose between the two
+                # Break tie to randomly choose between the two
                 if random.random() > .5:
                     r[same_key[0]] = 1 + r[same_key[0]]
                     z1 = max(r.values())
                 else:
                     r[same_key[1]] = 1 + r[same_key[1]]
                     z1 = max(r.values())
-                "very bad inefficient code"
+                "very bad inefficient code, duplicate from below"
+                # If min is 0, use 2nd largest value as normalizing value
                 if ( a1 == 0):
                     for val in r.itervalues():
                         if val != a1 and val != z1:
                             a1 = val
-                # Iterate through dict
+                # Iterate key and value through dict
                 for key, val in r.iteritems():
                     # If value is max
                     if val == z1:   
-                        for c in choices:            
+                        # Go through all the candidate choices
+                        for c in choices:
+                            # if the max value matches the candidate choice            
                             if key == c:    
                                 # Add point value                     
                                 points[choices.index(c)] += 1   # Optimize
                                 # Remember key 
                                 highestChoice = key
-                                # This unique score's candidate answer
+                                # Remember this score unique score's candidate answer
                                 candidateAnswers.append(choices.index(highestChoice))        
                     t = float(val)
                     if a1 != 0:
                         # Normalize
                         r[key] = t/a1 
+            # For all other cases
             else:           
                 # Iterate through dict
                 for key, val in r.iteritems():
@@ -96,18 +107,30 @@ def determineAnswer(results, choices, correct):
                     t = float(val)
                     if a1 != 0:
                         # Normalize
-                        r[key] = t/a1             
+                        r[key] = t/a1     
+                        
+#########
+## Final Confidence Score ##   
+#   Treat all edge case scenarios independently, and begin to aggregate
+#   a final confidence score. 
+#
+#########
+                        
+                                
             # Find normalized min val
             a2 = min(r.values())
             z2 = max(r.values())
             sortedpoo2 = sorted(r.values())
             # If dict has 3 candidate answers
             if len(r) == 3:
+                # If 2 score values are identical
                 if sortedpoo2[0] == sortedpoo2[1] and sortedpoo2[1] != sortedpoo2[2]:
                     #finalConfidence += (r[highestChoice]+15)
-                    confidence.append(r[highestChoice]+15)
+                    confidence.append(r[highestChoice]+15)              # Optimize
+                # If 3 score values are identical
                 if sortedpoo2[0] == sortedpoo2[1] == sortedpoo2[2]:
                     confidence.append(0)
+                # If all score values are unique
                 else:               
                     # Multiplier of 1st vs 2nd
                     for val in r.itervalues():
@@ -121,7 +144,7 @@ def determineAnswer(results, choices, correct):
                 if a2 == 0:
                     a2 = 1
                 #finalConfidence += z2/a2
-                confidence.append(z2/a2)
+                confidence.append(z2/a2)                            #Optimize
             # If dict has 1 candidate answers
             elif len(r) == 1:
                 #finalConfidence += 10 #Optimize
@@ -131,20 +154,31 @@ def determineAnswer(results, choices, correct):
     for i in xrange(0,4):
         # Correct add to neutral
         if (candidateAnswers[i] == correct):
-            confidence[i] = 50 + confidence[i]
+            confidence[i] = 50 + confidence[i]      #Optimize
         # Incorrect subtract from neutral
         else:
-            confidence[i] = 50 - confidence[i]
+            confidence[i] = 50 - confidence[i]      # Optimize
             
         # Bound below by zero    
         if confidence[i] < 0:
             confidence[i] = 0
         if confidence[i] > 99:
             confidence[i] = 99
-        finalConfidence += confidence[i]
+        finalConfidence += confidence[i]        # Optimize
 
-    
-    finalConfidence = finalConfidence/4 # optimize
+
+#########
+## TODO ##   
+#   Currently, we take the average of the confidence score after
+#   each hae been penalized or rewarded for incorrect or correct answers.
+#   We need to write a function that takes into consideration that if 3
+#   are weakly confident but wrong, vs 1 score is strongly confident and
+#   right (score4)
+#
+#########
+
+    # Average of all scores
+    finalConfidence = finalConfidence/4         # Optimize
 
         
     # FinalConfidence -> Normalize for plotting      

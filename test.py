@@ -27,7 +27,12 @@ def runQuery( questions, scoringFunction, cache=False):
             nltk_data = raw[0]          # array of size 6
             nltk_time = raw[1]          # array of size 6
         else:
+            ########################
+            #  Change output file directory in output.py
+            #   so you dont overwrite over previous results!!!
+            ########################
             print "Reading in NLTK cache..."
+            # Read in from cache
             nltk_data = readCache(outputCount)
             nltk_time = [0]*6
 
@@ -62,23 +67,24 @@ def runQuery( questions, scoringFunction, cache=False):
         print bld
         
     print str(numberCorrect) + "/" + str(len(questions))
-"""
+
+
+# Turn cache to True to run through all 36 questions
+# You can decide to go back to questions.py, and put everything
+# under a tp_QuestionsAll array
 runQuery(tp_Questions0, useAllScores, cache=True)
 runQuery(tp_Questions1, useAllScores, cache=True)
 runQuery(tp_Questions2, useAllScores, cache=True)
 runQuery(tp_Questions3, useAllScores, cache=True)
-
-"""
 runQuery(tp_Questions4, useAllScores, cache=True)
-
-"""runQuery(tp_Questions5, useAllScores, cache=True)
+runQuery(tp_Questions5, useAllScores, cache=True)
 runQuery(tp_Questions6, useAllScores, cache=True)
 runQuery(tp_Questions7, useAllScores, cache=True)
 runQuery(tp_Questions8, useAllScores, cache=True)
 runQuery(tp_Questions9, useAllScores, cache=True)
 runQuery(tp_Questions10, useAllScores, cache=True)
 runQuery(tp_Questions11, useAllScores, cache=True)
-"""
+
 
 
 
