@@ -84,8 +84,13 @@ def getAnswerKeywords(answers):
 
 def getTokens(urls):
     combinedtokens = []
+    
+    user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
+    headers={'User-Agent':user_agent,} 
+    
     for url in urls:
-        html = urlopen(url).read()
+        req = urllib2.Request(url,None,headers)
+        html = urlopen(req).read()
         raw = nltk.clean_html(html)
         combinedtokens += nltk.word_tokenize(raw)
     # may need to adjust 2 value here depending on answer choices
