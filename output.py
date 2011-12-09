@@ -34,11 +34,16 @@ def output(text, choices, correct, nltk_data, results, results_raw, answer,
         print >>f, nltk_data[4]
         print >>f, nltk_data[5]
         f.close()
-        # Write to results
+        ########################
+        #  WRITE NEW RESULTS
+        ########################
         f = open('results/query{}.txt'.format(outputCount), 'w')
     # Print results to cache
     else:
-        f = open('reruns/query_re{}.txt'.format(outputCount), 'w')
+        ########################
+        #  WRITE TO CACHE
+        ########################
+        f = open('reruns/query_re1_{}.txt'.format(outputCount), 'w')
         
     #Output files    
     print >>f, text
