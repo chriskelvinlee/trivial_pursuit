@@ -37,7 +37,7 @@ def runQuery( questions, scoringFunction, cache=False):
         weights = score(choices, nltk_data, scoringFunction)
         results = weights[0]      # array of size 4
         ai_time = weights[1]      # array of size 4
-        results_raw = results
+        results_raw = str(results)
 
         print "Determining Answer..."
         # Normalize to determine answer
@@ -62,19 +62,23 @@ def runQuery( questions, scoringFunction, cache=False):
         print bld
         
     print str(numberCorrect) + "/" + str(len(questions))
-
+"""
 runQuery(tp_Questions0, useAllScores, cache=True)
 runQuery(tp_Questions1, useAllScores, cache=True)
 runQuery(tp_Questions2, useAllScores, cache=True)
 runQuery(tp_Questions3, useAllScores, cache=True)
+
+"""
 runQuery(tp_Questions4, useAllScores, cache=True)
-runQuery(tp_Questions5, useAllScores, cache=True)
+
+"""runQuery(tp_Questions5, useAllScores, cache=True)
 runQuery(tp_Questions6, useAllScores, cache=True)
 runQuery(tp_Questions7, useAllScores, cache=True)
 runQuery(tp_Questions8, useAllScores, cache=True)
 runQuery(tp_Questions9, useAllScores, cache=True)
 runQuery(tp_Questions10, useAllScores, cache=True)
 runQuery(tp_Questions11, useAllScores, cache=True)
+"""
 
 
 
