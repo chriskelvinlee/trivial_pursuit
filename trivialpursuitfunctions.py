@@ -75,7 +75,8 @@ def getAnswerKeywords(answers):
     answerfrequencies = {}
     for answer in answers:
          answertokens = nltk.word_tokenize(answer)
-         answertokens = [t for t in answertokens if len(t) > 2 and (t.lower() not in ignored_words)]
+         # may need to adjust 0 value here
+         answertokens = [t for t in answertokens if len(t) > 0 and (t.lower() not in ignored_words)]
          tagged = nltk.pos_tag(answertokens)
          for pair in tagged:
              frequency = browndist[pair[0]] + reutersdist[pair[0]]
@@ -93,8 +94,8 @@ def getTokens(urls):
         html = urlopen(req).read()
         raw = nltk.clean_html(html)
         combinedtokens += nltk.word_tokenize(raw)
-    # may need to adjust 2 value here depending on answer choices
-    combinedtokens = [t for t in combinedtokens if len(t) > 2 and t.lower() not in ignored_words]
+    # may need to adjust 0 value here
+    combinedtokens = [t for t in combinedtokens if len(t) > 0 and t.lower() not in ignored_words]
     return combinedtokens
 
 def getInstances(keywords, combinedtokens):

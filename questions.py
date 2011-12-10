@@ -94,7 +94,6 @@ tp_Questions14 = [
     ["Who are the three visitors in the opera Amahl and the Night Visitors", ["The Three Musketeers", "The Three Amigos", "The Three Wise Men"],2,45]
 ]
 
-# Fix: cutting out words under a certain length if answer contains short words"
 tp_Questions15 = [
     ["What's the minimum height requirement to ride Disney World's Splash Mountain", ["40 inches", "52 inches", "60 inches"],0,46]
     ["How many holes are on the bottom of a Twinkie", ["2", "3", "there aren't any"],1,47]
@@ -122,7 +121,7 @@ tp_Questions18 = [
 tp_Questions19 = [
     ["Which breakfast food is called Viennese bread in Copenhagen", ["French toast", "English muffins", "Danish pastries"],2,58]
     ["Which little vegetables are slang for something trivial", ["tiny turnips", "baby onions", "small potatoes"],2,59]
-    ["Which post was the Titanic heading for when it sank", ["London", "New York", "Paris"],1,60]
+    ["Which port was the Titanic heading for when it sank", ["London", "New York", "Paris"],1,60]
 ]
 
 tp_Questions20 = [
@@ -140,7 +139,7 @@ tp_Questions21 = [
 tp_Questions22 = [
     ["What's a male ladybug called", ["a gentlemanbug", "a ladbug", "a ladybug"],2,67]
     ["What's the most popular sport in the Netherlands", ["windmill jumping", "ice skating", "swimming"],1,68]
-    ["Which one of these animals was the name a rock group", ["the Monkees", "the Donkees", "the Turkees"],0,69]
+    ["Which one of these animals was the name of a rock group", ["the Monkees", "the Donkees", "the Turkees"],0,69]
 ]
 
 tp_Questions23 = [
@@ -152,7 +151,7 @@ tp_Questions23 = [
 tp_Questions24 = [
     ["What tree's seeds have two wings and twirl like mini-copters when they fall to the ground", ["a maple", "an oak", "a yew"],0,73]
     ["What's a baseball covered with", ["pigskin", "cowhide", "pleather"],1,74]
-    ["Where do Brook-hilda, Irwin Troll and Gaylord Buzzard live", ["Sherwood Forest", "Enchanted Forest", "Hundred Acre Wood"],1,75]
+    ["Where do Broom-hilda, Irwin Troll and Gaylord Buzzard live", ["Sherwood Forest", "Enchanted Forest", "Hundred Acre Wood"],1,75]
 ]
 
 tp_Questions25 = [
@@ -162,15 +161,15 @@ tp_Questions25 = [
 ]
 
 tp_Questions26 = [
-    ["How do chimps usually make up after a fight", ["they hug and kiss", "they share a banana", "they sign to each other"],0,79]
+    ["How do chimps usually make up after a fight", ["they hug and kiss", "they share a banana", "they sing to each other"],0,79]
     ["Whose picture is on the joker in a deck of cards", ["a clown", "a court jester", "a munchkin"],1,80]
     ["Which obnoxious twosome are in a book by Roald Dahl", ["The Dweebs", "the Twits", "the Dorks"],1,81]
 ]
 
 tp_Questions27 = [
     ["What percent of the world's population is under the age of 15 years old", ["10", "20", "30"],2,82]
-    ["What are the last names of the twosome Meriwther and William", ["Abercrombie and Fitch", "Goofus and Gallant", "Lewis and Clark"],2,83]
-    ["What was the first year the Girl Scouts baked and sold cookis", ["1917", "1950", "1977"],0,84]
+    ["What are the last names of the twosome Meriwether and William", ["Abercrombie and Fitch", "Goofus and Gallant", "Lewis and Clark"],2,83]
+    ["What was the first year the Girl Scouts baked and sold cookies", ["1917", "1950", "1977"],0,84]
 ]
 
 tp_Questions28 = [
@@ -194,7 +193,7 @@ tp_Questions30 = [
 tp_Questions31 = [
     ["What does someone become after being canonized", ["a zombie", "a citizen", "a saint"],2,94]
     ["Which of these US presidents is not pictured on both a coin and a bill", ["Thomas Jefferson", "Abraham Lincoln", "John F. Kennedy"],2,95]
-    ["What color was the first smiler face circle when it appeared in the 1960s", ["blue", "yellow", "red"],1,96]
+    ["What color was the first smiley face circle when it appeared in the 1960s", ["blue", "yellow", "red"],1,96]
 ]
 
 tp_Questions32 = [
