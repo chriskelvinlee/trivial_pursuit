@@ -25,14 +25,9 @@ for fname in fileList:
         if correct[i] == answer[i]:
             numsCorrect[i] += 1
         elif answer[i] == "9":
-            #if the dictionary of length 1, count as correct
-            #TODO actually check that it's correct plz
             if len(dicts[i - 1]) == 1:
                 if (dicts[i-1].keys()[0] == lines[2].strip("\n")):
                     numsCorrect[i - 1] += 1
-                else:
-                    print dicts[i-1].keys()[0]
-                    print lines[2]
     total += 1
 
     #CONFIDENCE PORTION
@@ -40,6 +35,9 @@ for fname in fileList:
     for i in range(len(confidence)):
         confidences[i].append(int(confidence[i]))
     indexes.append(int(fname.strip("query.txt_")))
-print confidences
-print indexes
-print numsCorrect
+
+output = open('results.txt', "w")
+print >> output, confidences
+print >> output, indexes
+print >> output, numsCorrect
+print >> output, total
