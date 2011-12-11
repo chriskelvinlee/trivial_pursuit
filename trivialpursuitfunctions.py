@@ -116,7 +116,7 @@ def NLTK_parse(queryphrase="", answers=[], urls=[], scoringFunction = getSimpleA
     # Get urls
     url_start_time = time.time()
     if urls == []:
-        urls = getGoogleLinks(queryphrase, 1) # may want to change this number
+        urls = getGoogleLinks(queryphrase, 5) # may want to change this number
     url_stop_time = time.time()        
 
     # Get question keywords

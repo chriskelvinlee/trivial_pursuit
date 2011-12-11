@@ -184,8 +184,8 @@ def determineAnswer(results, choices, correct):
     # FinalConfidence -> Normalize for plotting      
     answer_index = points.index(max(points))
     # If bad results, failed
-    if max(points) == min(points):
-        answer_index = 9
+    # if max(points) == min(points):
+        # answer_index = 9
     
     """
     if answer_index == correct:

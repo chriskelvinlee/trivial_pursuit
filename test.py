@@ -89,7 +89,4 @@ runQuery(tp_Questions10, useAllScores, cache=False)
 
 
 
-runQuery(tp_Questions12, useAllScores, cache=False)
-
-
-
+runQuery(tp_Questions12, useAllScores, cache=True)

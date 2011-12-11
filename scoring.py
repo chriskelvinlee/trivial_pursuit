@@ -86,8 +86,8 @@ def getSimpleAnswerKeywordScores(answers, keywords, combinedtokens, instances, w
         answertokens = nltk.word_tokenize(answer)
         print answertokens
         answerrange = findrange(len(answertokens))
-        # may need to adjust 2 value here depending on answer choices
-        splitanswertokens = [t for t in answertokens if len(t) > 2 and (t.lower() not in ignored_words)]
+        # may need to adjust 0 value here
+        splitanswertokens = [t for t in answertokens if len(t) > 0 and (t.lower() not in ignored_words)]
         splitrange = findrange(len(splitanswertokens))
         for j in splitrange:
             for i in tokenrange:
@@ -113,8 +113,8 @@ def getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instance
     for answer in answers:
         answertokens = nltk.word_tokenize(answer)
         answerrange = findrange(len(answertokens))
-        # may need to adjust 2 value here depending on answer choices
-        splitanswertokens = [t for t in answertokens if len(t) > 2 and (t.lower() not in ignored_words)]
+        # may need to adjust 0 value here
+        splitanswertokens = [t for t in answertokens if len(t) > 0 and (t.lower() not in ignored_words)]
         splitrange = findrange(len(splitanswertokens))
         for j in splitrange:
             for i in tokenrange:
@@ -158,7 +158,7 @@ def getFunctionQuestionKeywordScores(answers, keywords, combinedtokens, instance
         answertokens = nltk.word_tokenize(answer)
         answerrange = findrange(len(answertokens))
         # may need to adjust 2 value here depending on answer choices
-        splitanswertokens = [t for t in answertokens if len(t) > 2 and (t.lower() not in ignored_words)]
+        splitanswertokens = [t for t in answertokens if len(t) > 0 and (t.lower() not in ignored_words)]
         splitrange = findrange(len(splitanswertokens))
         for j in splitrange:
             for i in tokenrange:
