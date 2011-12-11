@@ -1,0 +1,33 @@
+What invention was named Lazy Bone when first introduced in the 50s
+['the washing machine', 'the disposable diaper', 'the TV remote controller']
+the TV remote controller
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		2		9		2		2		2
+Confidence:	67		50		62		59		99
+
+#####
+Total Time:		112.847336
+NLTK Time:		108.781288
+AI Time:		4.066048
+URL Time:		1.112473
+Keyword (Q) Time:	31.063748
+Keyword (A) Time:	32.474531
+Tokens (Q) Time:	0.000242
+Tokens (URL) Time:	45.242767
+Map Instance Time:	0.055240
+Score1 Time:		0.309978
+Score2 Time:		0.253776
+Score3 Time:		0.957898
+Score4 Time:		1.376568
+#####
+
+raw results:
+[{}, {'the disposable diaper': 9, 'the washing machine': 46, 'the TV remote controller': 575}, {'the disposable diaper': 15, 'the washing machine': 221, 'the TV remote controller': 2001}, {'the disposable diaper': 675, 'the washing machine': 776, 'the TV remote controller': 580051}]
+
+score_result1:	{}
+score_result2:	{'the disposable diaper': 1.0, 'the washing machine': 5.111111111111111, 'the TV remote controller': 63.888888888888886}
+score_result3:	{'the disposable diaper': 1.0, 'the washing machine': 14.733333333333333, 'the TV remote controller': 133.4}
+score_result4:	{'the disposable diaper': 1.0, 'the washing machine': 1.1496296296296296, 'the TV remote controller': 859.3348148148148}

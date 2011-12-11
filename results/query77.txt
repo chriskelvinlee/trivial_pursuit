@@ -1,0 +1,33 @@
+What vegetable would Brussels sprouts most look like it they were super-sized
+['bean sprouts', 'cabbages', 'artichokes']
+cabbages
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		1		0		1		1
+Confidence:	51		52		1		99		52
+
+#####
+Total Time:		93.254659
+NLTK Time:		90.098236
+AI Time:		3.156423
+URL Time:		1.386779
+Keyword (Q) Time:	28.322504
+Keyword (A) Time:	31.649294
+Tokens (Q) Time:	0.000251
+Tokens (URL) Time:	30.126187
+Map Instance Time:	0.053440
+Score1 Time:		0.328107
+Score2 Time:		0.154520
+Score3 Time:		0.536718
+Score4 Time:		0.696743
+#####
+
+raw results:
+[{'bean sprouts': 1, 'cabbages': 11, 'artichokes': 5}, {'bean sprouts': 534, 'cabbages': 11, 'artichokes': 5}, {'bean sprouts': 72, 'cabbages': 18640, 'artichokes': 130}, {'bean sprouts': 60480, 'cabbages': 150650, 'artichokes': 2080}]
+
+score_result1:	{'bean sprouts': 1.0, 'cabbages': 11.0, 'artichokes': 5.0}
+score_result2:	{'bean sprouts': 106.8, 'cabbages': 2.2, 'artichokes': 1.0}
+score_result3:	{'bean sprouts': 1.0, 'cabbages': 258.8888888888889, 'artichokes': 1.8055555555555556}
+score_result4:	{'bean sprouts': 29.076923076923077, 'cabbages': 72.42788461538461, 'artichokes': 1.0}

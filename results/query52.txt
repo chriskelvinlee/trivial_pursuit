@@ -1,0 +1,33 @@
+What is the largest inhabited castle in the world
+['Windsor Castle', 'Hearst Castle', "Sleping Beauty's Castle at Disneyland"]
+Windsor Castle
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		0		0		2
+Confidence:	48		40		51		53		48
+
+#####
+Total Time:		110.243265
+NLTK Time:		105.746547
+AI Time:		4.496718
+URL Time:		1.272862
+Keyword (Q) Time:	42.418924
+Keyword (A) Time:	28.409815
+Tokens (Q) Time:	0.000226
+Tokens (URL) Time:	34.917582
+Map Instance Time:	0.009774
+Score1 Time:		0.057040
+Score2 Time:		0.058706
+Score3 Time:		0.560857
+Score4 Time:		2.537290
+#####
+
+raw results:
+[{'Windsor Castle': 154}, {"Sleping Beauty's Castle at Disneyland": 583, 'Windsor Castle': 722, 'Hearst Castle': 470}, {"Sleping Beauty's Castle at Disneyland": 10947393, 'Windsor Castle': 38531693, 'Hearst Castle': 5438105}, {"Sleping Beauty's Castle at Disneyland": 7232960, 'Windsor Castle': 4529392, 'Hearst Castle': 2779392}]
+
+score_result1:	{'Windsor Castle': 154}
+score_result2:	{"Sleping Beauty's Castle at Disneyland": 1.2404255319148936, 'Windsor Castle': 1.5361702127659576, 'Hearst Castle': 1.0}
+score_result3:	{"Sleping Beauty's Castle at Disneyland": 2.0130896700229215, 'Windsor Castle': 7.0855000041374705, 'Hearst Castle': 1.0}
+score_result4:	{"Sleping Beauty's Castle at Disneyland": 2.602353320438427, 'Windsor Castle': 1.629634107027724, 'Hearst Castle': 1.0}

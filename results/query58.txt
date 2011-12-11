@@ -1,0 +1,33 @@
+Which breakfast food is called Viennese bread in Copenhagen
+['French toast', 'English muffins', 'Danish pastries']
+Danish pastries
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		2		1		2		2		2
+Confidence:	75		48		54		99		99
+
+#####
+Total Time:		123.929559
+NLTK Time:		119.551166
+AI Time:		4.378393
+URL Time:		1.416807
+Keyword (Q) Time:	38.731263
+Keyword (A) Time:	30.643752
+Tokens (Q) Time:	0.000321
+Tokens (URL) Time:	50.175830
+Map Instance Time:	0.033868
+Score1 Time:		0.199312
+Score2 Time:		0.135688
+Score3 Time:		0.735032
+Score4 Time:		1.857559
+#####
+
+raw results:
+[{'French toast': 1, 'Danish pastries': 8, 'English muffins': 13}, {'French toast': 98, 'Danish pastries': 503, 'English muffins': 107}, {'French toast': 3287, 'Danish pastries': 83892964, 'English muffins': 479}, {'French toast': 990, 'Danish pastries': 524892, 'English muffins': 4890}]
+
+score_result1:	{'French toast': 1.0, 'Danish pastries': 8.0, 'English muffins': 13.0}
+score_result2:	{'French toast': 1.0, 'Danish pastries': 5.13265306122449, 'English muffins': 1.0918367346938775}
+score_result3:	{'French toast': 6.862212943632568, 'Danish pastries': 175141.8872651357, 'English muffins': 1.0}
+score_result4:	{'French toast': 1.0, 'Danish pastries': 530.1939393939394, 'English muffins': 4.9393939393939394}

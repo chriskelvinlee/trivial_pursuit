@@ -1,0 +1,33 @@
+What color was the first smiley face circle when it appeared in the 1960s
+['blue', 'yellow', 'red']
+yellow
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		2		2		1		1
+Confidence:	65		48		48		66		99
+
+#####
+Total Time:		81.148008
+NLTK Time:		78.085847
+AI Time:		3.062160
+URL Time:		1.396375
+Keyword (Q) Time:	20.816798
+Keyword (A) Time:	27.418604
+Tokens (Q) Time:	0.000458
+Tokens (URL) Time:	29.849987
+Map Instance Time:	0.082158
+Score1 Time:		0.397499
+Score2 Time:		0.128114
+Score3 Time:		0.470956
+Score4 Time:		0.586897
+#####
+
+raw results:
+[{'blue': 24, 'red': 56, 'yellow': 50}, {'blue': 24, 'red': 56, 'yellow': 50}, {'blue': 820, 'red': 1000, 'yellow': 16720}, {'blue': 660, 'red': 1450, 'yellow': 285190}]
+
+score_result1:	{'blue': 1.0, 'red': 2.3333333333333335, 'yellow': 2.0833333333333335}
+score_result2:	{'blue': 1.0, 'red': 2.3333333333333335, 'yellow': 2.0833333333333335}
+score_result3:	{'blue': 1.0, 'red': 1.2195121951219512, 'yellow': 20.390243902439025}
+score_result4:	{'blue': 1.0, 'red': 2.196969696969697, 'yellow': 432.1060606060606}

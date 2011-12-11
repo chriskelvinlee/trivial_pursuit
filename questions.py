@@ -202,7 +202,7 @@ tp_Questions32 = [
     ["Who's Hamlet in a famous play by Shakespeare", ["a pig farmer", "a magician", "a prince"],2,99]
 ]
 
-tp_questions33 = [
+tp_Questions33 = [
     ["What's inside a square or rectangular-shaped Russell Stover chocolate", ["a soft cream", "a cherry", "a caramel or nougat"],2,100]
 ]
 

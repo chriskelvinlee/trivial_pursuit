@@ -1,0 +1,33 @@
+What was the first year the Girl Scouts baked and sold cookies
+['1917', '1950', '1977']
+1917
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		9		9		9
+Confidence:	40		40		40		40		40
+
+#####
+Total Time:		86.487285
+NLTK Time:		82.731102
+AI Time:		3.756183
+URL Time:		1.052994
+Keyword (Q) Time:	29.049032
+Keyword (A) Time:	27.940427
+Tokens (Q) Time:	0.000256
+Tokens (URL) Time:	25.741387
+Map Instance Time:	0.107690
+Score1 Time:		0.655815
+Score2 Time:		0.224139
+Score3 Time:		0.795845
+Score4 Time:		0.919622
+#####
+
+raw results:
+[{'1917': 21}, {'1917': 21}, {'1917': 175030720}, {'1917': 417480}]
+
+score_result1:	{'1917': 21}
+score_result2:	{'1917': 21}
+score_result3:	{'1917': 175030720}
+score_result4:	{'1917': 417480}

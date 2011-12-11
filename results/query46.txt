@@ -9,25 +9,25 @@ Answer:		0		0		0		0		0
 Confidence:	53		54		51		55		52
 
 #####
-Total Time:		87.542611
-NLTK Time:		83.723104
-AI Time:		3.819507
-URL Time:		1.286861
-Keyword (Q) Time:	36.529951
-Keyword (A) Time:	27.773572
-Tokens (Q) Time:	0.000350
-Tokens (URL) Time:	19.419231
-Map Instance Time:	0.011613
-Score1 Time:		0.043252
-Score2 Time:		0.040628
-Score3 Time:		0.400753
-Score4 Time:		2.036217
+Total Time:		89.246399
+NLTK Time:		84.465492
+AI Time:		4.780907
+URL Time:		1.457459
+Keyword (Q) Time:	32.321505
+Keyword (A) Time:	33.295265
+Tokens (Q) Time:	0.000425
+Tokens (URL) Time:	18.848297
+Map Instance Time:	0.012406
+Score1 Time:		0.056397
+Score2 Time:		0.033512
+Score3 Time:		0.557064
+Score4 Time:		2.663883
 #####
 
 raw results:
-[{'52 inches': 11, '60 inches': 1, '40 inches': 51}, {'52 inches': 143, '60 inches': 132, '40 inches': 192}, {'52 inches': 1535240386, '60 inches': 1199682886, '40 inches': 8771285709}, {'52 inches': 265522, '60 inches': 185782, '40 inches': 657122}]
+[{'52 inches': 11, '60 inches': 1, '40 inches': 51}, {'52 inches': 143, '60 inches': 132, '40 inches': 192}, {'52 inches': 1535240386, '60 inches': 1199682886, '40 inches': 8771286349}, {'52 inches': 265522, '60 inches': 185782, '40 inches': 657122}]
 
 score_result1:	{'52 inches': 11.0, '60 inches': 1.0, '40 inches': 51.0}
 score_result2:	{'52 inches': 1.0833333333333333, '60 inches': 1.0, '40 inches': 1.4545454545454546}
-score_result3:	{'52 inches': 1.2797051653531715, '60 inches': 1.0, '40 inches': 7.311336863565127}
+score_result3:	{'52 inches': 1.2797051653531715, '60 inches': 1.0, '40 inches': 7.311337397039438}
 score_result4:	{'52 inches': 1.429212733203432, '60 inches': 1.0, '40 inches': 3.5370595644357365}

@@ -84,15 +84,15 @@ runQuery(tp_Questions7, useAllScores, cache=True)
 runQuery(tp_Questions8, useAllScores, cache=True)
 runQuery(tp_Questions9, useAllScores, cache=True)
 runQuery(tp_Questions10, useAllScores, cache=False)
-
+runQuery(tp_Questions16, useAllScores, cache=False)
+runQuery(tp_Questions17, useAllScores, cache=False)
+runQuery(tp_Questions18, useAllScores, cache=False)
+runQuery(tp_Questions19, useAllScores, cache=False)
 """
 
 
 
 #runQuery(tp_Questions13, useAllScores, cache=False)
 #runQuery(tp_Questions14, useAllScores, cache=False)
-runQuery(tp_Questions15, useAllScores, cache=False)
-runQuery(tp_Questions16, useAllScores, cache=False)
-runQuery(tp_Questions17, useAllScores, cache=False)
-runQuery(tp_Questions18, useAllScores, cache=False)
-runQuery(tp_Questions19, useAllScores, cache=False)
+runQuery(tp_Questions30, useAllScores, cache=False)
+

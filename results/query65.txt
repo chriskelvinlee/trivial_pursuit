@@ -1,0 +1,33 @@
+What do you do at a smorgasbord
+['play smorgas', 'wash clothes', 'eat']
+eat
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		2		9		2		2		2
+Confidence:	76		40		68		99		99
+
+#####
+Total Time:		120.868613
+NLTK Time:		118.722163
+AI Time:		2.146450
+URL Time:		1.451832
+Keyword (Q) Time:	33.780466
+Keyword (A) Time:	32.454532
+Tokens (Q) Time:	0.000334
+Tokens (URL) Time:	52.486831
+Map Instance Time:	0.014168
+Score1 Time:		0.109753
+Score2 Time:		0.068267
+Score3 Time:		0.230589
+Score4 Time:		0.271721
+#####
+
+raw results:
+[{'eat': 167}, {'play smorgas': 9, 'wash clothes': 3, 'eat': 167}, {'play smorgas': 9, 'wash clothes': 3, 'eat': 2430}, {'play smorgas': 0, 'wash clothes': 0, 'eat': 204000}]
+
+score_result1:	{'eat': 167}
+score_result2:	{'play smorgas': 3.0, 'wash clothes': 1.0, 'eat': 55.666666666666664}
+score_result3:	{'play smorgas': 3.0, 'wash clothes': 1.0, 'eat': 810.0}
+score_result4:	{'play smorgas': 0, 'wash clothes': 0, 'eat': 204000}

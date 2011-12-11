@@ -1,0 +1,33 @@
+What tree's seeds have two wings and twirl like mini-copters when they fall to the ground
+['a maple', 'an oak', 'a yew']
+a maple
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		0		0		0
+Confidence:	78		50		64		99		99
+
+#####
+Total Time:		144.830721
+NLTK Time:		130.347655
+AI Time:		14.483067
+URL Time:		1.315854
+Keyword (Q) Time:	35.684577
+Keyword (A) Time:	32.247342
+Tokens (Q) Time:	0.000277
+Tokens (URL) Time:	62.415459
+Map Instance Time:	0.492742
+Score1 Time:		3.202668
+Score2 Time:		0.963207
+Score3 Time:		4.088164
+Score4 Time:		4.420296
+#####
+
+raw results:
+[{}, {'an oak': 9, 'a maple': 131}, {'an oak': 21, 'a maple': 11318}, {'an oak': 4650, 'a maple': 1317360}]
+
+score_result1:	{}
+score_result2:	{'an oak': 1.0, 'a maple': 14.555555555555555}
+score_result3:	{'an oak': 1.0, 'a maple': 538.952380952381}
+score_result4:	{'an oak': 1.0, 'a maple': 283.3032258064516}

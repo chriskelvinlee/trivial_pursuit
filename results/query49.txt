@@ -9,19 +9,19 @@ Answer:		0		0		0		0		1
 Confidence:	36		42		48		1		53
 
 #####
-Total Time:		109.300524
-NLTK Time:		101.233199
-AI Time:		8.067325
-URL Time:		1.468237
-Keyword (Q) Time:	29.926863
-Keyword (A) Time:	27.761988
-Tokens (Q) Time:	0.000266
-Tokens (URL) Time:	43.544082
-Map Instance Time:	0.193622
-Score1 Time:		1.236591
-Score2 Time:		0.639884
-Score3 Time:		2.125625
-Score4 Time:		2.403197
+Total Time:		125.262594
+NLTK Time:		114.945966
+AI Time:		10.316628
+URL Time:		1.435263
+Keyword (Q) Time:	42.028878
+Keyword (A) Time:	29.259553
+Tokens (Q) Time:	0.000330
+Tokens (URL) Time:	43.657205
+Map Instance Time:	0.155598
+Score1 Time:		1.546341
+Score2 Time:		0.772920
+Score3 Time:		3.183841
+Score4 Time:		3.222497
 #####
 
 raw results:

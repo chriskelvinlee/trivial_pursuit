@@ -1,0 +1,33 @@
+Which whales are thought to be the most threatened
+['orcas', 'right whales', 'sperm whales']
+right whales
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		1		1		1		1
+Confidence:	53		55		51		56		51
+
+#####
+Total Time:		127.385435
+NLTK Time:		117.042343
+AI Time:		10.343092
+URL Time:		1.083721
+Keyword (Q) Time:	43.974589
+Keyword (A) Time:	36.967489
+Tokens (Q) Time:	0.000229
+Tokens (URL) Time:	36.100036
+Map Instance Time:	0.163808
+Score1 Time:		1.439347
+Score2 Time:		0.658765
+Score3 Time:		3.381267
+Score4 Time:		3.615808
+#####
+
+raw results:
+[{'sperm whales': 9, 'right whales': 53, 'orcas': 5}, {'sperm whales': 837, 'right whales': 971, 'orcas': 5}, {'sperm whales': 1494, 'right whales': 9373, 'orcas': 510}, {'sperm whales': 1978000, 'right whales': 3254500, 'orcas': 58000}]
+
+score_result1:	{'sperm whales': 1.8, 'right whales': 10.6, 'orcas': 1.0}
+score_result2:	{'sperm whales': 167.4, 'right whales': 194.2, 'orcas': 1.0}
+score_result3:	{'sperm whales': 2.929411764705882, 'right whales': 18.37843137254902, 'orcas': 1.0}
+score_result4:	{'sperm whales': 34.10344827586207, 'right whales': 56.11206896551724, 'orcas': 1.0}
