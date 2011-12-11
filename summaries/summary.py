@@ -21,13 +21,18 @@ for fname in fileList:
 
     dicts = ast.literal_eval(lines[27])
 
+    thisQ = [0,0,0,0,0]
     for i in range(len(correct)):
         if correct[i] == answer[i]:
+            thisQ[i] = 1
             numsCorrect[i] += 1
         elif answer[i] == "9":
             if len(dicts[i - 1]) == 1:
                 if (dicts[i-1].keys()[0] == lines[2].strip("\n")):
                     numsCorrect[i - 1] += 1
+                    thisQ[i] = 1
+    if thisQ[4] == 1 and thisQ[3] == 0:
+        print fname
     total += 1
 
     #CONFIDENCE PORTION
