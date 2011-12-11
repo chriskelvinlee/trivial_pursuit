@@ -90,8 +90,10 @@ def getTokens(urls):
     headers={'User-Agent':user_agent,} 
     
     for url in urls:
-        req = urllib2.Request(url,None,headers)
-        html = urlopen(req).read()
+        html = urlopen(url).read()
+        # Change back from Mike's fix
+        # req = urllib2.Request(url,None,headers)
+        # html = urlopen(req).read()
         raw = nltk.clean_html(html)
         combinedtokens += nltk.word_tokenize(raw)
     # may need to adjust 0 value here

@@ -72,6 +72,7 @@ def runQuery( questions, scoringFunction, cache=False):
 # Turn cache to True to run through all 36 questions
 # You can decide to go back to questions.py, and put everything
 # under a tp_QuestionsAll array
+"""
 runQuery(tp_Questions0, useAllScores, cache=True)
 runQuery(tp_Questions1, useAllScores, cache=True)
 runQuery(tp_Questions2, useAllScores, cache=True)
@@ -82,9 +83,13 @@ runQuery(tp_Questions6, useAllScores, cache=True)
 runQuery(tp_Questions7, useAllScores, cache=True)
 runQuery(tp_Questions8, useAllScores, cache=True)
 runQuery(tp_Questions9, useAllScores, cache=True)
-runQuery(tp_Questions10, useAllScores, cache=True)
-runQuery(tp_Questions11, useAllScores, cache=True)
+runQuery(tp_Questions10, useAllScores, cache=False)
 
+"""
+
+
+
+runQuery(tp_Questions12, useAllScores, cache=False)
 
 
 

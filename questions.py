@@ -77,15 +77,15 @@ tp_Questions11 = [
 ]
 
 tp_Questions12 = [
-    ["How many times is the Eiffel Tower struck by lightning every year", ["5 times", "25 times", "100 times"],1,37]
-    ["How many miles does a soccer player usually run during a game", ["2", "6 to 7", "15"],1,38]
+    ["How many times is the Eiffel Tower struck by lightning every year", ["5 times", "25 times", "100 times"],1,37],
+    ["How many miles does a soccer player usually run during a game", ["2", "6 to 7", "15"],1,38],
     ["Who was the evil puppet master in Pinocchio", ["Spumoni", "Stromboli", "Spaghettini"],1,39]
 ]
-
+"""
 tp_Questions13 = [
     ["Which profession's symbol is a staff with snakes coiled around it", ["a zookeeper's", "a medical doctor's", "a snake charmer's"],1,40]
     ["What's the third color on a Kwanzaa flag besides red and black", ["yellow", "green", "blue"],1,41]
-    ["What did the 50s TV puppet Howdy Doody look like", ["he had red hair and freckles", "he had a blond crewcut", "he was chubby and bald"],0,42}
+    ["What did the 50s TV puppet Howdy Doody look like", ["he had red hair and freckles", "he had a blond crewcut", "he was chubby and bald"],0,42]
 ]
 
 tp_Questions14 = [
@@ -205,6 +205,8 @@ tp_Questions32 = [
 tp_questions33 = [
     ["What's inside a square or rectangular-shaped Russell Stover chocolate", ["a soft cream", "a cherry", "a caramel or nougat"],2,100]
 ]
+
+"""
 
 """debug code for interpreter
 queryphrase="What is each member of a winning Super Bowl team given"

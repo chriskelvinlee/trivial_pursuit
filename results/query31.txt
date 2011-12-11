@@ -1,27 +1,33 @@
 Which of these sea creatures is not a mammal
 ['a sea cow', 'a sea lion', 'a sea horse']
-2
-Incorrect
-Answer:		1
-Confidence:	99
+a sea horse
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		1		9		1		1		1
+Confidence:	24		50		33		13		0
 
 #####
-Total Time:		79.475378
-NLTK Time:		78.885949
-AI Time:		0.589429
-URL Time:		0.423205
-Keyword (Q) Time:	40.203328
-Keyword (A) Time:	30.156948
-Tokens (Q) Time:	0.000353
-Tokens (URL) Time:	8.525320
-Map Instance Time:	0.003713
-Score1 Time:		0.028057
-Score2 Time:		0.018440
-Score3 Time:		0.051037
-Score4 Time:		0.064921
+Total Time:		59.569215
+NLTK Time:		58.860795
+AI Time:		0.708420
+URL Time:		0.584608
+Keyword (Q) Time:	29.705690
+Keyword (A) Time:	20.615052
+Tokens (Q) Time:	0.000244
+Tokens (URL) Time:	8.539809
+Map Instance Time:	0.002213
+Score1 Time:		0.018288
+Score2 Time:		0.011234
+Score3 Time:		0.047036
+Score4 Time:		0.044926
 #####
+
+raw results:
+[{}, {'a sea lion': 22, 'a sea cow': 19, 'a sea horse': 19}, {'a sea lion': 22, 'a sea cow': 1, 'a sea horse': 1}, {'a sea lion': 3396, 'a sea cow': 0, 'a sea horse': 0}]
 
 score_result1:	{}
 score_result2:	{'a sea lion': 1.1578947368421053, 'a sea cow': 1.0, 'a sea horse': 1.0}
-score_result3:	{'a sea lion': 24.0, 'a sea cow': 1.0, 'a sea horse': 1.0}
-score_result4:	{'a sea lion': 4608, 'a sea cow': 0, 'a sea horse': 0}
+score_result3:	{'a sea lion': 22.0, 'a sea cow': 1.0, 'a sea horse': 1.0}
+score_result4:	{'a sea lion': 3396, 'a sea cow': 0, 'a sea horse': 0}
