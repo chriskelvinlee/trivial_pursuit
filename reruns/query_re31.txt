@@ -6,28 +6,28 @@ Failurez :(
 Index Order: 0,1,2,3,4
 Correct:	2		2		2		2		2
 Answer:		1		9		1		1		1
-Confidence:	23		50		33		11		0
+Confidence:	24		50		33		13		0
 
 #####
-Total Time:		0.103739
+Total Time:		0.113580
 NLTK Time:		0.000000
-AI Time:		0.103739
+AI Time:		0.113580
 URL Time:		0.000000
 Keyword (Q) Time:	0.000000
 Keyword (A) Time:	0.000000
 Tokens (Q) Time:	0.000000
 Tokens (URL) Time:	0.000000
 Map Instance Time:	0.000000
-Score1 Time:		0.016752
-Score2 Time:		0.012714
-Score3 Time:		0.037841
-Score4 Time:		0.036295
+Score1 Time:		0.017849
+Score2 Time:		0.010379
+Score3 Time:		0.042508
+Score4 Time:		0.042738
 #####
 
 raw results:
-[{}, {'a sea lion': 1.1578947368421053, 'a sea cow': 1.0, 'a sea horse': 1.0}, {'a sea lion': 24.0, 'a sea cow': 1.0, 'a sea horse': 1.0}, {'a sea lion': 4608, 'a sea cow': 0, 'a sea horse': 0}]
+[{}, {'a sea lion': 22, 'a sea cow': 19, 'a sea horse': 19}, {'a sea lion': 22, 'a sea cow': 1, 'a sea horse': 1}, {'a sea lion': 3396, 'a sea cow': 0, 'a sea horse': 0}]
 
 score_result1:	{}
 score_result2:	{'a sea lion': 1.1578947368421053, 'a sea cow': 1.0, 'a sea horse': 1.0}
-score_result3:	{'a sea lion': 24.0, 'a sea cow': 1.0, 'a sea horse': 1.0}
-score_result4:	{'a sea lion': 4608, 'a sea cow': 0, 'a sea horse': 0}
+score_result3:	{'a sea lion': 22.0, 'a sea cow': 1.0, 'a sea horse': 1.0}
+score_result4:	{'a sea lion': 3396, 'a sea cow': 0, 'a sea horse': 0}

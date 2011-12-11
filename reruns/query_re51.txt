@@ -1,0 +1,33 @@
+What's the name of Elle Woo's chihuahua in the Legally Blonde movies
+['Pinkie', 'Bitsy', 'Bruiser']
+Bruiser
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		0		9		9		9		9
+Confidence:	40		40		40		40		40
+
+#####
+Total Time:		2.117256
+NLTK Time:		0.000000
+AI Time:		2.117256
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.512326
+Score2 Time:		0.210125
+Score3 Time:		0.611644
+Score4 Time:		0.783063
+#####
+
+raw results:
+[{'Bruiser': 21}, {'Bruiser': 21}, {'Bruiser': 32212880}, {'Bruiser': 1282120}]
+
+score_result1:	{'Bruiser': 21}
+score_result2:	{'Bruiser': 21}
+score_result3:	{'Bruiser': 32212880}
+score_result4:	{'Bruiser': 1282120}

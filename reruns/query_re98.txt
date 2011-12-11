@@ -1,0 +1,33 @@
+Who are officially know as the girls with a passion for fashion
+['Mary-Kate and Ashley Olsen', 'Bratz', 'Flavas']
+Bratz
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		9		1		1		1
+Confidence:	76		40		75		99		93
+
+#####
+Total Time:		7.791613
+NLTK Time:		0.000000
+AI Time:		7.791613
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		1.303349
+Score2 Time:		0.759025
+Score3 Time:		2.643902
+Score4 Time:		3.085221
+#####
+
+raw results:
+[{'Bratz': 541}, {'Mary-Kate and Ashley Olsen': 21, 'Bratz': 541}, {'Mary-Kate and Ashley Olsen': 25, 'Bratz': 20760}, {'Mary-Kate and Ashley Olsen': 900, 'Bratz': 38860}]
+
+score_result1:	{'Bratz': 541}
+score_result2:	{'Mary-Kate and Ashley Olsen': 1.0, 'Bratz': 25.761904761904763}
+score_result3:	{'Mary-Kate and Ashley Olsen': 1.0, 'Bratz': 830.4}
+score_result4:	{'Mary-Kate and Ashley Olsen': 1.0, 'Bratz': 43.17777777777778}

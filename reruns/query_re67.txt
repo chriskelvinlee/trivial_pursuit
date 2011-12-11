@@ -1,0 +1,33 @@
+What's a male ladybug called
+['a gentlemanbug', 'a ladbug', 'a ladybug']
+a ladybug
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		2		9		2		9		9
+Confidence:	57		50		99		40		40
+
+#####
+Total Time:		0.137559
+NLTK Time:		0.000000
+AI Time:		0.137559
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.035139
+Score2 Time:		0.013829
+Score3 Time:		0.045019
+Score4 Time:		0.043499
+#####
+
+raw results:
+[{}, {'a gentlemanbug': 1, 'a ladybug': 166}, {'a gentlemanbug': 16}, {'a gentlemanbug': 484000}]
+
+score_result1:	{}
+score_result2:	{'a gentlemanbug': 1.0, 'a ladybug': 166.0}
+score_result3:	{'a gentlemanbug': 16}
+score_result4:	{'a gentlemanbug': 484000}

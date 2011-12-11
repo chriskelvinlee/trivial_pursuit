@@ -35,36 +35,37 @@ def runQuery( questions, scoringFunction, cache=False):
             # Read in from cache
             nltk_data = readCache(outputCount)
             nltk_time = [0]*6
+            
+        if nltk_data != []:
 
+            print "AI & Scoring..."
+            # Get answer weight with scoring function(s)
+            weights = score(choices, nltk_data, scoringFunction)
+            results = weights[0]      # array of size 4
+            ai_time = weights[1]      # array of size 4
+            results_raw = str(results)
 
-        print "AI & Scoring..."
-        # Get answer weight with scoring function(s)
-        weights = score(choices, nltk_data, scoringFunction)
-        results = weights[0]      # array of size 4
-        ai_time = weights[1]      # array of size 4
-        results_raw = str(results)
+            print "Determining Answer..."
+            # Normalize to determine answer
+            correctness = determineAnswer(results, choices, correct)
+            answer      = correctness[0]
+            confidence  = correctness[1]
+            candidate   = correctness[2]
+            de_time     = correctness[3]
 
-        print "Determining Answer..."
-        # Normalize to determine answer
-        correctness = determineAnswer(results, choices, correct)
-        answer      = correctness[0]
-        confidence  = correctness[1]
-        candidate   = correctness[2]
-        de_time     = correctness[3]
-
-        # Save the results sys.out txt
-        output(text, choices, correct, nltk_data, results, results_raw, answer, confidence, candidate, nltk_time, ai_time, de_time, outputCount, cache)
+            # Save the results sys.out txt
+            output(text, choices, correct, nltk_data, results, results_raw, answer, confidence, candidate, nltk_time, ai_time, de_time, outputCount, cache)
         
-        print "*****"
+            print "*****"
         
-        # Print results live
-        bld = text + ": "
-        if answer[0] == 1:
-            numberCorrect += 1
-            bld += "Correct"
-        else:
-            bld += "Incorrect"
-        print bld
+            # Print results live
+            bld = text + ": "
+            if answer[0] == 1:
+                numberCorrect += 1
+                bld += "Correct"
+            else:
+                bld += "Incorrect"
+            print bld
         
     print str(numberCorrect) + "/" + str(len(questions))
 
@@ -72,27 +73,46 @@ def runQuery( questions, scoringFunction, cache=False):
 # Turn cache to True to run through all 36 questions
 # You can decide to go back to questions.py, and put everything
 # under a tp_QuestionsAll array
+
+#runQuery(tp_Questions10, useAllScores, cache=True)
+#runQuery(tp_Questions11, useAllScores, cache=True)
+
+#runQuery(tp_Questions16, useAllScores, cache=True)
+
+
+
+
+
+runQuery(tp_Questions27, useAllScores, cache=True)
+runQuery(tp_Questions28, useAllScores, cache=True)
+runQuery(tp_Questions29, useAllScores, cache=True)
+runQuery(tp_Questions30, useAllScores, cache=True)
+runQuery(tp_Questions31, useAllScores, cache=True)
+runQuery(tp_Questions32, useAllScores, cache=True)
+runQuery(tp_Questions33, useAllScores, cache=True)
 """
-runQuery(tp_Questions0, useAllScores, cache=True)
-runQuery(tp_Questions1, useAllScores, cache=True)
-runQuery(tp_Questions2, useAllScores, cache=True)
-runQuery(tp_Questions3, useAllScores, cache=True)
-runQuery(tp_Questions4, useAllScores, cache=True)
-runQuery(tp_Questions5, useAllScores, cache=True)
-runQuery(tp_Questions6, useAllScores, cache=True)
-runQuery(tp_Questions7, useAllScores, cache=True)
-runQuery(tp_Questions8, useAllScores, cache=True)
-runQuery(tp_Questions9, useAllScores, cache=True)
+runQuery(tp_Questions13, useAllScores, cache=True)
+runQuery(tp_Questions14, useAllScores, cache=True)
+runQuery(tp_Questions15, useAllScores, cache=True)
+runQuery(tp_Questions16, useAllScores, cache=True)
+
 runQuery(tp_Questions10, useAllScores, cache=False)
 runQuery(tp_Questions16, useAllScores, cache=False)
 runQuery(tp_Questions17, useAllScores, cache=False)
 runQuery(tp_Questions18, useAllScores, cache=False)
 runQuery(tp_Questions19, useAllScores, cache=False)
-"""
-
-
+runQuery(tp_Questions17, useAllScores, cache=True)
+runQuery(tp_Questions18, useAllScores, cache=True)
+runQuery(tp_Questions19, useAllScores, cache=True)
+runQuery(tp_Questions20, useAllScores, cache=True)
+runQuery(tp_Questions21, useAllScores, cache=True)
+runQuery(tp_Questions22, useAllScores, cache=True)
+runQuery(tp_Questions23, useAllScores, cache=True)
+runQuery(tp_Questions24, useAllScores, cache=True)
+runQuery(tp_Questions25, useAllScores, cache=True)
+runQuery(tp_Questions26, useAllScores, cache=True)
 
 #runQuery(tp_Questions13, useAllScores, cache=False)
 #runQuery(tp_Questions14, useAllScores, cache=False)
 runQuery(tp_Questions30, useAllScores, cache=False)
-
+"""

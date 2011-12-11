@@ -1,0 +1,33 @@
+Which of these was a ship during the Revolutionary War
+['Poor Richard', 'Little Richard', 'Bonhomme Richard']
+Bonhomme Richard
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		0		9		0		2		1
+Confidence:	39		40		33		51		33
+
+#####
+Total Time:		0.679120
+NLTK Time:		0.000000
+AI Time:		0.679120
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.095863
+Score2 Time:		0.070643
+Score3 Time:		0.231003
+Score4 Time:		0.281491
+#####
+
+raw results:
+[{'Bonhomme Richard': 1}, {'Bonhomme Richard': 10, 'Poor Richard': 12, 'Little Richard': 10}, {'Bonhomme Richard': 28, 'Poor Richard': 21, 'Little Richard': 22}, {'Bonhomme Richard': 73, 'Poor Richard': 73, 'Little Richard': 100}]
+
+score_result1:	{'Bonhomme Richard': 1}
+score_result2:	{'Bonhomme Richard': 1.0, 'Poor Richard': 1.2, 'Little Richard': 1.0}
+score_result3:	{'Bonhomme Richard': 1.3333333333333333, 'Poor Richard': 1.0, 'Little Richard': 1.0476190476190477}
+score_result4:	{'Bonhomme Richard': 1.0, 'Poor Richard': 1.0, 'Little Richard': 1.36986301369863}

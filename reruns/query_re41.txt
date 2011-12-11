@@ -1,0 +1,33 @@
+What's the third color on a Kwanzaa flag besides red and black
+['yellow', 'green', 'blue']
+green
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		1		1		1		1
+Confidence:	66		53		53		99		61
+
+#####
+Total Time:		1.586666
+NLTK Time:		0.000000
+AI Time:		1.586666
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.261849
+Score2 Time:		0.095664
+Score3 Time:		0.403699
+Score4 Time:		0.825327
+#####
+
+raw results:
+[{'blue': 24, 'green': 84, 'yellow': 18}, {'blue': 24, 'green': 84, 'yellow': 18}, {'blue': 35900, 'green': 3439800, 'yellow': 44150}, {'blue': 70770, 'green': 801800, 'yellow': 34850}]
+
+score_result1:	{'blue': 1.3333333333333333, 'green': 4.666666666666667, 'yellow': 1.0}
+score_result2:	{'blue': 1.3333333333333333, 'green': 4.666666666666667, 'yellow': 1.0}
+score_result3:	{'blue': 1.0, 'green': 95.81615598885794, 'yellow': 1.2298050139275767}
+score_result4:	{'blue': 2.030703012912482, 'green': 23.007173601147777, 'yellow': 1.0}

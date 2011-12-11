@@ -9,23 +9,23 @@ Answer:		0		9		0		0		9
 Confidence:	50		50		51		51		50
 
 #####
-Total Time:		0.060392
+Total Time:		0.084358
 NLTK Time:		0.000000
-AI Time:		0.060392
+AI Time:		0.084358
 URL Time:		0.000000
 Keyword (Q) Time:	0.000000
 Keyword (A) Time:	0.000000
 Tokens (Q) Time:	0.000000
 Tokens (URL) Time:	0.000000
 Map Instance Time:	0.000000
-Score1 Time:		0.010910
-Score2 Time:		0.005418
-Score3 Time:		0.015272
-Score4 Time:		0.028660
+Score1 Time:		0.010230
+Score2 Time:		0.007050
+Score3 Time:		0.026698
+Score4 Time:		0.040292
 #####
 
 raw results:
-[{}, {'about 10 minutes': 2.1, '4 hours': 1.0, '2 days': 1.1}, {'about 10 minutes': 79.22507122507122, '4 hours': 62.25925925925926, '2 days': 1.0}, {'about 10 minutes': 0, '4 hours': 0, '2 days': 0}]
+[{}, {'about 10 minutes': 21, '4 hours': 10, '2 days': 11}, {'about 10 minutes': 83424, '4 hours': 65559, '2 days': 1053}, {'about 10 minutes': 0, '4 hours': 0, '2 days': 0}]
 
 score_result1:	{}
 score_result2:	{'about 10 minutes': 2.1, '4 hours': 1.0, '2 days': 1.1}

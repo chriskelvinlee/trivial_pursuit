@@ -1,0 +1,33 @@
+What is the longest a dolphin can hold its breath
+['1 minute', '10 minutes', '1 hour']
+10 minutes
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		9		1		1		1
+Confidence:	62		40		51		99		60
+
+#####
+Total Time:		0.520136
+NLTK Time:		0.000000
+AI Time:		0.520136
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.053632
+Score2 Time:		0.041871
+Score3 Time:		0.134693
+Score4 Time:		0.289822
+#####
+
+raw results:
+[{'10 minutes': 7}, {'10 minutes': 108, '1 hour': 63, '1 minute': 62}, {'10 minutes': 368357, '1 hour': 447, '1 minute': 505}, {'10 minutes': 38850, '1 hour': 3654, '1 minute': 1808}]
+
+score_result1:	{'10 minutes': 7}
+score_result2:	{'10 minutes': 1.7419354838709677, '1 hour': 1.0161290322580645, '1 minute': 1.0}
+score_result3:	{'10 minutes': 824.0648769574944, '1 hour': 1.0, '1 minute': 1.1297539149888143}
+score_result4:	{'10 minutes': 21.48783185840708, '1 hour': 2.021017699115044, '1 minute': 1.0}

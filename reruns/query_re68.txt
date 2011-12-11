@@ -1,0 +1,33 @@
+What's the most popular sport in the Netherlands
+['windmill jumping', 'ice skating', 'swimming']
+ice skating
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		2		1		1		1
+Confidence:	54		47		53		57		58
+
+#####
+Total Time:		12.947081
+NLTK Time:		0.000000
+AI Time:		12.947081
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		2.237049
+Score2 Time:		1.208691
+Score3 Time:		4.572287
+Score4 Time:		4.928931
+#####
+
+raw results:
+[{'ice skating': 6, 'swimming': 15}, {'windmill jumping': 1, 'ice skating': 49, 'swimming': 15}, {'windmill jumping': 4, 'ice skating': 17700, 'swimming': 2340}, {'windmill jumping': 16144, 'ice skating': 342250, 'swimming': 38560}]
+
+score_result1:	{'ice skating': 1.0, 'swimming': 2.5}
+score_result2:	{'windmill jumping': 1.0, 'ice skating': 49.0, 'swimming': 15.0}
+score_result3:	{'windmill jumping': 1.0, 'ice skating': 4425.0, 'swimming': 585.0}
+score_result4:	{'windmill jumping': 1.0, 'ice skating': 21.199826560951436, 'swimming': 2.3885034687809714}

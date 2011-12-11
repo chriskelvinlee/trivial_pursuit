@@ -1,0 +1,33 @@
+How was President Theodore Roosevelt related to President Franklin D Roosevelt
+['they were father and son', 'they were brothers', 'they were cousins']
+they were cousins
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		2		9		0		2		2
+Confidence:	63		50		46		99		57
+
+#####
+Total Time:		0.484509
+NLTK Time:		0.000000
+AI Time:		0.484509
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.075875
+Score2 Time:		0.035125
+Score3 Time:		0.137997
+Score4 Time:		0.235402
+#####
+
+raw results:
+[{}, {'they were brothers': 1, 'they were father and son': 30, 'they were cousins': 9}, {'they were brothers': 256, 'they were father and son': 31031, 'they were cousins': 4429316754}, {'they were brothers': 504, 'they were father and son': 3559, 'they were cousins': 27660}]
+
+score_result1:	{}
+score_result2:	{'they were brothers': 1.0, 'they were father and son': 30.0, 'they were cousins': 9.0}
+score_result3:	{'they were brothers': 1.0, 'they were father and son': 121.21484375, 'they were cousins': 17302018.5703125}
+score_result4:	{'they were brothers': 1.0, 'they were father and son': 7.061507936507937, 'they were cousins': 54.88095238095238}

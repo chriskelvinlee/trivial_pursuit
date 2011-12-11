@@ -1,0 +1,33 @@
+What is the Canadian side of Niagara Falls shaped like
+['a horseshoe', 'a triangle', 'the letter M']
+a horseshoe
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		0		0		0
+Confidence:	63		50		53		52		99
+
+#####
+Total Time:		0.322197
+NLTK Time:		0.000000
+AI Time:		0.322197
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.056966
+Score2 Time:		0.025693
+Score3 Time:		0.098795
+Score4 Time:		0.140649
+#####
+
+raw results:
+[{}, {'the letter M': 3, 'a horseshoe': 9}, {'the letter M': 65552, 'a horseshoe': 185376}, {'the letter M': 0, 'a horseshoe': 723400}]
+
+score_result1:	{}
+score_result2:	{'the letter M': 1.0, 'a horseshoe': 3.0}
+score_result3:	{'the letter M': 1.0, 'a horseshoe': 2.8279228703929706}
+score_result4:	{'the letter M': 0, 'a horseshoe': 723400}

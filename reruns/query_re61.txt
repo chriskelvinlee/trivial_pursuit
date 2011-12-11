@@ -1,0 +1,33 @@
+What does a dog want when it lies on its back and shows its tummy
+['Food with a capital F', 'to be taken for a walk', 'to be tickled']
+to be tickled
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		1		9		1		1		1
+Confidence:	27		50		41		0		16
+
+#####
+Total Time:		1.701251
+NLTK Time:		0.000000
+AI Time:		1.701251
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.181101
+Score2 Time:		0.131325
+Score3 Time:		0.505548
+Score4 Time:		0.883167
+#####
+
+raw results:
+[{}, {'Food with a capital F': 17, 'to be taken for a walk': 146}, {'Food with a capital F': 87, 'to be taken for a walk': 33347}, {'Food with a capital F': 100, 'to be taken for a walk': 3314}]
+
+score_result1:	{}
+score_result2:	{'Food with a capital F': 1.0, 'to be taken for a walk': 8.588235294117647}
+score_result3:	{'Food with a capital F': 1.0, 'to be taken for a walk': 383.2988505747126}
+score_result4:	{'Food with a capital F': 1.0, 'to be taken for a walk': 33.14}

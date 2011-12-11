@@ -1,0 +1,33 @@
+Which of these US presidents is not pictured on both a coin and a bill
+['Thomas Jefferson', 'Abraham Lincoln', 'John F. Kennedy']
+John F. Kennedy
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		1		1		2		0		1
+Confidence:	49		48		51		47		48
+
+#####
+Total Time:		15.803879
+NLTK Time:		0.000000
+AI Time:		15.803879
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		1.891502
+Score2 Time:		1.519235
+Score3 Time:		5.508891
+Score4 Time:		6.884123
+#####
+
+raw results:
+[{'John F. Kennedy': 23, 'Abraham Lincoln': 69, 'Thomas Jefferson': 49}, {'John F. Kennedy': 336, 'Abraham Lincoln': 302, 'Thomas Jefferson': 206}, {'John F. Kennedy': 380769, 'Abraham Lincoln': 2910160, 'Thomas Jefferson': 5831927}, {'John F. Kennedy': 42551, 'Abraham Lincoln': 105370, 'Thomas Jefferson': 98304}]
+
+score_result1:	{'John F. Kennedy': 1.0, 'Abraham Lincoln': 3.0, 'Thomas Jefferson': 2.130434782608696}
+score_result2:	{'John F. Kennedy': 1.6310679611650485, 'Abraham Lincoln': 1.4660194174757282, 'Thomas Jefferson': 1.0}
+score_result3:	{'John F. Kennedy': 1.0, 'Abraham Lincoln': 7.642849076474188, 'Thomas Jefferson': 15.31618120172598}
+score_result4:	{'John F. Kennedy': 1.0, 'Abraham Lincoln': 2.4763225306103265, 'Thomas Jefferson': 2.310262978543395}

@@ -1,0 +1,33 @@
+Whose picture is on the joker in a deck of cards
+['a clown', 'a court jester', 'a munchkin']
+a court jester
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		9		1		1		1
+Confidence:	69		50		58		99		71
+
+#####
+Total Time:		0.988428
+NLTK Time:		0.000000
+AI Time:		0.988428
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.157094
+Score2 Time:		0.075004
+Score3 Time:		0.279268
+Score4 Time:		0.476957
+#####
+
+raw results:
+[{}, {'a court jester': 80, 'a clown': 10}, {'a court jester': 5774, 'a clown': 36}, {'a court jester': 2342800, 'a clown': 108800}]
+
+score_result1:	{}
+score_result2:	{'a court jester': 8.0, 'a clown': 1.0}
+score_result3:	{'a court jester': 160.38888888888889, 'a clown': 1.0}
+score_result4:	{'a court jester': 21.533088235294116, 'a clown': 1.0}

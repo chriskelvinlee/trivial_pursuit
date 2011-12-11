@@ -1,0 +1,33 @@
+What's the Eiffel Tower made out of
+['iron', 'steel', 'concrete']
+iron
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		0		0		0		0
+Confidence:	66		55		55		99		54
+
+#####
+Total Time:		0.425294
+NLTK Time:		0.000000
+AI Time:		0.425294
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.062167
+Score2 Time:		0.023071
+Score3 Time:		0.104602
+Score4 Time:		0.235348
+#####
+
+raw results:
+[{'steel': 8, 'iron': 43}, {'steel': 8, 'iron': 43}, {'steel': 71770, 'iron': 9465610}, {'steel': 334000, 'iron': 1565500}]
+
+score_result1:	{'steel': 1.0, 'iron': 5.375}
+score_result2:	{'steel': 1.0, 'iron': 5.375}
+score_result3:	{'steel': 1.0, 'iron': 131.88811481120246}
+score_result4:	{'steel': 1.0, 'iron': 4.687125748502994}

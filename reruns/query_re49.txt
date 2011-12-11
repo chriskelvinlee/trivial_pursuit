@@ -1,0 +1,33 @@
+What does a dung beetle feed on
+['insects', 'animal droppings', 'grass']
+animal droppings
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		0		0		0		0		1
+Confidence:	36		42		48		1		53
+
+#####
+Total Time:		7.418243
+NLTK Time:		0.000000
+AI Time:		7.418243
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		1.635582
+Score2 Time:		0.697503
+Score3 Time:		2.293961
+Score4 Time:		2.790996
+#####
+
+raw results:
+[{'insects': 53, 'animal droppings': 1, 'grass': 7}, {'insects': 53, 'animal droppings': 40, 'grass': 7}, {'insects': 1404760, 'animal droppings': 28734, 'grass': 28370}, {'insects': 423000, 'animal droppings': 1293000, 'grass': 106000}]
+
+score_result1:	{'insects': 53.0, 'animal droppings': 1.0, 'grass': 7.0}
+score_result2:	{'insects': 7.571428571428571, 'animal droppings': 5.714285714285714, 'grass': 1.0}
+score_result3:	{'insects': 49.51568558336271, 'animal droppings': 1.012830454705675, 'grass': 1.0}
+score_result4:	{'insects': 3.990566037735849, 'animal droppings': 12.19811320754717, 'grass': 1.0}

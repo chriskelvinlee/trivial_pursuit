@@ -9,7 +9,13 @@ Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 
 def readCache(INDEX):
     
-    f = open('cache/nltk{}.txt'.format(INDEX), 'r')
+    try:
+        f = open('cache/nltk{}.txt'.format(INDEX), 'r')
+    except IOError as e:
+        print "File doesn't exist"
+        nltk_data=[]
+        return nltk_data
+    
     raw = f.readlines()
     f.close
 

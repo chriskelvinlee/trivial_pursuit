@@ -1,0 +1,33 @@
+What does a dolphin sound like underwater
+['a pig oinking', 'a chair squeaking', 'bacon sizzling']
+a chair squeaking
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		0		9		9		9		9
+Confidence:	42		50		40		40		40
+
+#####
+Total Time:		1.626597
+NLTK Time:		0.000000
+AI Time:		1.626597
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.250841
+Score2 Time:		0.164457
+Score3 Time:		0.586416
+Score4 Time:		0.624813
+#####
+
+raw results:
+[{}, {'a pig oinking': 1}, {'a pig oinking': 8}, {'a pig oinking': 2354}]
+
+score_result1:	{}
+score_result2:	{'a pig oinking': 1}
+score_result3:	{'a pig oinking': 8}
+score_result4:	{'a pig oinking': 2354}

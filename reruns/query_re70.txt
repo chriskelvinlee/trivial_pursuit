@@ -1,0 +1,33 @@
+Which continent is Central America a part of
+['North America', 'South America', "neither, it's a continent itself"]
+North America
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		0		2		0		2
+Confidence:	50		52		47		56		43
+
+#####
+Total Time:		7.848377
+NLTK Time:		0.000000
+AI Time:		7.848377
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.052763
+Score2 Time:		0.049777
+Score3 Time:		1.168105
+Score4 Time:		6.577615
+#####
+
+raw results:
+[{'North America': 215, 'South America': 81}, {'North America': 1028, 'South America': 823, "neither, it's a continent itself": 2837}, {'North America': 129153999206, 'South America': 18897702851, "neither, it's a continent itself": 2203661929}, {'North America': 75680, 'South America': 35200, "neither, it's a continent itself": 470800}]
+
+score_result1:	{'North America': 2.654320987654321, 'South America': 1.0}
+score_result2:	{'North America': 1.2490886998784934, 'South America': 1.0, "neither, it's a continent itself": 3.4471445929526126}
+score_result3:	{'North America': 58.60880814173198, 'South America': 8.575590748430088, "neither, it's a continent itself": 1.0}
+score_result4:	{'North America': 2.15, 'South America': 1.0, "neither, it's a continent itself": 13.375}

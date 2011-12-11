@@ -1,0 +1,33 @@
+Which one of these cups is a tennis event
+['Davis Cup', 'Stanley Cup', 'Ryder Cup']
+Davis Cup
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		0		0		0
+Confidence:	60		40		66		69		66
+
+#####
+Total Time:		2.455123
+NLTK Time:		0.000000
+AI Time:		2.455123
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.085578
+Score2 Time:		0.060722
+Score3 Time:		0.488679
+Score4 Time:		1.819976
+#####
+
+raw results:
+[{'Davis Cup': 187}, {'Davis Cup': 590, 'Stanley Cup': 388, 'Ryder Cup': 388}, {'Davis Cup': 5930, 'Stanley Cup': 1228, 'Ryder Cup': 1228}, {'Davis Cup': 762516, 'Stanley Cup': 714800, 'Ryder Cup': 714800}]
+
+score_result1:	{'Davis Cup': 187}
+score_result2:	{'Davis Cup': 1.5206185567010309, 'Stanley Cup': 1.0, 'Ryder Cup': 1.0}
+score_result3:	{'Davis Cup': 4.828990228013029, 'Stanley Cup': 1.0, 'Ryder Cup': 1.0}
+score_result4:	{'Davis Cup': 1.0667543368774481, 'Stanley Cup': 1.0, 'Ryder Cup': 1.0}

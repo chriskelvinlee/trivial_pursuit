@@ -1,0 +1,33 @@
+How do chimps usually make up after a fight
+['they hug and kiss', 'they share a banana', 'they sing to each other']
+they hug and kiss
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		1		9		1		1		0
+Confidence:	60		50		46		47		99
+
+#####
+Total Time:		1.093440
+NLTK Time:		0.000000
+AI Time:		1.093440
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.190334
+Score2 Time:		0.103928
+Score3 Time:		0.373191
+Score4 Time:		0.425862
+#####
+
+raw results:
+[{}, {'they sing to each other': 1, 'they hug and kiss': 12, 'they share a banana': 41}, {'they sing to each other': 1, 'they hug and kiss': 39, 'they share a banana': 114}, {'they sing to each other': 0, 'they hug and kiss': 168433, 'they share a banana': 0}]
+
+score_result1:	{}
+score_result2:	{'they sing to each other': 1.0, 'they hug and kiss': 12.0, 'they share a banana': 41.0}
+score_result3:	{'they sing to each other': 1.0, 'they hug and kiss': 39.0, 'they share a banana': 114.0}
+score_result4:	{'they sing to each other': 0, 'they hug and kiss': 168433, 'they share a banana': 0}

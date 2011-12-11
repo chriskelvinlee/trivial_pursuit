@@ -43,7 +43,7 @@ def output(text, choices, correct, nltk_data, results, results_raw, answer,
         ########################
         #  WRITE TO CACHE
         ########################
-        f = open('reruns/query_re1_{}.txt'.format(outputCount), 'w')
+        f = open('reruns/query_re{}.txt'.format(outputCount), 'w')
         
     #Output files    
     print >>f, text

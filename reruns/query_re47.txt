@@ -1,0 +1,33 @@
+How many holes are on the bottom of a Twinkie
+['2', '3', "there aren't any"]
+3
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		0		0		2		0		2
+Confidence:	44		47		46		44		38
+
+#####
+Total Time:		1.054783
+NLTK Time:		0.000000
+AI Time:		1.054783
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.144284
+Score2 Time:		0.056337
+Score3 Time:		0.233094
+Score4 Time:		0.620948
+#####
+
+raw results:
+[{'3': 68, '2': 186}, {"there aren't any": 594, '3': 68, '2': 186}, {"there aren't any": 727, '3': 1680, '2': 9030}, {"there aren't any": 4110400, '3': 101360, '2': 358150}]
+
+score_result1:	{'3': 1.0, '2': 2.735294117647059}
+score_result2:	{"there aren't any": 8.735294117647058, '3': 1.0, '2': 2.735294117647059}
+score_result3:	{"there aren't any": 1.0, '3': 2.3108665749656123, '2': 12.420907840440165}
+score_result4:	{"there aren't any": 40.552486187845304, '3': 1.0, '2': 3.533445146014207}

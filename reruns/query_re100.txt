@@ -1,0 +1,33 @@
+What's inside a square or rectangular-shaped Russell Stover chocolate
+['a soft cream', 'a cherry', 'a caramel or nougat']
+a caramel or nougat
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		0		9		0		0		2
+Confidence:	50		50		48		48		53
+
+#####
+Total Time:		35.172762
+NLTK Time:		0.000000
+AI Time:		35.172762
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		5.687906
+Score2 Time:		3.255090
+Score3 Time:		12.508523
+Score4 Time:		13.721121
+#####
+
+raw results:
+[{}, {'a soft cream': 178, 'a cherry': 33, 'a caramel or nougat': 139}, {'a soft cream': 5137, 'a cherry': 3422, 'a caramel or nougat': 3826}, {'a soft cream': 750556, 'a cherry': 1925154, 'a caramel or nougat': 6950000}]
+
+score_result1:	{}
+score_result2:	{'a soft cream': 5.393939393939394, 'a cherry': 1.0, 'a caramel or nougat': 4.212121212121212}
+score_result3:	{'a soft cream': 1.5011689070718879, 'a cherry': 1.0, 'a caramel or nougat': 1.1180596142606662}
+score_result4:	{'a soft cream': 1.0, 'a cherry': 2.5649705018679487, 'a caramel or nougat': 9.259802066734528}

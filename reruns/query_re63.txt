@@ -1,0 +1,33 @@
+What's the only food Garfield does not like
+['tuna fish sandwiches', 'lasagna', 'raisins']
+raisins
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		1		1		0		1		1
+Confidence:	45		47		47		40		47
+
+#####
+Total Time:		1.463294
+NLTK Time:		0.000000
+AI Time:		1.463294
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.174465
+Score2 Time:		0.125280
+Score3 Time:		0.409087
+Score4 Time:		0.754338
+#####
+
+raw results:
+[{'raisins': 10, 'lasagna': 24}, {'raisins': 10, 'tuna fish sandwiches': 61, 'lasagna': 24}, {'raisins': 5310, 'tuna fish sandwiches': 811, 'lasagna': 51200}, {'raisins': 20000, 'tuna fish sandwiches': 309000, 'lasagna': 888000}]
+
+score_result1:	{'raisins': 1.0, 'lasagna': 2.4}
+score_result2:	{'raisins': 1.0, 'tuna fish sandwiches': 6.1, 'lasagna': 2.4}
+score_result3:	{'raisins': 6.5474722564734895, 'tuna fish sandwiches': 1.0, 'lasagna': 63.13193588162762}
+score_result4:	{'raisins': 1.0, 'tuna fish sandwiches': 15.45, 'lasagna': 44.4}

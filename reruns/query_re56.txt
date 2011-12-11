@@ -1,0 +1,33 @@
+What game is Ultimate Frisbee played like
+['football', 'baseball', 'soccer']
+soccer
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		0		0		0		2		0
+Confidence:	49		48		48		51		48
+
+#####
+Total Time:		0.419174
+NLTK Time:		0.000000
+AI Time:		0.419174
+URL Time:		0.000000
+Keyword (Q) Time:	0.000000
+Keyword (A) Time:	0.000000
+Tokens (Q) Time:	0.000000
+Tokens (URL) Time:	0.000000
+Map Instance Time:	0.000000
+Score1 Time:		0.073367
+Score2 Time:		0.023836
+Score3 Time:		0.112325
+Score4 Time:		0.209534
+#####
+
+raw results:
+[{'soccer': 21, 'football': 30, 'baseball': 6}, {'soccer': 21, 'football': 30, 'baseball': 6}, {'soccer': 25480, 'football': 22050, 'baseball': 820}, {'soccer': 290790, 'football': 552700, 'baseball': 32140}]
+
+score_result1:	{'soccer': 3.5, 'football': 5.0, 'baseball': 1.0}
+score_result2:	{'soccer': 3.5, 'football': 5.0, 'baseball': 1.0}
+score_result3:	{'soccer': 31.073170731707318, 'football': 26.890243902439025, 'baseball': 1.0}
+score_result4:	{'soccer': 9.047604231487243, 'football': 17.196639701306783, 'baseball': 1.0}
