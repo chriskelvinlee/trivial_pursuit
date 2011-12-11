@@ -1,0 +1,33 @@
+Which US state is the only one to touch just one other state
+['Maryland', 'Maine', 'Michigan']
+Maine
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		1		1		1		1
+Confidence:	64		52		52		56		99
+
+#####
+Total Time:		84.632144
+NLTK Time:		81.952652
+AI Time:		2.679492
+URL Time:		1.816846
+Keyword (Q) Time:	33.841220
+Keyword (A) Time:	20.596657
+Tokens (Q) Time:	0.000261
+Tokens (URL) Time:	27.514514
+Map Instance Time:	0.028710
+Score1 Time:		0.230619
+Score2 Time:		0.084045
+Score3 Time:		0.248981
+Score4 Time:		0.270086
+#####
+
+raw results:
+[{'Maryland': 8, 'Maine': 18, 'Michigan': 6}, {'Maryland': 8, 'Maine': 18, 'Michigan': 6}, {'Maryland': 80, 'Maine': 510, 'Michigan': 60}, {'Maryland': 0, 'Maine': 720, 'Michigan': 0}]
+
+score_result1:	{'Maryland': 1.3333333333333333, 'Maine': 3.0, 'Michigan': 1.0}
+score_result2:	{'Maryland': 1.3333333333333333, 'Maine': 3.0, 'Michigan': 1.0}
+score_result3:	{'Maryland': 1.3333333333333333, 'Maine': 8.5, 'Michigan': 1.0}
+score_result4:	{'Maryland': 0, 'Maine': 720, 'Michigan': 0}

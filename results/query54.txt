@@ -1,0 +1,33 @@
+Who paid for a letter to be delivered before postage stamps were invented
+['the person who sent it', 'the person it was delivered to', 'the Post Office']
+the person it was delivered to
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		2		9		2		0		2
+Confidence:	41		50		46		48		19
+
+#####
+Total Time:		92.843090
+NLTK Time:		90.100192
+AI Time:		2.742898
+URL Time:		1.449421
+Keyword (Q) Time:	31.116363
+Keyword (A) Time:	30.464314
+Tokens (Q) Time:	0.000405
+Tokens (URL) Time:	28.519110
+Map Instance Time:	0.011997
+Score1 Time:		0.063031
+Score2 Time:		0.046397
+Score3 Time:		0.249044
+Score4 Time:		0.922897
+#####
+
+raw results:
+[{}, {'the Post Office': 229, 'the person it was delivered to': 47, 'the person who sent it': 75}, {'the Post Office': 302984, 'the person it was delivered to': 599719, 'the person who sent it': 613360}, {'the Post Office': 321666, 'the person it was delivered to': 20599, 'the person who sent it': 20599}]
+
+score_result1:	{}
+score_result2:	{'the Post Office': 4.872340425531915, 'the person it was delivered to': 1.0, 'the person who sent it': 1.5957446808510638}
+score_result3:	{'the Post Office': 1.0, 'the person it was delivered to': 1.9793751485226942, 'the person who sent it': 2.024397327911705}
+score_result4:	{'the Post Office': 15.615612408369339, 'the person it was delivered to': 1.0, 'the person who sent it': 1.0}

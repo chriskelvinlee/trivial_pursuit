@@ -1,0 +1,33 @@
+Which little vegetables are slang for something trivial
+['tiny turnips', 'baby onions', 'small potatoes']
+small potatoes
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		2		9		2		2		1
+Confidence:	53		50		54		59		48
+
+#####
+Total Time:		84.722416
+NLTK Time:		79.283369
+AI Time:		5.439047
+URL Time:		1.008009
+Keyword (Q) Time:	25.384601
+Keyword (A) Time:	23.979587
+Tokens (Q) Time:	0.000220
+Tokens (URL) Time:	29.918961
+Map Instance Time:	0.070742
+Score1 Time:		0.492338
+Score2 Time:		0.316583
+Score3 Time:		1.497785
+Score4 Time:		2.053470
+#####
+
+raw results:
+[{}, {'small potatoes': 167, 'baby onions': 36, 'tiny turnips': 10}, {'small potatoes': 8503, 'baby onions': 871, 'tiny turnips': 17}, {'small potatoes': 2052, 'baby onions': 3294, 'tiny turnips': 990}]
+
+score_result1:	{}
+score_result2:	{'small potatoes': 16.7, 'baby onions': 3.6, 'tiny turnips': 1.0}
+score_result3:	{'small potatoes': 500.1764705882353, 'baby onions': 51.23529411764706, 'tiny turnips': 1.0}
+score_result4:	{'small potatoes': 2.0727272727272728, 'baby onions': 3.327272727272727, 'tiny turnips': 1.0}

@@ -1,0 +1,33 @@
+What European country has a Disneyland
+['England', 'Italy', 'France']
+France
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		2		2		2		2		2
+Confidence:	55		54		54		54		60
+
+#####
+Total Time:		131.365859
+NLTK Time:		121.410464
+AI Time:		9.955395
+URL Time:		1.624922
+Keyword (Q) Time:	31.127699
+Keyword (A) Time:	31.834140
+Tokens (Q) Time:	0.000232
+Tokens (URL) Time:	58.448393
+Map Instance Time:	0.166640
+Score1 Time:		1.943688
+Score2 Time:		0.594454
+Score3 Time:		2.489272
+Score4 Time:		3.136231
+#####
+
+raw results:
+[{'Italy': 21, 'England': 17, 'France': 90}, {'Italy': 21, 'England': 17, 'France': 90}, {'Italy': 690, 'England': 390, 'France': 3190}, {'Italy': 34000, 'England': 18000, 'France': 359000}]
+
+score_result1:	{'Italy': 1.2352941176470589, 'England': 1.0, 'France': 5.294117647058823}
+score_result2:	{'Italy': 1.2352941176470589, 'England': 1.0, 'France': 5.294117647058823}
+score_result3:	{'Italy': 1.7692307692307692, 'England': 1.0, 'France': 8.179487179487179}
+score_result4:	{'Italy': 1.8888888888888888, 'England': 1.0, 'France': 19.944444444444443}

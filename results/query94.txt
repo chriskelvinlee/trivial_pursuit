@@ -1,0 +1,33 @@
+What does someone become after being canonized
+['a zombie', 'a citizen', 'a saint']
+a saint
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		0		9		9		9		9
+Confidence:	42		50		40		40		40
+
+#####
+Total Time:		95.765239
+NLTK Time:		94.321746
+AI Time:		1.443493
+URL Time:		1.116730
+Keyword (Q) Time:	39.810350
+Keyword (A) Time:	31.299266
+Tokens (Q) Time:	0.000221
+Tokens (URL) Time:	23.211909
+Map Instance Time:	0.007614
+Score1 Time:		0.064888
+Score2 Time:		0.034125
+Score3 Time:		0.089866
+Score4 Time:		0.130204
+#####
+
+raw results:
+[{}, {'a saint': 276}, {'a saint': 496}, {'a saint': 416556}]
+
+score_result1:	{}
+score_result2:	{'a saint': 276}
+score_result3:	{'a saint': 496}
+score_result4:	{'a saint': 416556}

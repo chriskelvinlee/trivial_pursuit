@@ -1,0 +1,33 @@
+What US state has the most national parks
+['California', 'Alaska', 'Wyoming']
+Alaska
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		0		0		0		1		0
+Confidence:	48		47		47		51		48
+
+#####
+Total Time:		89.902950
+NLTK Time:		87.324964
+AI Time:		2.577986
+URL Time:		0.916993
+Keyword (Q) Time:	38.107121
+Keyword (A) Time:	24.046013
+Tokens (Q) Time:	0.000236
+Tokens (URL) Time:	25.171594
+Map Instance Time:	0.029399
+Score1 Time:		0.280553
+Score2 Time:		0.093029
+Score3 Time:		0.413280
+Score4 Time:		0.844610
+#####
+
+raw results:
+[{'Wyoming': 22, 'California': 221, 'Alaska': 87}, {'Wyoming': 22, 'California': 221, 'Alaska': 87}, {'Wyoming': 8890, 'California': 137730, 'Alaska': 145800}, {'Wyoming': 6710, 'California': 49720, 'Alaska': 37730}]
+
+score_result1:	{'Wyoming': 1.0, 'California': 10.045454545454545, 'Alaska': 3.9545454545454546}
+score_result2:	{'Wyoming': 1.0, 'California': 10.045454545454545, 'Alaska': 3.9545454545454546}
+score_result3:	{'Wyoming': 1.0, 'California': 15.492688413948256, 'Alaska': 16.40044994375703}
+score_result4:	{'Wyoming': 1.0, 'California': 7.409836065573771, 'Alaska': 5.622950819672131}

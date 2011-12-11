@@ -1,0 +1,33 @@
+What is the favorite sport of New Zealanders
+['rugby', 'soccer', 'cricket']
+rugby
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		0		0		0		0
+Confidence:	55		53		53		60		55
+
+#####
+Total Time:		296.252801
+NLTK Time:		294.878243
+AI Time:		1.374557
+URL Time:		1.127079
+Keyword (Q) Time:	29.795757
+Keyword (A) Time:	21.591455
+Tokens (Q) Time:	0.000361
+Tokens (URL) Time:	243.490670
+Map Instance Time:	0.008181
+Score1 Time:		0.044639
+Score2 Time:		0.017157
+Score3 Time:		0.066456
+Score4 Time:		0.110889
+#####
+
+raw results:
+[{'cricket': 24, 'soccer': 21, 'rugby': 83}, {'cricket': 24, 'soccer': 21, 'rugby': 83}, {'cricket': 900, 'soccer': 810, 'rugby': 9210}, {'cricket': 13090, 'soccer': 16950, 'rugby': 90650}]
+
+score_result1:	{'cricket': 1.1428571428571428, 'soccer': 1.0, 'rugby': 3.9523809523809526}
+score_result2:	{'cricket': 1.1428571428571428, 'soccer': 1.0, 'rugby': 3.9523809523809526}
+score_result3:	{'cricket': 1.1111111111111112, 'soccer': 1.0, 'rugby': 11.37037037037037}
+score_result4:	{'cricket': 1.0, 'soccer': 1.294881588999236, 'rugby': 6.925133689839572}

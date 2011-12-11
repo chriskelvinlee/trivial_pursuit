@@ -1,0 +1,33 @@
+How does the last verse of The Farmer in the Dell begin
+['The farmer takes a wife', 'The child takes a nurse', 'The cheese stands alone']
+The cheese stands alone
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		0		9		1		0		2
+Confidence:	50		50		48		48		52
+
+#####
+Total Time:		97.394763
+NLTK Time:		80.208080
+AI Time:		17.186683
+URL Time:		1.083251
+Keyword (Q) Time:	23.901067
+Keyword (A) Time:	23.079793
+Tokens (Q) Time:	0.000260
+Tokens (URL) Time:	33.226960
+Map Instance Time:	0.223775
+Score1 Time:		1.836792
+Score2 Time:		1.518212
+Score3 Time:		6.148575
+Score4 Time:		6.375923
+#####
+
+raw results:
+[{}, {'The farmer takes a wife': 323, 'The child takes a nurse': 368, 'The cheese stands alone': 162}, {'The farmer takes a wife': 1615, 'The child takes a nurse': 1167, 'The cheese stands alone': 814}, {'The farmer takes a wife': 75506, 'The child takes a nurse': 27096, 'The cheese stands alone': 221308}]
+
+score_result1:	{}
+score_result2:	{'The farmer takes a wife': 1.9938271604938271, 'The child takes a nurse': 2.271604938271605, 'The cheese stands alone': 1.0}
+score_result3:	{'The farmer takes a wife': 1.984029484029484, 'The child takes a nurse': 1.4336609336609336, 'The cheese stands alone': 1.0}
+score_result4:	{'The farmer takes a wife': 2.7866105698258044, 'The child takes a nurse': 1.0, 'The cheese stands alone': 8.167552406259226}

@@ -1,0 +1,33 @@
+Who are those guys in Ray-Bans who protect us from the scum of the universe
+['Men in Black', 'Boyz N the Hood', 'Power Rangers']
+Men in Black
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		0		0		0
+Confidence:	86		50		99		99		99
+
+#####
+Total Time:		80.013944
+NLTK Time:		77.320032
+AI Time:		2.693912
+URL Time:		1.591224
+Keyword (Q) Time:	30.039394
+Keyword (A) Time:	24.796327
+Tokens (Q) Time:	0.000299
+Tokens (URL) Time:	22.484012
+Map Instance Time:	0.021169
+Score1 Time:		0.120853
+Score2 Time:		0.089333
+Score3 Time:		0.367481
+Score4 Time:		0.503706
+#####
+
+raw results:
+[{}, {'Men in Black': 833, 'Power Rangers': 1, 'Boyz N the Hood': 16}, {'Men in Black': 1278, 'Power Rangers': 1, 'Boyz N the Hood': 18}, {'Men in Black': 153120, 'Power Rangers': 0, 'Boyz N the Hood': 0}]
+
+score_result1:	{}
+score_result2:	{'Men in Black': 833.0, 'Power Rangers': 1.0, 'Boyz N the Hood': 16.0}
+score_result3:	{'Men in Black': 1278.0, 'Power Rangers': 1.0, 'Boyz N the Hood': 18.0}
+score_result4:	{'Men in Black': 153120, 'Power Rangers': 0, 'Boyz N the Hood': 0}

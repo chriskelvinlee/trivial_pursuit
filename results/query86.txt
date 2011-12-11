@@ -1,0 +1,33 @@
+What inventor created the first talking doll in 1880
+['Alexander Graham Bell', 'Thomas Edison', 'Milton Bradley']
+Thomas Edison
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		1		1		1		1
+Confidence:	57		56		56		56		59
+
+#####
+Total Time:		144.083491
+NLTK Time:		140.722328
+AI Time:		3.361163
+URL Time:		1.089589
+Keyword (Q) Time:	34.486845
+Keyword (A) Time:	33.694594
+Tokens (Q) Time:	0.000300
+Tokens (URL) Time:	72.540589
+Map Instance Time:	0.019027
+Score1 Time:		0.102717
+Score2 Time:		0.091167
+Score3 Time:		0.499344
+Score4 Time:		1.559182
+#####
+
+raw results:
+[{'Alexander Graham Bell': 32, 'Thomas Edison': 216}, {'Alexander Graham Bell': 240, 'Thomas Edison': 1659}, {'Alexander Graham Bell': 1013, 'Thomas Edison': 7001}, {'Alexander Graham Bell': 271849, 'Thomas Edison': 2579877}]
+
+score_result1:	{'Alexander Graham Bell': 1.0, 'Thomas Edison': 6.75}
+score_result2:	{'Alexander Graham Bell': 1.0, 'Thomas Edison': 6.9125}
+score_result3:	{'Alexander Graham Bell': 1.0, 'Thomas Edison': 6.911154985192497}
+score_result4:	{'Alexander Graham Bell': 1.0, 'Thomas Edison': 9.490110318595985}

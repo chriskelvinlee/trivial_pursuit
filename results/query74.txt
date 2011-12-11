@@ -1,0 +1,33 @@
+What's a baseball covered with
+['pigskin', 'cowhide', 'pleather']
+cowhide
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		0		9		9		9		9
+Confidence:	40		40		40		40		40
+
+#####
+Total Time:		98.839673
+NLTK Time:		97.156021
+AI Time:		1.683652
+URL Time:		0.960893
+Keyword (Q) Time:	32.404629
+Keyword (A) Time:	21.821854
+Tokens (Q) Time:	0.000220
+Tokens (URL) Time:	42.929318
+Map Instance Time:	0.031322
+Score1 Time:		0.211024
+Score2 Time:		0.064367
+Score3 Time:		0.199170
+Score4 Time:		0.216721
+#####
+
+raw results:
+[{'cowhide': 6}, {'cowhide': 6}, {'cowhide': 400}, {'cowhide': 10860}]
+
+score_result1:	{'cowhide': 6}
+score_result2:	{'cowhide': 6}
+score_result3:	{'cowhide': 400}
+score_result4:	{'cowhide': 10860}

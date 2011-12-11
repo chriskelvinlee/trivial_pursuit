@@ -1,0 +1,33 @@
+Who's Hamlet in a famous play by Shakespeare
+['a pig farmer', 'a magician', 'a prince']
+a prince
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		0		9		9		9		9
+Confidence:	42		50		40		40		40
+
+#####
+Total Time:		76.225962
+NLTK Time:		73.841095
+AI Time:		2.384867
+URL Time:		1.080880
+Keyword (Q) Time:	34.424906
+Keyword (A) Time:	21.256654
+Tokens (Q) Time:	0.000245
+Tokens (URL) Time:	18.159290
+Map Instance Time:	0.043130
+Score1 Time:		0.238705
+Score2 Time:		0.114594
+Score3 Time:		0.380189
+Score4 Time:		0.527289
+#####
+
+raw results:
+[{}, {'a prince': 13}, {'a prince': 3247}, {'a prince': 858720}]
+
+score_result1:	{}
+score_result2:	{'a prince': 13}
+score_result3:	{'a prince': 3247}
+score_result4:	{'a prince': 858720}

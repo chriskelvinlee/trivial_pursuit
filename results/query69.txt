@@ -1,0 +1,33 @@
+Which one of these animals was the name of a rock group
+['the Monkees', 'the Donkees', 'the Turkees']
+the Monkees
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		9		9		9
+Confidence:	42		50		40		40		40
+
+#####
+Total Time:		98.413908
+NLTK Time:		95.178542
+AI Time:		3.235366
+URL Time:		1.041849
+Keyword (Q) Time:	32.068783
+Keyword (A) Time:	21.139445
+Tokens (Q) Time:	0.000251
+Tokens (URL) Time:	41.970063
+Map Instance Time:	0.074931
+Score1 Time:		0.541991
+Score2 Time:		0.186837
+Score3 Time:		0.658125
+Score4 Time:		0.731559
+#####
+
+raw results:
+[{}, {'the Monkees': 5}, {'the Monkees': 11}, {'the Monkees': 600}]
+
+score_result1:	{}
+score_result2:	{'the Monkees': 5}
+score_result3:	{'the Monkees': 11}
+score_result4:	{'the Monkees': 600}

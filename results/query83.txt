@@ -1,0 +1,33 @@
+What are the last names of the twosome Meriwether and William
+['Abercrombie and Fitch', 'Goofus and Gallant', 'Lewis and Clark']
+Lewis and Clark
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		2		9		2		2		2
+Confidence:	85		50		95		99		99
+
+#####
+Total Time:		341.743012
+NLTK Time:		233.104210
+AI Time:		108.638803
+URL Time:		1.157216
+Keyword (Q) Time:	36.854229
+Keyword (A) Time:	25.016100
+Tokens (Q) Time:	0.000300
+Tokens (URL) Time:	171.233581
+Map Instance Time:	2.482209
+Score1 Time:		18.283002
+Score2 Time:		9.938533
+Score3 Time:		41.945903
+Score4 Time:		34.831792
+#####
+
+raw results:
+[{}, {'Lewis and Clark': 318, 'Abercrombie and Fitch': 7}, {'Lewis and Clark': 2502, 'Abercrombie and Fitch': 8}, {'Lewis and Clark': 129248, 'Abercrombie and Fitch': 0}]
+
+score_result1:	{}
+score_result2:	{'Lewis and Clark': 45.42857142857143, 'Abercrombie and Fitch': 1.0}
+score_result3:	{'Lewis and Clark': 312.75, 'Abercrombie and Fitch': 1.0}
+score_result4:	{'Lewis and Clark': 129248, 'Abercrombie and Fitch': 0}

@@ -1,0 +1,33 @@
+What percent of the world's population is under the age of 15 years old
+['10', '20', '30']
+30
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	2		2		2		2		2
+Answer:		0		0		0		1		2
+Confidence:	49		48		48		47		51
+
+#####
+Total Time:		192.852146
+NLTK Time:		156.039888
+AI Time:		36.812258
+URL Time:		1.246478
+Keyword (Q) Time:	38.515860
+Keyword (A) Time:	39.525220
+Tokens (Q) Time:	0.000420
+Tokens (URL) Time:	77.998388
+Map Instance Time:	1.193871
+Score1 Time:		8.561724
+Score2 Time:		2.369469
+Score3 Time:		10.590503
+Score4 Time:		12.849224
+#####
+
+raw results:
+[{'10': 156, '30': 148, '20': 114}, {'10': 156, '30': 148, '20': 114}, {'10': 193540, '30': 55490, '20': 414930}, {'10': 14930, '30': 25860, '20': 23310}]
+
+score_result1:	{'10': 1.368421052631579, '30': 1.2982456140350878, '20': 1.0}
+score_result2:	{'10': 1.368421052631579, '30': 1.2982456140350878, '20': 1.0}
+score_result3:	{'10': 3.4878356460623534, '30': 1.0, '20': 7.477563524959452}
+score_result4:	{'10': 1.0, '30': 1.7320830542531815, '20': 1.5612860013395848}

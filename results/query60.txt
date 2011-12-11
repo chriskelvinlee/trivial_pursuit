@@ -1,0 +1,33 @@
+Which port was the Titanic heading for when it sank
+['London', 'New York', 'Paris']
+New York
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		1		1		1		1
+Confidence:	68		55		64		99		56
+
+#####
+Total Time:		78.223085
+NLTK Time:		73.532674
+AI Time:		4.690411
+URL Time:		1.441800
+Keyword (Q) Time:	21.550428
+Keyword (A) Time:	23.971227
+Tokens (Q) Time:	0.000231
+Tokens (URL) Time:	28.010788
+Map Instance Time:	0.041073
+Score1 Time:		0.230848
+Score2 Time:		0.106638
+Score3 Time:		0.657364
+Score4 Time:		2.212500
+#####
+
+raw results:
+[{'Paris': 4, 'New York': 157, 'London': 27}, {'Paris': 4, 'New York': 384, 'London': 27}, {'Paris': 130, 'New York': 5905609810, 'London': 1230}, {'Paris': 17160, 'New York': 616510, 'London': 89970}]
+
+score_result1:	{'Paris': 1.0, 'New York': 39.25, 'London': 6.75}
+score_result2:	{'Paris': 1.0, 'New York': 96.0, 'London': 6.75}
+score_result3:	{'Paris': 1.0, 'New York': 45427767.76923077, 'London': 9.461538461538462}
+score_result4:	{'Paris': 1.0, 'New York': 35.92715617715618, 'London': 5.243006993006993}
