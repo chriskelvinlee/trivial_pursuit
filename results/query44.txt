@@ -1,0 +1,33 @@
+Which chess piece is called a dame in French
+['the king', 'the queen', 'the castle']
+the queen
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		9		1		1		1
+Confidence:	51		50		51		51		53
+
+#####
+Total Time:		77.996834
+NLTK Time:		75.864092
+AI Time:		2.132742
+URL Time:		1.265526
+Keyword (Q) Time:	28.531562
+Keyword (A) Time:	28.207923
+Tokens (Q) Time:	0.000286
+Tokens (URL) Time:	19.124321
+Map Instance Time:	0.017265
+Score1 Time:		0.084572
+Score2 Time:		0.039994
+Score3 Time:		0.172236
+Score4 Time:		0.553015
+#####
+
+raw results:
+[{}, {'the queen': 128, 'the king': 110, 'the castle': 19}, {'the queen': 50773, 'the king': 38877, 'the castle': 121}, {'the queen': 897633, 'the king': 230027, 'the castle': 81032}]
+
+score_result1:	{}
+score_result2:	{'the queen': 6.7368421052631575, 'the king': 5.7894736842105265, 'the castle': 1.0}
+score_result3:	{'the queen': 419.6115702479339, 'the king': 321.297520661157, 'the castle': 1.0}
+score_result4:	{'the queen': 11.077512587619706, 'the king': 2.83871803731859, 'the castle': 1.0}

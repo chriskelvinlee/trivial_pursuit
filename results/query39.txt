@@ -1,0 +1,33 @@
+Who was the evil puppet master in Pinocchio
+['Spumoni', 'Stromboli', 'Spaghettini']
+Stromboli
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		0		9		9		9		9
+Confidence:	40		40		40		40		40
+
+#####
+Total Time:		241.869780
+NLTK Time:		224.454890
+AI Time:		17.414890
+URL Time:		3.182075
+Keyword (Q) Time:	28.346252
+Keyword (A) Time:	27.715488
+Tokens (Q) Time:	0.000286
+Tokens (URL) Time:	168.392864
+Map Instance Time:	0.503852
+Score1 Time:		3.046525
+Score2 Time:		1.184266
+Score3 Time:		4.104275
+Score4 Time:		5.393817
+#####
+
+raw results:
+[{'Stromboli': 270}, {'Stromboli': 270}, {'Stromboli': 915480}, {'Stromboli': 7193140}]
+
+score_result1:	{'Stromboli': 270}
+score_result2:	{'Stromboli': 270}
+score_result3:	{'Stromboli': 915480}
+score_result4:	{'Stromboli': 7193140}

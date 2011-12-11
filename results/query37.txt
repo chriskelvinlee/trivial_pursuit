@@ -1,0 +1,33 @@
+How many times is the Eiffel Tower struck by lightning every year
+['5 times', '25 times', '100 times']
+25 times
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		0		2		0		0		2
+Confidence:	41		47		36		33		47
+
+#####
+Total Time:		539.763598
+NLTK Time:		429.276206
+AI Time:		110.487393
+URL Time:		3.701552
+Keyword (Q) Time:	232.743202
+Keyword (A) Time:	29.786047
+Tokens (Q) Time:	0.000308
+Tokens (URL) Time:	166.746649
+Map Instance Time:	0.674418
+Score1 Time:		3.623573
+Score2 Time:		2.782170
+Score3 Time:		19.663322
+Score4 Time:		80.042214
+#####
+
+raw results:
+[{'5 times': 5, '25 times': 2, '100 times': 15}, {'5 times': 6000, '25 times': 411, '100 times': 442}, {'5 times': 5343700, '25 times': 263539, '100 times': 328539}, {'5 times': 6280, '25 times': 15880, '100 times': 33360}]
+
+score_result1:	{'5 times': 2.5, '25 times': 1.0, '100 times': 7.5}
+score_result2:	{'5 times': 14.598540145985401, '25 times': 1.0, '100 times': 1.075425790754258}
+score_result3:	{'5 times': 20.276695289881193, '25 times': 1.0, '100 times': 1.2466428118798356}
+score_result4:	{'5 times': 1.0, '25 times': 2.5286624203821657, '100 times': 5.312101910828026}

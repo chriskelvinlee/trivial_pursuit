@@ -1,0 +1,33 @@
+Which vegetable are your kidneys most shaped like
+['cauliflower', 'lima beans', 'turnips']
+lima beans
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		1		0		1		1		1
+Confidence:	60		32		99		52		58
+
+#####
+Total Time:		94.872570
+NLTK Time:		93.137832
+AI Time:		1.734738
+URL Time:		0.998140
+Keyword (Q) Time:	39.886312
+Keyword (A) Time:	29.039983
+Tokens (Q) Time:	0.000282
+Tokens (URL) Time:	24.211255
+Map Instance Time:	0.018773
+Score1 Time:		0.111856
+Score2 Time:		0.063273
+Score3 Time:		0.204198
+Score4 Time:		0.338344
+#####
+
+raw results:
+[{'lima beans': 1, 'turnips': 1, 'cauliflower': 3}, {'lima beans': 149, 'turnips': 1, 'cauliflower': 3}, {'lima beans': 213, 'turnips': 80, 'cauliflower': 30}, {'lima beans': 6321, 'turnips': 790, 'cauliflower': 0}]
+
+score_result1:	{'lima beans': 1.0, 'turnips': 1.0, 'cauliflower': 3.0}
+score_result2:	{'lima beans': 149.0, 'turnips': 1.0, 'cauliflower': 3.0}
+score_result3:	{'lima beans': 7.1, 'turnips': 2.6666666666666665, 'cauliflower': 1.0}
+score_result4:	{'lima beans': 6321, 'turnips': 790, 'cauliflower': 0}

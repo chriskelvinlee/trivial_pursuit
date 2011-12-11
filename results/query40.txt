@@ -1,0 +1,33 @@
+Which profession's symbol is a staff with snakes coiled around it
+["a zookeeper's", "a medical doctor's", "a snake charmer's"]
+a medical doctor's
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		2		9		2		1		2
+Confidence:	50		50		48		54		48
+
+#####
+Total Time:		217.753725
+NLTK Time:		201.017977
+AI Time:		16.735748
+URL Time:		1.377749
+Keyword (Q) Time:	90.245153
+Keyword (A) Time:	67.769217
+Tokens (Q) Time:	0.000315
+Tokens (URL) Time:	43.003292
+Map Instance Time:	0.267097
+Score1 Time:		1.567126
+Score2 Time:		1.494631
+Score3 Time:		5.339577
+Score4 Time:		6.689421
+#####
+
+raw results:
+[{}, {"a snake charmer's": 346, "a zookeeper's": 126, "a medical doctor's": 291}, {"a snake charmer's": 1236320, "a zookeeper's": 3021, "a medical doctor's": 5467664}, {"a snake charmer's": 1612616, "a zookeeper's": 1385800, "a medical doctor's": 1406265}]
+
+score_result1:	{}
+score_result2:	{"a snake charmer's": 2.746031746031746, "a zookeeper's": 1.0, "a medical doctor's": 2.3095238095238093}
+score_result3:	{"a snake charmer's": 409.24197285667, "a zookeeper's": 1.0, "a medical doctor's": 1809.885468387951}
+score_result4:	{"a snake charmer's": 1.163671525472651, "a zookeeper's": 1.0, "a medical doctor's": 1.0147676432385626}

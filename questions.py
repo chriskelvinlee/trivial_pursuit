@@ -89,8 +89,8 @@ tp_Questions13 = [
 ]
 
 tp_Questions14 = [
-    ["Which vegetable are your kidneys most shaped like", ["cauliflower", "lima beans", "turnips"],1,43],
-    ["Which chess piece is called a dame in French", ["the king", "the queen", "the castle"],1,44],
+    #["Which vegetable are your kidneys most shaped like", ["cauliflower", "lima beans", "turnips"],1,43],
+    #["Which chess piece is called a dame in French", ["the king", "the queen", "the castle"],1,44],
     ["Who are the three visitors in the opera Amahl and the Night Visitors", ["The Three Musketeers", "The Three Amigos", "The Three Wise Men"],2,45]
 ]
 

@@ -1,0 +1,33 @@
+How many miles does a soccer player usually run during a game
+['2', '6 to 7', '15']
+6 to 7
+Failurez :(
+
+Index Order: 0,1,2,3,4
+Correct:	1		1		1		1		1
+Answer:		0		0		1		0		0
+Confidence:	45		36		51		48		44
+
+#####
+Total Time:		334.414886
+NLTK Time:		184.968919
+AI Time:		149.445967
+URL Time:		3.831778
+Keyword (Q) Time:	28.809626
+Keyword (A) Time:	28.053387
+Tokens (Q) Time:	0.000307
+Tokens (URL) Time:	128.105599
+Map Instance Time:	0.315193
+Score1 Time:		1.585199
+Score2 Time:		0.856676
+Score3 Time:		23.205242
+Score4 Time:		119.651735
+#####
+
+raw results:
+[{'2': 2663, '15': 204}, {'6 to 7': 3809, '2': 2663, '15': 204}, {'6 to 7': 57069932, '2': 89273280, '15': 66930}, {'6 to 7': 0, '2': 1577440, '15': 254680}]
+
+score_result1:	{'2': 13.053921568627452, '15': 1.0}
+score_result2:	{'6 to 7': 18.67156862745098, '2': 13.053921568627452, '15': 1.0}
+score_result3:	{'6 to 7': 852.6808904825938, '2': 1333.8305692514568, '15': 1.0}
+score_result4:	{'6 to 7': 0, '2': 1577440, '15': 254680}

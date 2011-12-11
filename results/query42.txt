@@ -1,0 +1,33 @@
+What did the 50s TV puppet Howdy Doody look like
+['he had red hair and freckles', 'he had a blond crewcut', 'he was chubby and bald']
+he had red hair and freckles
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		9		9		9
+Confidence:	42		50		40		40		40
+
+#####
+Total Time:		106.369300
+NLTK Time:		103.176410
+AI Time:		3.192891
+URL Time:		1.955171
+Keyword (Q) Time:	45.877369
+Keyword (A) Time:	38.843453
+Tokens (Q) Time:	0.000290
+Tokens (URL) Time:	18.455298
+Map Instance Time:	0.032190
+Score1 Time:		0.149503
+Score2 Time:		0.144076
+Score3 Time:		0.431486
+Score4 Time:		0.480385
+#####
+
+raw results:
+[{}, {'he had red hair and freckles': 14}, {'he had red hair and freckles': 300}, {'he had red hair and freckles': 76734}]
+
+score_result1:	{}
+score_result2:	{'he had red hair and freckles': 14}
+score_result3:	{'he had red hair and freckles': 300}
+score_result4:	{'he had red hair and freckles': 76734}

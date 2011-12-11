@@ -1,0 +1,33 @@
+What part of a castle was called the keep
+['the inside tower', 'the drawbridge', 'the kitchen']
+the inside tower
+Success!
+
+Index Order: 0,1,2,3,4
+Correct:	0		0		0		0		0
+Answer:		0		9		0		0		1
+Confidence:	51		50		55		52		47
+
+#####
+Total Time:		125.130249
+NLTK Time:		107.942550
+AI Time:		17.187699
+URL Time:		1.156390
+Keyword (Q) Time:	28.180404
+Keyword (A) Time:	27.847333
+Tokens (Q) Time:	0.000279
+Tokens (URL) Time:	51.914534
+Map Instance Time:	0.421988
+Score1 Time:		3.082060
+Score2 Time:		1.573074
+Score3 Time:		5.234477
+Score4 Time:		5.719533
+#####
+
+raw results:
+[{}, {'the inside tower': 109, 'the kitchen': 13, 'the drawbridge': 21}, {'the inside tower': 2625, 'the kitchen': 588, 'the drawbridge': 1300}, {'the inside tower': 196728, 'the kitchen': 6888, 'the drawbridge': 565600}]
+
+score_result1:	{}
+score_result2:	{'the inside tower': 8.384615384615385, 'the kitchen': 1.0, 'the drawbridge': 1.6153846153846154}
+score_result3:	{'the inside tower': 4.464285714285714, 'the kitchen': 1.0, 'the drawbridge': 2.2108843537414966}
+score_result4:	{'the inside tower': 28.5609756097561, 'the kitchen': 1.0, 'the drawbridge': 82.11382113821138}
