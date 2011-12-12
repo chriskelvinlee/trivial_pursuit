@@ -1,3 +1,14 @@
+A Trivial Pursuit Player
+A Computer Program Using Natural Language Processing
+
+###### 
+Michael Chen, Christopher Lee, and Alex McLeese
+Computer Science 182
+December 12, 2011
+Professor Radhika Nagpal
+###### 
+
+
 #Answering Trivial Pursuit questions
 This project provides code that uses natural language processing to answer trivia questions. 
 

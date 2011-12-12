@@ -56,19 +56,19 @@ X = [[4, 3, 2, 3, 3, 2, 2, 3, 3, 5, 4, 6, 3, 2, 4, 3, 3, 2, 3, 4, 3, 3, 2, 2, 4,
      [6, 3, 2, 6, 3, 3, 2, 3, 3, 3, 6, 3, 3, 2, 6, 4, 6, 0, 6, 4, 3, 3, 2, 2, 3, 3, 3, 6, 3, 3, 0, 0, 3, 3, 3, 6]]
        
 for i in xrange(0,5):
-    for j in xrange(0,36):
-        X[i][j] = colors_rgb[X[i][j]]
+    for j in xrange(0,90):
+        mapped[i][j] = colors_rgb[mapped[i][j]]
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
-ax.imshow(X, cmap=cm.jet, interpolation='nearest')
+ax.imshow(mapped, cmap=cm.jet, interpolation='nearest')
 
-numrows, numcols = 5, 36
+numrows, numcols = 5, 90
 def format_coord(x, y):
     col = int(x+0.5)
     row = int(y+0.5)
     if col>=0 and col<numcols and row>=0 and row<numrows:
-        z = X[row,col]
+        z = mapped[row,col]
         return 'x=%1.4f, y=%1.4f, z=%1.4f'%(x, y, z)
     else:
         return 'x=%1.4f, y=%1.4f'%(x, y)
@@ -76,5 +76,5 @@ def format_coord(x, y):
 ax.format_coord = format_coord
 
 
-plt.savefig('heatmap3.png')
+plt.savefig('heatmap_final_redo.png')
 plt.show()
