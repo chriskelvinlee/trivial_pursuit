@@ -120,25 +120,25 @@ def getWeightedQuestionKeywordScores(answers, keywords, combinedtokens, instance
             for i in tokenrange:
                 newscore = 0
                 if ((combinedtokens[i : (i + len(answertokens))] == answertokens) and (j == 0)):
-                    newscore = 10 # optimize
+                    newscore = 100 # optimize
                     for word in keywords:
                         if word in instances.keys():
                             for instance in instances[word]:
                                 # optimize value of range here
                                 if abs(i - instance) < rangevalue or abs((i + len(answertokens)) - instance) < rangevalue:
-                                    newscore *= 2 # optimize
+                                    newscore *= 10 # optimize
                     if answer not in scores.keys():
                         scores[answer] = newscore
                     else:
                         scores[answer] += newscore
                 elif ((combinedtokens[i] == splitanswertokens[j]) and (combinedtokens[i] not in keywords)):
-                    newscore = 1
+                    newscore = 2
                     for word in keywords:
                         if word in instances.keys():
                             for instance in instances[word]:
                                 # optimize value of range here
                                 if abs(i - instance) < rangevalue or abs(i - instance) < rangevalue:
-                                    newscore *= 2 # optimize
+                                    newscore *= 5 # optimize
                     if answer not in scores.keys():
                         scores[answer] = newscore
                     else:
