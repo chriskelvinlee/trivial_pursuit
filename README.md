@@ -1,12 +1,14 @@
 A Trivial Pursuit Player
 A Computer Program Using Natural Language Processing
 
-###### 
-Michael Chen, Christopher Lee, and Alex McLeese
+Michael Chen
+Christopher Lee
+Alex McLeese
+
 Computer Science 182
 December 12, 2011
 Professor Radhika Nagpal
-###### 
+
 
 
 #Answering Trivial Pursuit questions
